@@ -8,6 +8,14 @@
 \description{
 Download and read data on lobbying in the United States Congress. Data is queried from the Senate's Application Programming Interface (\url{https://lda.senate.gov/api/}). This supports filings since 2008. Functions exist for all primary data endpoints, including queries by filings, contributions, registrations, clients, and lobbyists.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/christopherkenny/congress}
+  \item \url{https://christophertkenny.com/lobby/}
+}
+
+}
 \author{
 \strong{Maintainer}: Christopher T. Kenny \email{ctkenny@proton.me} (\href{https://orcid.org/0000-0002-9386-6860}{ORCID})
 

@@ -5,6 +5,9 @@
 
 <!-- badges: start -->
 
+[![Lifecycle:
+stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
+[![R-CMD-check](https://github.com/christopherkenny/lobby/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/christopherkenny/lobby/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 `lobby` provides access to the US Senate’s Lobbying Disclosure Act API.
@@ -50,7 +53,7 @@ function. Here, we also artificially shorten the results to 3 per page.
 ``` r
 lob_list_filings(
   client_name = 'Harvard University',
-  filing_year = 2025, 
+  filing_year = 2025,
   page_size = 3
 ) |>
   lob_request_next()
