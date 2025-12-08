@@ -15,16 +15,14 @@
 #' @examplesIf has_lobby_key()
 #' lob_list_lobbyists()
 lob_list_lobbyists <- function(
-  id = NULL,
-  lobbyist_name = NULL,
-  ordering = NULL,
-  page = NULL,
-  page_size = NULL,
-  registrant_id = NULL,
-  registrant_name = NULL,
-    clean = TRUE
-) {
-
+    id = NULL,
+    lobbyist_name = NULL,
+    ordering = NULL,
+    page = NULL,
+    page_size = NULL,
+    registrant_id = NULL,
+    registrant_name = NULL,
+    clean = TRUE) {
   req <- httr2::request(base_url = api_url()) |>
     httr2::req_url_path_append('lobbyists') |>
     maybe_auth() |>

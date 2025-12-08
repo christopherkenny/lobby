@@ -1,0 +1,27 @@
+http_interactions:
+- request:
+    method: GET
+    uri: https://lda.senate.gov/api/v1/registrants/11//
+  response:
+    status: 200
+    headers:
+      Server: gunicorn
+      Content-Type: application/json
+      Allow: GET
+      Content-Length: '386'
+      Content-Encoding: gzip
+      x-frame-options: DENY
+      x-content-type-options: nosniff
+      referrer-policy: same-origin
+      cross-origin-opener-policy: same-origin
+      Date: Mon, 08 Dec 2025 19:49:48 GMT
+      Connection: keep-alive
+      Vary: Accept-Encoding
+      Strict-Transport-Security: max-age=31536000
+    body:
+      string: '{"id":11,"url":"https://lda.senate.gov/api/v1/registrants/11/","house_registrant_id":32323,"name":"A-K
+        ASSOC","description":"12/30/05","address_1":"925 L ST   #1404","address_2":null,"address_3":null,"address_4":null,"city":"SACRAMENTO","state":"CA","state_display":"California","zip":"95814","country":"US","country_display":"United
+        States of America","ppb_country":"US","ppb_country_display":"United States
+        of America","contact_name":"","contact_telephone":"","dt_updated":"2022-02-18T16:11:23.828193-05:00"}'
+  recorded_at: 2025-12-08 19:49:48
+recorded_with: VCR-vcr/2.0.0

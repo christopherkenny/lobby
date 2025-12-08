@@ -1,0 +1,24 @@
+http_interactions:
+- request:
+    method: GET
+    uri: https://lda.senate.gov/api/v1/constants/lobbyist/suffixes
+  response:
+    status: 200
+    headers:
+      Server: gunicorn
+      Content-Type: application/json
+      Allow: GET, HEAD, OPTIONS
+      Content-Length: '271'
+      Content-Encoding: gzip
+      x-frame-options: DENY
+      x-content-type-options: nosniff
+      referrer-policy: same-origin
+      cross-origin-opener-policy: same-origin
+      Date: Mon, 08 Dec 2025 19:58:12 GMT
+      Connection: keep-alive
+      Vary: Accept-Encoding
+      Strict-Transport-Security: max-age=31536000
+    body:
+      string: '[{"value":"jr","name":"JR"},{"value":"sr","name":"SR"},{"value":"i","name":"I"},{"value":"ii","name":"II"},{"value":"iii","name":"III"},{"value":"iv","name":"IV"},{"value":"v","name":"V"},{"value":"cae","name":"CAE"},{"value":"dvm","name":"DVM"},{"value":"dmd","name":"DMD"},{"value":"dppd","name":"DPPD"},{"value":"edd","name":"EDD"},{"value":"esq","name":"ESQ"},{"value":"jd","name":"JD"},{"value":"md","name":"MD"},{"value":"ma","name":"MA"},{"value":"med","name":"MED"},{"value":"mhsa","name":"MHSA"},{"value":"mph","name":"MPH"},{"value":"od","name":"OD"},{"value":"pa","name":"PA"},{"value":"pe","name":"PE"},{"value":"phd","name":"PHD"}]'
+  recorded_at: 2025-12-08 19:58:12
+recorded_with: VCR-vcr/2.0.0

@@ -1,0 +1,670 @@
+http_interactions:
+- request:
+    method: GET
+    uri: https://lda.senate.gov/api/v1/filings?filing_year=2024
+  response:
+    status: 200
+    headers:
+      Server: gunicorn
+      Content-Type: application/json
+      Allow: GET
+      Content-Length: '15922'
+      Content-Encoding: gzip
+      x-frame-options: DENY
+      x-content-type-options: nosniff
+      referrer-policy: same-origin
+      cross-origin-opener-policy: same-origin
+      Date: Mon, 08 Dec 2025 19:58:15 GMT
+      Connection: keep-alive
+      Vary: Accept-Encoding
+      Strict-Transport-Security: max-age=31536000
+    body:
+      string: '{"count":96577,"next":"https://lda.senate.gov/api/v1/filings/?filing_year=2024&page=2","previous":null,"results":[{"url":"https://lda.senate.gov/api/v1/filings/7866327b-c892-4430-b9f0-1f0f679c58c6/","filing_uuid":"7866327b-c892-4430-b9f0-1f0f679c58c6","filing_type":"RR","filing_type_display":"Registration","filing_year":2024,"filing_period":"first_quarter","filing_period_display":"1st
+        Quarter (Jan 1 - Mar 31)","filing_document_url":"https://lda.senate.gov/filings/public/filing/7866327b-c892-4430-b9f0-1f0f679c58c6/print/","filing_document_content_type":"text/html","income":null,"expenses":null,"expenses_method":null,"expenses_method_display":null,"posted_by_name":"Amy
+        R. Williams","dt_posted":"2024-01-02T10:13:41-05:00","termination_date":null,"registrant_country":"United
+        States of America","registrant_ppb_country":null,"registrant_address_1":"1150
+        CONNECTICUT AVE, NW","registrant_address_2":"SUITE 730","registrant_different_address":null,"registrant_city":"WASHINGTON","registrant_state":"DC","registrant_zip":"20036","registrant":{"id":35707,"url":"https://lda.senate.gov/api/v1/registrants/35707/","house_registrant_id":32416,"name":"SMITH
+        GARSON FKA SMITH DAWSON & ANDREWS","description":"Government affairs","address_1":"1150
+        CONNECTICUT AVE, NW","address_2":"SUITE 730","address_3":null,"address_4":null,"city":"WASHINGTON","state":"DC","state_display":"District
+        of Columbia","zip":"20036","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"AMY
+        R. WILLIAMS","contact_telephone":"+1 202-835-0740","dt_updated":"2025-07-29T10:00:49.320067-04:00"},"client":{"id":58116,"url":"https://lda.senate.gov/api/v1/clients/58116/","client_id":58116,"name":"E-COM
+        9-1-1 DISPATCH CENTER","general_description":"Emergency services dispatch
+        center","client_government_entity":null,"client_self_select":false,"state":"IL","state_display":"Illinois","country":"US","country_display":"United
+        States of America","ppb_state":"IL","ppb_state_display":"Illinois","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2024-01-01"},"lobbying_activities":[{"general_issue_code":"BUD","general_issue_code_display":"Budget/Appropriations","description":"Federal
+        funding opportunities related to emergency and disaster preparedness.","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":38841,"prefix":null,"prefix_display":null,"first_name":"BRETT","nickname":null,"middle_name":null,"last_name":"GARSON","suffix":null,"suffix_display":null},"covered_position":null,"new":true},{"lobbyist":{"id":72956,"prefix":null,"prefix_display":null,"first_name":"KRISTIAN","nickname":null,"middle_name":null,"last_name":"CHIN","suffix":null,"suffix_display":null},"covered_position":"Scheduler/special
+        assistant, Rep. Raul Ruiz; Staff Assistant, Legislative Correspondent, Legislative
+        Assistant, Rep. Zoe Lofgren","new":true},{"lobbyist":{"id":148710,"prefix":null,"prefix_display":null,"first_name":"KIERSTIN","nickname":null,"middle_name":null,"last_name":"STRADFORD-PATTERSON","suffix":null,"suffix_display":null},"covered_position":"Legislative
+        Correspondent and Systems Administrator, Congressman Elijah E. Cummings Legislative
+        Assistant and Systems Administrator, Congressman Kweisi Mfume","new":true}],"government_entities":[]},{"general_issue_code":"DIS","general_issue_code_display":"Disaster
+        Planning/Emergencies","description":"Federal funding opportunities related
+        to emergency and disaster preparedness.","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":38841,"prefix":null,"prefix_display":null,"first_name":"BRETT","nickname":null,"middle_name":null,"last_name":"GARSON","suffix":null,"suffix_display":null},"covered_position":null,"new":true},{"lobbyist":{"id":72956,"prefix":null,"prefix_display":null,"first_name":"KRISTIAN","nickname":null,"middle_name":null,"last_name":"CHIN","suffix":null,"suffix_display":null},"covered_position":"Scheduler/special
+        assistant, Rep. Raul Ruiz; Staff Assistant, Legislative Correspondent, Legislative
+        Assistant, Rep. Zoe Lofgren","new":true},{"lobbyist":{"id":148710,"prefix":null,"prefix_display":null,"first_name":"KIERSTIN","nickname":null,"middle_name":null,"last_name":"STRADFORD-PATTERSON","suffix":null,"suffix_display":null},"covered_position":"Legislative
+        Correspondent and Systems Administrator, Congressman Elijah E. Cummings Legislative
+        Assistant and Systems Administrator, Congressman Kweisi Mfume","new":true}],"government_entities":[]}],"conviction_disclosures":[],"foreign_entities":[],"affiliated_organizations":[]},{"url":"https://lda.senate.gov/api/v1/filings/295a9fd5-5775-4a38-b8d3-8897973ab6cd/","filing_uuid":"295a9fd5-5775-4a38-b8d3-8897973ab6cd","filing_type":"RR","filing_type_display":"Registration","filing_year":2024,"filing_period":"first_quarter","filing_period_display":"1st
+        Quarter (Jan 1 - Mar 31)","filing_document_url":"https://lda.senate.gov/filings/public/filing/295a9fd5-5775-4a38-b8d3-8897973ab6cd/print/","filing_document_content_type":"text/html","income":null,"expenses":null,"expenses_method":null,"expenses_method_display":null,"posted_by_name":"David
+        Anderson","dt_posted":"2024-01-02T11:05:58-05:00","termination_date":null,"registrant_country":"United
+        States of America","registrant_ppb_country":null,"registrant_address_1":"601
+        13th St., NW","registrant_address_2":"Suite 580 South","registrant_different_address":null,"registrant_city":"Washington","registrant_state":"DC","registrant_zip":"20005","registrant":{"id":321555,"url":"https://lda.senate.gov/api/v1/registrants/321555/","house_registrant_id":39589,"name":"NATURAL
+        RESOURCE RESULTS LLC","description":"consulting","address_1":"601 13th St.,
+        NW","address_2":"Suite 580 South","address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20005","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"MR.
+        DAVID ANDERSON","contact_telephone":"+1 202-945-9541","dt_updated":"2025-07-01T09:57:45.119957-04:00"},"client":{"id":58117,"url":"https://lda.senate.gov/api/v1/clients/58117/","client_id":58117,"name":"CHESAPEAKE
+        CONSERVANCY","general_description":"Non profit conservation","client_government_entity":null,"client_self_select":false,"state":"MD","state_display":"Maryland","country":"US","country_display":"United
+        States of America","ppb_state":"MD","ppb_state_display":"Maryland","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2024-01-02"},"lobbying_activities":[{"general_issue_code":"NAT","general_issue_code_display":"Natural
+        Resources","description":"Support enactment of HR 5045, S.2620","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":32132,"prefix":null,"prefix_display":null,"first_name":"DAVID","nickname":null,"middle_name":null,"last_name":"ANDERSON","suffix":null,"suffix_display":null},"covered_position":"CEQ
+        AD; Commerce Dept Sr Adv; OMB PAD","new":true}],"government_entities":[]}],"conviction_disclosures":[],"foreign_entities":[],"affiliated_organizations":[]},{"url":"https://lda.senate.gov/api/v1/filings/467e4a97-6351-4902-8ffa-dd51632e156b/","filing_uuid":"467e4a97-6351-4902-8ffa-dd51632e156b","filing_type":"Q1","filing_type_display":"1st
+        Quarter - Report","filing_year":2024,"filing_period":"first_quarter","filing_period_display":"1st
+        Quarter (Jan 1 - Mar 31)","filing_document_url":"https://lda.senate.gov/filings/public/filing/467e4a97-6351-4902-8ffa-dd51632e156b/print/","filing_document_content_type":"text/html","income":"30000.00","expenses":null,"expenses_method":null,"expenses_method_display":null,"posted_by_name":"Sean
+        Farrell","dt_posted":"2024-01-02T13:14:26-05:00","termination_date":null,"registrant_country":"United
+        States of America","registrant_ppb_country":null,"registrant_address_1":"921
+        H Street, NE","registrant_address_2":"#252","registrant_different_address":false,"registrant_city":"Washington","registrant_state":"DC","registrant_zip":"20002","registrant":{"id":401107792,"url":"https://lda.senate.gov/api/v1/registrants/401107792/","house_registrant_id":null,"name":"EAST
+        CAPITOL ADVISORS LLC","description":null,"address_1":"921 H Street, NE","address_2":"#252","address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20002","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"SEAN
+        FARRELL","contact_telephone":"+1 202-944-0520","dt_updated":"2025-07-11T11:46:27.845305-04:00"},"client":{"id":56764,"url":"https://lda.senate.gov/api/v1/clients/56764/","client_id":56764,"name":"CTIA
+        - THE WIRELESS ASSOCIATION","general_description":"CTIA is the trade association
+        of the cellular/wireless industry.","client_government_entity":null,"client_self_select":false,"state":"DC","state_display":"District
+        of Columbia","country":"US","country_display":"United States of America","ppb_state":"DC","ppb_state_display":"District
+        of Columbia","ppb_country":"US","ppb_country_display":"United States of America","effective_date":"2023-08-01"},"lobbying_activities":[{"general_issue_code":"TEC","general_issue_code_display":"Telecommunications","description":"H.R.3949,
+        End Cells in Cells Act, a bill to increase criminal penalties for contraband
+        cell phones in prisons and jails.","foreign_entity_issues":"","lobbyists":[{"lobbyist":{"id":143905,"prefix":null,"prefix_display":null,"first_name":"SEAN","nickname":null,"middle_name":null,"last_name":"FARRELL","suffix":null,"suffix_display":null},"covered_position":null,"new":false}],"government_entities":[{"id":2,"name":"HOUSE
+        OF REPRESENTATIVES"}]}],"conviction_disclosures":[],"foreign_entities":[],"affiliated_organizations":[]},{"url":"https://lda.senate.gov/api/v1/filings/d4c934f7-dab7-4600-95dc-e0f1ff05a8a7/","filing_uuid":"d4c934f7-dab7-4600-95dc-e0f1ff05a8a7","filing_type":"Q1","filing_type_display":"1st
+        Quarter - Report","filing_year":2024,"filing_period":"first_quarter","filing_period_display":"1st
+        Quarter (Jan 1 - Mar 31)","filing_document_url":"https://lda.senate.gov/filings/public/filing/d4c934f7-dab7-4600-95dc-e0f1ff05a8a7/print/","filing_document_content_type":"text/html","income":"15000.00","expenses":null,"expenses_method":null,"expenses_method_display":null,"posted_by_name":"Sean
+        Farrell","dt_posted":"2024-01-02T13:19:24-05:00","termination_date":null,"registrant_country":"United
+        States of America","registrant_ppb_country":null,"registrant_address_1":"921
+        H Street, NE","registrant_address_2":"#252","registrant_different_address":false,"registrant_city":"Washington","registrant_state":"DC","registrant_zip":"20002","registrant":{"id":401107792,"url":"https://lda.senate.gov/api/v1/registrants/401107792/","house_registrant_id":null,"name":"EAST
+        CAPITOL ADVISORS LLC","description":null,"address_1":"921 H Street, NE","address_2":"#252","address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20002","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"SEAN
+        FARRELL","contact_telephone":"+1 202-944-0520","dt_updated":"2025-07-11T11:46:27.845305-04:00"},"client":{"id":57213,"url":"https://lda.senate.gov/api/v1/clients/57213/","client_id":57213,"name":"SHADOW
+        NEXUS","general_description":"Cybersecurity","client_government_entity":null,"client_self_select":false,"state":"MO","state_display":"Missouri","country":"US","country_display":"United
+        States of America","ppb_state":"MO","ppb_state_display":"Missouri","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2023-10-01"},"lobbying_activities":[{"general_issue_code":"INT","general_issue_code_display":"Intelligence","description":"General
+        education to congressional defense and intelligence committees on Shadow Nexus
+        technology, capabilities, and solutions.","foreign_entity_issues":"","lobbyists":[{"lobbyist":{"id":143905,"prefix":null,"prefix_display":null,"first_name":"SEAN","nickname":null,"middle_name":null,"last_name":"FARRELL","suffix":null,"suffix_display":null},"covered_position":null,"new":false}],"government_entities":[{"id":2,"name":"HOUSE
+        OF REPRESENTATIVES"}]}],"conviction_disclosures":[],"foreign_entities":[],"affiliated_organizations":[]},{"url":"https://lda.senate.gov/api/v1/filings/f32a7add-ee52-4ac8-b28a-7720917ae371/","filing_uuid":"f32a7add-ee52-4ac8-b28a-7720917ae371","filing_type":"RR","filing_type_display":"Registration","filing_year":2024,"filing_period":"first_quarter","filing_period_display":"1st
+        Quarter (Jan 1 - Mar 31)","filing_document_url":"https://lda.senate.gov/filings/public/filing/f32a7add-ee52-4ac8-b28a-7720917ae371/print/","filing_document_content_type":"text/html","income":null,"expenses":null,"expenses_method":null,"expenses_method_display":null,"posted_by_name":"THOMAS
+        C DOWNS","dt_posted":"2024-01-02T16:42:38-05:00","termination_date":null,"registrant_country":"United
+        States of America","registrant_ppb_country":null,"registrant_address_1":"1629
+        K Street, N.W., Suite 300","registrant_address_2":null,"registrant_different_address":null,"registrant_city":"Washington","registrant_state":"DC","registrant_zip":"20006","registrant":{"id":401103955,"url":"https://lda.senate.gov/api/v1/registrants/401103955/","house_registrant_id":401103955,"name":"DOWNS
+        GOVERNMENT AFFAIRS","description":"Federal legislative consultant","address_1":"1629
+        K Street, N.W., Suite 300","address_2":null,"address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20006","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"THOMAS
+        C. DOWNS","contact_telephone":"+1 202-403-2302","dt_updated":"2025-07-21T12:06:19.818013-04:00"},"client":{"id":58125,"url":"https://lda.senate.gov/api/v1/clients/58125/","client_id":58125,"name":"ASSOCIATION
+        OF MINNESOTA COUNTIES","general_description":"Trade association representing
+        Minnesota county governments.","client_government_entity":null,"client_self_select":false,"state":"MN","state_display":"Minnesota","country":"US","country_display":"United
+        States of America","ppb_state":"MN","ppb_state_display":"Minnesota","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2024-01-01"},"lobbying_activities":[{"general_issue_code":"GOV","general_issue_code_display":"Government
+        Issues","description":"County government concerns","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":65477,"prefix":null,"prefix_display":null,"first_name":"THOMAS","nickname":null,"middle_name":"C","last_name":"DOWNS","suffix":null,"suffix_display":null},"covered_position":null,"new":true}],"government_entities":[]}],"conviction_disclosures":[],"foreign_entities":[],"affiliated_organizations":[]},{"url":"https://lda.senate.gov/api/v1/filings/d05eac1f-0651-48a8-b34f-d57b6d40cd06/","filing_uuid":"d05eac1f-0651-48a8-b34f-d57b6d40cd06","filing_type":"Q1","filing_type_display":"1st
+        Quarter - Report","filing_year":2024,"filing_period":"first_quarter","filing_period_display":"1st
+        Quarter (Jan 1 - Mar 31)","filing_document_url":"https://lda.senate.gov/filings/public/filing/d05eac1f-0651-48a8-b34f-d57b6d40cd06/print/","filing_document_content_type":"text/html","income":null,"expenses":null,"expenses_method":"A","expenses_method_display":"A","posted_by_name":"Jonathon
+        Angel Ramos","dt_posted":"2024-01-02T21:05:16-05:00","termination_date":null,"registrant_country":"United
+        States of America","registrant_ppb_country":"United States of America","registrant_address_1":"3686
+        wightman st","registrant_address_2":null,"registrant_different_address":false,"registrant_city":"San
+        diego","registrant_state":"CA","registrant_zip":"92104","registrant":{"id":401108033,"url":"https://lda.senate.gov/api/v1/registrants/401108033/","house_registrant_id":null,"name":"BCE
+        CORPORATION PMC","description":null,"address_1":"3686 wightman st","address_2":null,"address_3":null,"address_4":null,"city":"San
+        diego","state":"CA","state_display":"California","zip":"92104","country":"US","country_display":"United
+        States of America","ppb_country":"US","ppb_country_display":"United States
+        of America","contact_name":"JONATHON RAMOS","contact_telephone":"+1 310-779-1342","dt_updated":"2024-03-19T16:39:42.141918-04:00"},"client":{"id":57863,"url":"https://lda.senate.gov/api/v1/clients/57863/","client_id":57863,"name":"BCE
+        CORPORATION PMC","general_description":"Private Corporation , legislative
+        Body","client_government_entity":null,"client_self_select":true,"state":"CA","state_display":"California","country":"US","country_display":"United
+        States of America","ppb_state":"CA","ppb_state_display":"California","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2023-11-27"},"lobbying_activities":[{"general_issue_code":"LAW","general_issue_code_display":"Law
+        Enforcement/Crime/Criminal Justice","description":"Nationwide fraud organization
+        Caught Host City San Diego CA After doing a private investigation. Black Lives
+        Matter is involved there involvement with fraud organization there activities
+        are Malicious acts of Surveillance,Profiling misuse of information, Conditioning,
+        Anchoring, Mobbing gang stalking, Street theatre, The use of directional speakers,
+        Baiting or entrapment, Gaslighting, Blackbag jobs, Propaganda and disinformation,
+        smearing campaigns, fraud investment schemes Most of the organization is located
+        in Skyline, Emerald Hills, Lincoln Park, City Heights San Diego CA they think
+        they have control over everything because they do fraud but in reality they
+        have no control over anything. These groups create fake links to pretend there
+        something there not then steal data information from there audience that they
+        created to victimize themselves to hide from the FBI. Also there biggest schemes
+        is forging California drivers license and identification cards printing. This
+        group is responsible for , PPP loans , phone spoofing, SIM card swap, social
+        media accounts to phish. Hotel motel credit card and ID copying and stealing
+        at most of the hotels in San Diego, California that they pull exchange for
+        drugs while the other groups build credit files under the victims names. The
+        fraud organization use Google voice connected to victims phone numbers even
+        mimicking military personnel bank accounts and civilian bank accounts while
+        they data mine information. Even the prostitution ring in National City and
+        El Cajon Blvd San Diego is stealing information if there not making money
+        they steal and sell MD20s and other drugs. Most of the hotels and motels are
+        taken over by these groups barging and entering and then doing fraud using
+        hotel IP addresses and video game server addresses. The fraud organization
+        linked to Atlanta scapegoats by victimizing themselves to coverup their schemes.
+        The false victimized themselves in anyway possible so the FBI and secret service
+        can focus on the scam case the fraud organization created. There counterfeit
+        money printing in Texas and Atlanta GA and now there attempting counterfeit
+        bills in San Diego California. The group Also abuse of spoofing House of Representatives
+        office phone numbers using voice changers that they learned from the Jamaican
+        fraud organization in Miami and Alabama This group also stole hospital records
+        and documents inkjet printing schemes, Cryptocurrency fraud schemes. Even
+        stole EBT from victims and passed information to Los Angeles connections including
+        Las Vegas connections. They also created generic ALPHV Blackcat software.
+        And still used VPNs that can be traced. This group is at it again with fraud
+        trying to forge and steal business information to coverup there PPP loan scams
+        and these groups are also making fake power of attorney letters to claim business
+        taxs from small businesses. These people and groups would cover up there crimes
+        by building an audience and a lie. Also the PPP loan and Pandemic benefits
+        fraud! Since 2020 the suspects organization caught! Its time everyone knows
+        the truth and why they hide behind others. A Somalian fraud group was gathering
+        identity theft information for local blood and crip gang members and wobblers
+        to start creating pandemic benefits fraud accounts nationwide they both shared
+        the money over $20,000,000 stolen benefits. The Somalian Group collected business
+        information while the wobblers did the work for 20% of the money. Explains
+        Hamas funding. The fraud organization would target there victims to steal
+        from there victims. location in skyline, city heights, emerald hills, Lincoln
+        Park California is part of the Money laundering in the US. Virgin Islands
+        is through shareholders with fake business names at vacation resorts all over
+        the British and United States Virgin Islands. Along with other chapters. Fraud
+        organization chapter is in San Diego linked to The Virgin Islands There''s
+        more then one chapter nationwide linked to the Virgin Islands there bias is
+        of a darker origin. The San Diego fraud chapter mentioned it on the DS100-100w
+        device they like to use Another fraud alert ( the fake experiment scam) Anyone
+        receiving texts and being told to stay quiet about it? That''s an invasion
+        of privacy just to text random people with offers and gigs like listed below!
+        Other news there is a group of people getting $15 or more a day and gift cards
+        to perpetuate for them as well. If you''re getting paid that way I suggest
+        you leave that gig. Text messages to go to a place at a certain time and what
+        to say to the victims that''s baiting and entrapment tactics. The text message
+        mentioned going to a location and what to say and do to a fake suspect that
+        the fraud organization picked out to steal identity from. The group paying
+        is the fraud ring chapter giving text messages out. Using Chat GPT all information
+        is accurate Nobody has done there job to end fraud I did all the work for
+        them","foreign_entity_issues":"","lobbyists":[{"lobbyist":{"id":144801,"prefix":null,"prefix_display":null,"first_name":"JUSTICE","nickname":null,"middle_name":null,"last_name":"DEPARTMENT","suffix":null,"suffix_display":null},"covered_position":null,"new":false}],"government_entities":[{"id":155,"name":"Drug
+        Enforcement Administration (DEA)"},{"id":150,"name":"Federal Bureau of Investigation
+        (FBI)"}]}],"conviction_disclosures":[],"foreign_entities":[],"affiliated_organizations":[]},{"url":"https://lda.senate.gov/api/v1/filings/bff7d426-ee7e-4423-8dc7-7d63b437ccd6/","filing_uuid":"bff7d426-ee7e-4423-8dc7-7d63b437ccd6","filing_type":"RR","filing_type_display":"Registration","filing_year":2024,"filing_period":"first_quarter","filing_period_display":"1st
+        Quarter (Jan 1 - Mar 31)","filing_document_url":"https://lda.senate.gov/filings/public/filing/bff7d426-ee7e-4423-8dc7-7d63b437ccd6/print/","filing_document_content_type":"text/html","income":null,"expenses":null,"expenses_method":null,"expenses_method_display":null,"posted_by_name":"Alisa
+        Jane Hess","dt_posted":"2024-01-03T10:33:09-05:00","termination_date":null,"registrant_country":"United
+        States of America","registrant_ppb_country":null,"registrant_address_1":"500
+        North Capitol Street, NW","registrant_address_2":"Suite 210","registrant_different_address":null,"registrant_city":"Washington","registrant_state":"DC","registrant_zip":"20001","registrant":{"id":1171,"url":"https://lda.senate.gov/api/v1/registrants/1171/","house_registrant_id":31749,"name":"ALPINE
+        GROUP PARTNERS, LLC.","description":"Public relations consulting firm","address_1":"500
+        North Capitol Street, NW","address_2":"Suite 210","address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20001","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"ALISA
+        JANE HESS","contact_telephone":"+1 434-933-2535","dt_updated":"2025-07-06T17:35:53.195039-04:00"},"client":{"id":58129,"url":"https://lda.senate.gov/api/v1/clients/58129/","client_id":58129,"name":"ATOM
+        COMPUTING","general_description":"Quantum computing","client_government_entity":null,"client_self_select":false,"state":"CA","state_display":"California","country":"US","country_display":"United
+        States of America","ppb_state":"CA","ppb_state_display":"California","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2024-01-01"},"lobbying_activities":[{"general_issue_code":"BUD","general_issue_code_display":"Budget/Appropriations","description":"FY25
+        Appropriations, FY25 NDAA, National Quantum Initiative Act Reauthorization,
+        quantum computers, quantum sensing, application and development","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":144804,"prefix":null,"prefix_display":null,"first_name":"CURTIS","nickname":null,"middle_name":null,"last_name":"PHILIP","suffix":null,"suffix_display":null},"covered_position":"Deputy
+        Chief of Staff, Rep. Lamar Smith/Professional Staff member, House Science
+        Cmte; Legislative Director, Rep. Louie Gohmert; Legislative Counsel, Rep.
+        Bill Cassidy; Legislative Correspondent, Sen. Chuck Grassley","new":true},{"lobbyist":{"id":93714,"prefix":null,"prefix_display":null,"first_name":"KEENAN","nickname":null,"middle_name":null,"last_name":"AUSTIN
+        REED","suffix":null,"suffix_display":null},"covered_position":"Chief of Staff,
+        Rep. Donald McEachin; Deputy Chief of Staff, Rep. Frederica S. Wilson","new":true},{"lobbyist":{"id":141074,"prefix":null,"prefix_display":null,"first_name":"ALISON","nickname":null,"middle_name":null,"last_name":"GRAAB","suffix":null,"suffix_display":null},"covered_position":"Attorney,
+        Surface Transportation Board; Counsel, Senate Commerce Cmte; Policy Director,
+        Senate Commerce Cmte.; Clerk, Senate Appropriations Cmte THUD","new":true},{"lobbyist":{"id":143666,"prefix":"mr","prefix_display":"MR.","first_name":"LAWRENCE","nickname":"LES","middle_name":null,"last_name":"SPIVEY","suffix":null,"suffix_display":null},"covered_position":"Professional
+        Staff, Senate Appropriations Committee","new":true},{"lobbyist":{"id":67291,"prefix":null,"prefix_display":null,"first_name":"CORNELL","nickname":null,"middle_name":null,"last_name":"TEAGUE","suffix":null,"suffix_display":null},"covered_position":"Professional
+        Staff, House Appropriations Cmte - Defense; Professional Staff, House Appropriations
+        Cmte - Homeland","new":true}],"government_entities":[]},{"general_issue_code":"CPI","general_issue_code_display":"Computer
+        Industry","description":"FY25 Appropriations, FY25 NDAA, National Quantum
+        Initiative Act Reauthorization, quantum computers, quantum sensing, application
+        and development","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":144804,"prefix":null,"prefix_display":null,"first_name":"CURTIS","nickname":null,"middle_name":null,"last_name":"PHILIP","suffix":null,"suffix_display":null},"covered_position":"Deputy
+        Chief of Staff, Rep. Lamar Smith/Professional Staff member, House Science
+        Cmte; Legislative Director, Rep. Louie Gohmert; Legislative Counsel, Rep.
+        Bill Cassidy; Legislative Correspondent, Sen. Chuck Grassley","new":true},{"lobbyist":{"id":93714,"prefix":null,"prefix_display":null,"first_name":"KEENAN","nickname":null,"middle_name":null,"last_name":"AUSTIN
+        REED","suffix":null,"suffix_display":null},"covered_position":"Chief of Staff,
+        Rep. Donald McEachin; Deputy Chief of Staff, Rep. Frederica S. Wilson","new":true},{"lobbyist":{"id":141074,"prefix":null,"prefix_display":null,"first_name":"ALISON","nickname":null,"middle_name":null,"last_name":"GRAAB","suffix":null,"suffix_display":null},"covered_position":"Attorney,
+        Surface Transportation Board; Counsel, Senate Commerce Cmte; Policy Director,
+        Senate Commerce Cmte.; Clerk, Senate Appropriations Cmte THUD","new":true},{"lobbyist":{"id":143666,"prefix":"mr","prefix_display":"MR.","first_name":"LAWRENCE","nickname":"LES","middle_name":null,"last_name":"SPIVEY","suffix":null,"suffix_display":null},"covered_position":"Professional
+        Staff, Senate Appropriations Committee","new":true},{"lobbyist":{"id":67291,"prefix":null,"prefix_display":null,"first_name":"CORNELL","nickname":null,"middle_name":null,"last_name":"TEAGUE","suffix":null,"suffix_display":null},"covered_position":"Professional
+        Staff, House Appropriations Cmte - Defense; Professional Staff, House Appropriations
+        Cmte - Homeland","new":true}],"government_entities":[]},{"general_issue_code":"DEF","general_issue_code_display":"Defense","description":"FY25
+        Appropriations, FY25 NDAA, National Quantum Initiative Act Reauthorization,
+        quantum computers, quantum sensing, application and development","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":144804,"prefix":null,"prefix_display":null,"first_name":"CURTIS","nickname":null,"middle_name":null,"last_name":"PHILIP","suffix":null,"suffix_display":null},"covered_position":"Deputy
+        Chief of Staff, Rep. Lamar Smith/Professional Staff member, House Science
+        Cmte; Legislative Director, Rep. Louie Gohmert; Legislative Counsel, Rep.
+        Bill Cassidy; Legislative Correspondent, Sen. Chuck Grassley","new":true},{"lobbyist":{"id":93714,"prefix":null,"prefix_display":null,"first_name":"KEENAN","nickname":null,"middle_name":null,"last_name":"AUSTIN
+        REED","suffix":null,"suffix_display":null},"covered_position":"Chief of Staff,
+        Rep. Donald McEachin; Deputy Chief of Staff, Rep. Frederica S. Wilson","new":true},{"lobbyist":{"id":141074,"prefix":null,"prefix_display":null,"first_name":"ALISON","nickname":null,"middle_name":null,"last_name":"GRAAB","suffix":null,"suffix_display":null},"covered_position":"Attorney,
+        Surface Transportation Board; Counsel, Senate Commerce Cmte; Policy Director,
+        Senate Commerce Cmte.; Clerk, Senate Appropriations Cmte THUD","new":true},{"lobbyist":{"id":143666,"prefix":"mr","prefix_display":"MR.","first_name":"LAWRENCE","nickname":"LES","middle_name":null,"last_name":"SPIVEY","suffix":null,"suffix_display":null},"covered_position":"Professional
+        Staff, Senate Appropriations Committee","new":true},{"lobbyist":{"id":67291,"prefix":null,"prefix_display":null,"first_name":"CORNELL","nickname":null,"middle_name":null,"last_name":"TEAGUE","suffix":null,"suffix_display":null},"covered_position":"Professional
+        Staff, House Appropriations Cmte - Defense; Professional Staff, House Appropriations
+        Cmte - Homeland","new":true}],"government_entities":[]},{"general_issue_code":"SCI","general_issue_code_display":"Science/Technology","description":"FY25
+        Appropriations, FY25 NDAA, National Quantum Initiative Act Reauthorization,
+        quantum computers, quantum sensing, application and development","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":144804,"prefix":null,"prefix_display":null,"first_name":"CURTIS","nickname":null,"middle_name":null,"last_name":"PHILIP","suffix":null,"suffix_display":null},"covered_position":"Deputy
+        Chief of Staff, Rep. Lamar Smith/Professional Staff member, House Science
+        Cmte; Legislative Director, Rep. Louie Gohmert; Legislative Counsel, Rep.
+        Bill Cassidy; Legislative Correspondent, Sen. Chuck Grassley","new":true},{"lobbyist":{"id":93714,"prefix":null,"prefix_display":null,"first_name":"KEENAN","nickname":null,"middle_name":null,"last_name":"AUSTIN
+        REED","suffix":null,"suffix_display":null},"covered_position":"Chief of Staff,
+        Rep. Donald McEachin; Deputy Chief of Staff, Rep. Frederica S. Wilson","new":true},{"lobbyist":{"id":141074,"prefix":null,"prefix_display":null,"first_name":"ALISON","nickname":null,"middle_name":null,"last_name":"GRAAB","suffix":null,"suffix_display":null},"covered_position":"Attorney,
+        Surface Transportation Board; Counsel, Senate Commerce Cmte; Policy Director,
+        Senate Commerce Cmte.; Clerk, Senate Appropriations Cmte THUD","new":true},{"lobbyist":{"id":143666,"prefix":"mr","prefix_display":"MR.","first_name":"LAWRENCE","nickname":"LES","middle_name":null,"last_name":"SPIVEY","suffix":null,"suffix_display":null},"covered_position":"Professional
+        Staff, Senate Appropriations Committee","new":true},{"lobbyist":{"id":67291,"prefix":null,"prefix_display":null,"first_name":"CORNELL","nickname":null,"middle_name":null,"last_name":"TEAGUE","suffix":null,"suffix_display":null},"covered_position":"Professional
+        Staff, House Appropriations Cmte - Defense; Professional Staff, House Appropriations
+        Cmte - Homeland","new":true}],"government_entities":[]}],"conviction_disclosures":[],"foreign_entities":[],"affiliated_organizations":[]},{"url":"https://lda.senate.gov/api/v1/filings/a7e9b9c3-b468-46c5-a9ef-84e59a3b2cb0/","filing_uuid":"a7e9b9c3-b468-46c5-a9ef-84e59a3b2cb0","filing_type":"RA","filing_type_display":"Registration
+        - Amendment","filing_year":2024,"filing_period":"first_quarter","filing_period_display":"1st
+        Quarter (Jan 1 - Mar 31)","filing_document_url":"https://lda.senate.gov/filings/public/filing/a7e9b9c3-b468-46c5-a9ef-84e59a3b2cb0/print/","filing_document_content_type":"text/html","income":null,"expenses":null,"expenses_method":null,"expenses_method_display":null,"posted_by_name":"Bill
+        Burlew","dt_posted":"2024-01-03T10:55:57-05:00","termination_date":null,"registrant_country":"United
+        States of America","registrant_ppb_country":null,"registrant_address_1":"1627
+        Eye Street, NW","registrant_address_2":"Suite 910","registrant_different_address":null,"registrant_city":"Washington","registrant_state":"DC","registrant_zip":"20006","registrant":{"id":401104719,"url":"https://lda.senate.gov/api/v1/registrants/401104719/","house_registrant_id":401104719,"name":"TOTALENERGIES
+        WASHINGTON OFFICE, F/K/A TOTAL WASHINGTON, DC REPRESENTATIVE OFFIC","description":"Public
+        affairs in energy sector","address_1":"1627 Eye Street, NW","address_2":"Suite
+        910","address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20006","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"WILLIAM
+        BURLEW","contact_telephone":"+1 202-288-5753","dt_updated":"2025-07-30T10:47:58.808264-04:00"},"client":{"id":202493,"url":"https://lda.senate.gov/api/v1/clients/202493/","client_id":12,"name":"TOTALENERGIES
+        WASHINGTON OFFICE, F/K/A TOTAL WASHINGTON, DC REPRESENTATIVE OFFIC","general_description":null,"client_government_entity":false,"client_self_select":true,"state":"DC","state_display":"District
+        of Columbia","country":"US","country_display":"United States of America","ppb_state":"DC","ppb_state_display":"District
+        of Columbia","ppb_country":"US","ppb_country_display":"United States of America","effective_date":"2018-02-01"},"lobbying_activities":[{"general_issue_code":"ENG","general_issue_code_display":"Energy/Nuclear","description":"LNG
+        DOE permitting with respect to extensions or authorizations to non-FTA export
+        permits. General regulatory framework applicable to LNG projects. Renewables
+        Regulatory implementation of the Inflation Reduction Act (IRA) including federal
+        incentives (all tax provisions) and DOE grant opportunities. R&C RFS: IRA
+        provisions related to biofuels. Conventional Oil/Gas Legislative and regulatory
+        provisions on transparency/disclosures for GHG emissions/offshore discharges.
+        Regulatory framework on Carbon Capture/Storage. Hydrogen Impacts of regulations
+        H2 development/implementation, such as H2 programs, 45V production tax credit,
+        and LCA methodology. Biogas Renewal of the IRAs ITC beyond 2024 for biogas
+        projects.","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":144805,"prefix":null,"prefix_display":null,"first_name":"BILL","nickname":null,"middle_name":null,"last_name":"BURLEW","suffix":null,"suffix_display":null},"covered_position":null,"new":true}],"government_entities":[]},{"general_issue_code":"ENV","general_issue_code_display":"Environment/Superfund","description":"LNG
+        DOE permitting with respect to extensions or authorizations to non-FTA export
+        permits. General regulatory framework applicable to LNG projects. Renewables
+        Regulatory implementation of the Inflation Reduction Act (IRA) including federal
+        incentives (all tax provisions) and DOE grant opportunities. R&C RFS: IRA
+        provisions related to biofuels. Conventional Oil/Gas Legislative and regulatory
+        provisions on transparency/disclosures for GHG emissions/offshore discharges.
+        Regulatory framework on Carbon Capture/Storage. Hydrogen Impacts of regulations
+        H2 development/implementation, such as H2 programs, 45V production tax credit,
+        and LCA methodology. Biogas Renewal of the IRAs ITC beyond 2024 for biogas
+        projects.","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":144805,"prefix":null,"prefix_display":null,"first_name":"BILL","nickname":null,"middle_name":null,"last_name":"BURLEW","suffix":null,"suffix_display":null},"covered_position":null,"new":true}],"government_entities":[]},{"general_issue_code":"FOR","general_issue_code_display":"Foreign
+        Relations","description":"LNG DOE permitting with respect to extensions or
+        authorizations to non-FTA export permits. General regulatory framework applicable
+        to LNG projects. Renewables Regulatory implementation of the Inflation Reduction
+        Act (IRA) including federal incentives (all tax provisions) and DOE grant
+        opportunities. R&C RFS: IRA provisions related to biofuels. Conventional Oil/Gas
+        Legislative and regulatory provisions on transparency/disclosures for GHG
+        emissions/offshore discharges. Regulatory framework on Carbon Capture/Storage.
+        Hydrogen Impacts of regulations H2 development/implementation, such as H2
+        programs, 45V production tax credit, and LCA methodology. Biogas Renewal of
+        the IRAs ITC beyond 2024 for biogas projects.","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":144805,"prefix":null,"prefix_display":null,"first_name":"BILL","nickname":null,"middle_name":null,"last_name":"BURLEW","suffix":null,"suffix_display":null},"covered_position":null,"new":true}],"government_entities":[]},{"general_issue_code":"TAX","general_issue_code_display":"Taxation/Internal
+        Revenue Code","description":"LNG DOE permitting with respect to extensions
+        or authorizations to non-FTA export permits. General regulatory framework
+        applicable to LNG projects. Renewables Regulatory implementation of the Inflation
+        Reduction Act (IRA) including federal incentives (all tax provisions) and
+        DOE grant opportunities. R&C RFS: IRA provisions related to biofuels. Conventional
+        Oil/Gas Legislative and regulatory provisions on transparency/disclosures
+        for GHG emissions/offshore discharges. Regulatory framework on Carbon Capture/Storage.
+        Hydrogen Impacts of regulations H2 development/implementation, such as H2
+        programs, 45V production tax credit, and LCA methodology. Biogas Renewal of
+        the IRAs ITC beyond 2024 for biogas projects.","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":144805,"prefix":null,"prefix_display":null,"first_name":"BILL","nickname":null,"middle_name":null,"last_name":"BURLEW","suffix":null,"suffix_display":null},"covered_position":null,"new":true}],"government_entities":[]},{"general_issue_code":"FUE","general_issue_code_display":"Fuel/Gas/Oil","description":"LNG
+        DOE permitting with respect to extensions or authorizations to non-FTA export
+        permits. General regulatory framework applicable to LNG projects. Renewables
+        Regulatory implementation of the Inflation Reduction Act (IRA) including federal
+        incentives (all tax provisions) and DOE grant opportunities. R&C RFS: IRA
+        provisions related to biofuels. Conventional Oil/Gas Legislative and regulatory
+        provisions on transparency/disclosures for GHG emissions/offshore discharges.
+        Regulatory framework on Carbon Capture/Storage. Hydrogen Impacts of regulations
+        H2 development/implementation, such as H2 programs, 45V production tax credit,
+        and LCA methodology. Biogas Renewal of the IRAs ITC beyond 2024 for biogas
+        projects.","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":144805,"prefix":null,"prefix_display":null,"first_name":"BILL","nickname":null,"middle_name":null,"last_name":"BURLEW","suffix":null,"suffix_display":null},"covered_position":null,"new":true}],"government_entities":[]},{"general_issue_code":"NAT","general_issue_code_display":"Natural
+        Resources","description":"LNG DOE permitting with respect to extensions or
+        authorizations to non-FTA export permits. General regulatory framework applicable
+        to LNG projects. Renewables Regulatory implementation of the Inflation Reduction
+        Act (IRA) including federal incentives (all tax provisions) and DOE grant
+        opportunities. R&C RFS: IRA provisions related to biofuels. Conventional Oil/Gas
+        Legislative and regulatory provisions on transparency/disclosures for GHG
+        emissions/offshore discharges. Regulatory framework on Carbon Capture/Storage.
+        Hydrogen Impacts of regulations H2 development/implementation, such as H2
+        programs, 45V production tax credit, and LCA methodology. Biogas Renewal of
+        the IRAs ITC beyond 2024 for biogas projects.","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":144805,"prefix":null,"prefix_display":null,"first_name":"BILL","nickname":null,"middle_name":null,"last_name":"BURLEW","suffix":null,"suffix_display":null},"covered_position":null,"new":true}],"government_entities":[]}],"conviction_disclosures":[],"foreign_entities":[{"name":"TOTAL
+        GESTION USA SARL","contribution":"0.00","ownership_percentage":"0.00","address":"2
+        Place Jean Millier 92078","city":"Paris la Defense cedex","state":null,"state_display":null,"country":"FR","country_display":"France","ppb_city":"Paris
+        la Defense cedex","ppb_state":null,"ppb_state_display":null,"ppb_country":"FR","ppb_country_display":"France"},{"name":"TOTAL
+        SA","contribution":"0.00","ownership_percentage":"0.00","address":"2 Place
+        Jean Millier 92078","city":"Paris la Defense cedex","state":null,"state_display":null,"country":"FR","country_display":"France","ppb_city":"Paris
+        la Defense cedex","ppb_state":null,"ppb_state_display":null,"ppb_country":"FR","ppb_country_display":"France"}],"affiliated_organizations":[{"name":"TOTAL
+        HOLDINGS USA, INC.","url":null,"address_1":"1201 Louisiana Street, Suite 1800","address_2":null,"address_3":null,"address_4":null,"city":"Houston","state":"TX","state_display":"Texas","zip":"77002","country":"US","country_display":"United
+        States of America","ppb_city":null,"ppb_state":"TX","ppb_state_display":"Texas","ppb_country":"US","ppb_country_display":"United
+        States of America"},{"name":"TOTAL AMERICAN SERVICES, INC.","url":null,"address_1":"1201
+        Louisiana Street, Suite 1800","address_2":null,"address_3":null,"address_4":null,"city":"Houston","state":"TX","state_display":"Texas","zip":"77002","country":"US","country_display":"United
+        States of America","ppb_city":null,"ppb_state":"TX","ppb_state_display":"Texas","ppb_country":"US","ppb_country_display":"United
+        States of America"},{"name":"TOTAL DELAWARE, INC.","url":null,"address_1":"1201
+        Louisiana Street, Suite 1800","address_2":null,"address_3":null,"address_4":null,"city":"Houston","state":"TX","state_display":"Texas","zip":"77002","country":"US","country_display":"United
+        States of America","ppb_city":null,"ppb_state":"TX","ppb_state_display":"Texas","ppb_country":"US","ppb_country_display":"United
+        States of America"}]},{"url":"https://lda.senate.gov/api/v1/filings/99dfa230-ad72-4d1b-a22b-8d31510170d2/","filing_uuid":"99dfa230-ad72-4d1b-a22b-8d31510170d2","filing_type":"RR","filing_type_display":"Registration","filing_year":2024,"filing_period":"first_quarter","filing_period_display":"1st
+        Quarter (Jan 1 - Mar 31)","filing_document_url":"https://lda.senate.gov/filings/public/filing/99dfa230-ad72-4d1b-a22b-8d31510170d2/print/","filing_document_content_type":"text/html","income":null,"expenses":null,"expenses_method":null,"expenses_method_display":null,"posted_by_name":"Alexis
+        Hilbert","dt_posted":"2024-01-03T15:30:22-05:00","termination_date":null,"registrant_country":"United
+        States of America","registrant_ppb_country":"United States of America","registrant_address_1":"909
+        S Boston Ave","registrant_address_2":null,"registrant_different_address":null,"registrant_city":"Tulsa","registrant_state":"OK","registrant_zip":"74119","registrant":{"id":401108095,"url":"https://lda.senate.gov/api/v1/registrants/401108095/","house_registrant_id":null,"name":"TULSA
+        COMMUNITY COLLEGE","description":null,"address_1":"909 S Boston Ave","address_2":null,"address_3":null,"address_4":null,"city":"Tulsa","state":"OK","state_display":"Oklahoma","zip":"74119","country":"US","country_display":"United
+        States of America","ppb_country":"US","ppb_country_display":"United States
+        of America","contact_name":"ALEXIS HILBERT","contact_telephone":"+1 918-807-3136","dt_updated":"2025-07-01T10:14:45.218907-04:00"},"client":{"id":58138,"url":"https://lda.senate.gov/api/v1/clients/58138/","client_id":58138,"name":"TULSA
+        COMMUNITY COLLEGE","general_description":"Community College","client_government_entity":null,"client_self_select":false,"state":"OK","state_display":"Oklahoma","country":"US","country_display":"United
+        States of America","ppb_state":"OK","ppb_state_display":"Oklahoma","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2024-01-01"},"lobbying_activities":[{"general_issue_code":"EDU","general_issue_code_display":"Education","description":"Higher
+        Education Act Reauthorization, Pell Grants, Appropriations and Budget","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":144809,"prefix":null,"prefix_display":null,"first_name":"ALEXIS","nickname":null,"middle_name":null,"last_name":"HILBERT","suffix":null,"suffix_display":null},"covered_position":"2015
+        Agricultural Policy Intern for Congressman Frank Lucas","new":true}],"government_entities":[]},{"general_issue_code":"BUD","general_issue_code_display":"Budget/Appropriations","description":"Higher
+        Education Act Reauthorization, Pell Grants, Appropriations and Budget","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":144809,"prefix":null,"prefix_display":null,"first_name":"ALEXIS","nickname":null,"middle_name":null,"last_name":"HILBERT","suffix":null,"suffix_display":null},"covered_position":"2015
+        Agricultural Policy Intern for Congressman Frank Lucas","new":true}],"government_entities":[]}],"conviction_disclosures":[],"foreign_entities":[],"affiliated_organizations":[]},{"url":"https://lda.senate.gov/api/v1/filings/bba4d0f6-f2cb-474b-9292-94c2704f1e79/","filing_uuid":"bba4d0f6-f2cb-474b-9292-94c2704f1e79","filing_type":"RR","filing_type_display":"Registration","filing_year":2024,"filing_period":"first_quarter","filing_period_display":"1st
+        Quarter (Jan 1 - Mar 31)","filing_document_url":"https://lda.senate.gov/filings/public/filing/bba4d0f6-f2cb-474b-9292-94c2704f1e79/print/","filing_document_content_type":"text/html","income":null,"expenses":null,"expenses_method":null,"expenses_method_display":null,"posted_by_name":"Tim
+        Peckinpaugh, Partner","dt_posted":"2024-01-05T10:59:07-05:00","termination_date":null,"registrant_country":"United
+        States of America","registrant_ppb_country":null,"registrant_address_1":"1601
+        K Street, NW","registrant_address_2":null,"registrant_different_address":null,"registrant_city":"Washington","registrant_state":"DC","registrant_zip":"20006","registrant":{"id":32098,"url":"https://lda.senate.gov/api/v1/registrants/32098/","house_registrant_id":31355,"name":"K&L
+        GATES, LLP","description":"Law firm","address_1":"1601 K Street, NW","address_2":null,"address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20006","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"DINA
+        KERLEY","contact_telephone":"+1 202-661-3767","dt_updated":"2025-07-24T15:48:53.393892-04:00"},"client":{"id":58145,"url":"https://lda.senate.gov/api/v1/clients/58145/","client_id":58145,"name":"UNITED
+        STATES STEEL CORPORATION","general_description":"Steel manufacturer","client_government_entity":null,"client_self_select":false,"state":"PA","state_display":"Pennsylvania","country":"US","country_display":"United
+        States of America","ppb_state":"PA","ppb_state_display":"Pennsylvania","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2024-01-02"},"lobbying_activities":[{"general_issue_code":"MAN","general_issue_code_display":"Manufacturing","description":"Proposed
+        combination with Nippon Steel Corporation","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":2307,"prefix":null,"prefix_display":null,"first_name":"TIM","nickname":null,"middle_name":null,"last_name":"PECKINPAUGH","suffix":null,"suffix_display":null},"covered_position":null,"new":true},{"lobbyist":{"id":138164,"prefix":"mr","prefix_display":"MR.","first_name":"ANDREW","nickname":null,"middle_name":"HILLERICH","last_name":"TABLER","suffix":null,"suffix_display":null},"covered_position":"Research
+        Assistant, House Armed Services Committee; Deputy Assistant Secretary of Defense
+        for Senate Affairs","new":true}],"government_entities":[]}],"conviction_disclosures":[],"foreign_entities":[],"affiliated_organizations":[]},{"url":"https://lda.senate.gov/api/v1/filings/4f2be280-781d-44c2-9ff8-be23c0172aa1/","filing_uuid":"4f2be280-781d-44c2-9ff8-be23c0172aa1","filing_type":"RR","filing_type_display":"Registration","filing_year":2024,"filing_period":"first_quarter","filing_period_display":"1st
+        Quarter (Jan 1 - Mar 31)","filing_document_url":"https://lda.senate.gov/filings/public/filing/4f2be280-781d-44c2-9ff8-be23c0172aa1/print/","filing_document_content_type":"text/html","income":null,"expenses":null,"expenses_method":null,"expenses_method_display":null,"posted_by_name":"Amy
+        Blunt","dt_posted":"2024-01-05T11:02:12-05:00","termination_date":null,"registrant_country":"United
+        States of America","registrant_ppb_country":null,"registrant_address_1":"733
+        10th St. NW,","registrant_address_2":"Suite 900","registrant_different_address":null,"registrant_city":"Washington","registrant_state":"DC","registrant_zip":"20001","registrant":{"id":401104718,"url":"https://lda.senate.gov/api/v1/registrants/401104718/","house_registrant_id":401104718,"name":"HB
+        STRATEGIES","description":"Government Affairs Consulting","address_1":"733
+        10th St. NW,","address_2":"Suite 900","address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20001","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"WILLIAM
+        FOX","contact_telephone":"+1 202-899-3801","dt_updated":"2025-10-20T16:47:26.383255-04:00"},"client":{"id":58146,"url":"https://lda.senate.gov/api/v1/clients/58146/","client_id":58146,"name":"JPH
+        LAW LLP (ON BEHALF OF BLUE DIAMOND GROWERS)","general_description":"Law Firm","client_government_entity":null,"client_self_select":false,"state":"DC","state_display":"District
+        of Columbia","country":"US","country_display":"United States of America","ppb_state":"DC","ppb_state_display":"District
+        of Columbia","ppb_country":"US","ppb_country_display":"United States of America","effective_date":"2024-01-05"},"lobbying_activities":[{"general_issue_code":"AGR","general_issue_code_display":"Agriculture","description":"Farm
+        Bill and issues related to trade","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":141889,"prefix":null,"prefix_display":null,"first_name":"STACY","nickname":null,"middle_name":null,"last_name":"MCBRIDE","suffix":null,"suffix_display":null},"covered_position":"Senator
+        Blunt - Chief of Staff","new":true}],"government_entities":[]},{"general_issue_code":"FOO","general_issue_code_display":"Food
+        Industry (safety, labeling, etc.)","description":"Farm Bill and issues related
+        to trade","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":141889,"prefix":null,"prefix_display":null,"first_name":"STACY","nickname":null,"middle_name":null,"last_name":"MCBRIDE","suffix":null,"suffix_display":null},"covered_position":"Senator
+        Blunt - Chief of Staff","new":true}],"government_entities":[]},{"general_issue_code":"TRD","general_issue_code_display":"Trade
+        (domestic/foreign)","description":"Farm Bill and issues related to trade","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":141889,"prefix":null,"prefix_display":null,"first_name":"STACY","nickname":null,"middle_name":null,"last_name":"MCBRIDE","suffix":null,"suffix_display":null},"covered_position":"Senator
+        Blunt - Chief of Staff","new":true}],"government_entities":[]},{"general_issue_code":"TAX","general_issue_code_display":"Taxation/Internal
+        Revenue Code","description":"Farm Bill and issues related to trade","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":141889,"prefix":null,"prefix_display":null,"first_name":"STACY","nickname":null,"middle_name":null,"last_name":"MCBRIDE","suffix":null,"suffix_display":null},"covered_position":"Senator
+        Blunt - Chief of Staff","new":true}],"government_entities":[]}],"conviction_disclosures":[],"foreign_entities":[],"affiliated_organizations":[]},{"url":"https://lda.senate.gov/api/v1/filings/61e0fece-8745-44b8-bafe-9210a68c1c50/","filing_uuid":"61e0fece-8745-44b8-bafe-9210a68c1c50","filing_type":"RR","filing_type_display":"Registration","filing_year":2024,"filing_period":"first_quarter","filing_period_display":"1st
+        Quarter (Jan 1 - Mar 31)","filing_document_url":"https://lda.senate.gov/filings/public/filing/61e0fece-8745-44b8-bafe-9210a68c1c50/print/","filing_document_content_type":"text/html","income":null,"expenses":null,"expenses_method":null,"expenses_method_display":null,"posted_by_name":"Amy
+        Blunt","dt_posted":"2024-01-05T11:10:26-05:00","termination_date":null,"registrant_country":"United
+        States of America","registrant_ppb_country":null,"registrant_address_1":"733
+        10th St. NW,","registrant_address_2":"Suite 900","registrant_different_address":null,"registrant_city":"Washington","registrant_state":"DC","registrant_zip":"20001","registrant":{"id":401104718,"url":"https://lda.senate.gov/api/v1/registrants/401104718/","house_registrant_id":401104718,"name":"HB
+        STRATEGIES","description":"Government Affairs Consulting","address_1":"733
+        10th St. NW,","address_2":"Suite 900","address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20001","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"WILLIAM
+        FOX","contact_telephone":"+1 202-899-3801","dt_updated":"2025-10-20T16:47:26.383255-04:00"},"client":{"id":58147,"url":"https://lda.senate.gov/api/v1/clients/58147/","client_id":58147,"name":"ALLIANCE
+        FOR BUSINESS PARTNERSHIP","general_description":"Public advocacy entity","client_government_entity":null,"client_self_select":false,"state":"DC","state_display":"District
+        of Columbia","country":"US","country_display":"United States of America","ppb_state":"DC","ppb_state_display":"District
+        of Columbia","ppb_country":"US","ppb_country_display":"United States of America","effective_date":"2024-01-05"},"lobbying_activities":[{"general_issue_code":"TAX","general_issue_code_display":"Taxation/Internal
+        Revenue Code","description":"Tax policy and IRS compliance","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":67397,"prefix":null,"prefix_display":null,"first_name":"GREGG","nickname":null,"middle_name":null,"last_name":"HARTLEY","suffix":null,"suffix_display":null},"covered_position":"Congressman
+        Blunt - Chief of Staff","new":true},{"lobbyist":{"id":147188,"prefix":"mr","prefix_display":"MR.","first_name":"ANDREW","nickname":"ANDY","middle_name":null,"last_name":"BLUNT","suffix":null,"suffix_display":null},"covered_position":null,"new":true}],"government_entities":[]}],"conviction_disclosures":[],"foreign_entities":[],"affiliated_organizations":[]},{"url":"https://lda.senate.gov/api/v1/filings/b38be15c-dc70-4e0c-b63f-3a9bc9b752fe/","filing_uuid":"b38be15c-dc70-4e0c-b63f-3a9bc9b752fe","filing_type":"RR","filing_type_display":"Registration","filing_year":2024,"filing_period":"first_quarter","filing_period_display":"1st
+        Quarter (Jan 1 - Mar 31)","filing_document_url":"https://lda.senate.gov/filings/public/filing/b38be15c-dc70-4e0c-b63f-3a9bc9b752fe/print/","filing_document_content_type":"text/html","income":null,"expenses":null,"expenses_method":null,"expenses_method_display":null,"posted_by_name":"TJ
+        Kennedy","dt_posted":"2024-01-06T12:05:09-05:00","termination_date":null,"registrant_country":"United
+        States of America","registrant_ppb_country":null,"registrant_address_1":"201
+        C Street SE","registrant_address_2":null,"registrant_different_address":null,"registrant_city":"Washington","registrant_state":"DC","registrant_zip":"20003","registrant":{"id":29777,"url":"https://lda.senate.gov/api/v1/registrants/29777/","house_registrant_id":30106,"name":"C2
+        STRATEGIES","description":"Consulting firm","address_1":"201 C Street SE","address_2":null,"address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20003","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"TJ
+        KENNEDY","contact_telephone":"+1 202-544-8555","dt_updated":"2025-07-09T14:14:51.700925-04:00"},"client":{"id":58158,"url":"https://lda.senate.gov/api/v1/clients/58158/","client_id":58158,"name":"TACTICAL
+        LIGHTING SYSTEMS","general_description":"Designs, develops and produces innovative
+        solutions for demanding military applications","client_government_entity":null,"client_self_select":false,"state":"IL","state_display":"Illinois","country":"US","country_display":"United
+        States of America","ppb_state":"IL","ppb_state_display":"Illinois","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2024-01-01"},"lobbying_activities":[{"general_issue_code":"DEF","general_issue_code_display":"Defense","description":"National
+        Defense Authorization Act; Department of Defense Appropriations; Defense policy
+        and acquisition matters","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":68626,"prefix":null,"prefix_display":null,"first_name":"BRENDAN","nickname":null,"middle_name":null,"last_name":"KRETZSCHMAR","suffix":null,"suffix_display":null},"covered_position":"LA
+        House Member Office (Holden)","new":true},{"lobbyist":{"id":68653,"prefix":null,"prefix_display":null,"first_name":"MATTHEW","nickname":null,"middle_name":null,"last_name":"FRIESEN","suffix":null,"suffix_display":null},"covered_position":null,"new":true}],"government_entities":[]}],"conviction_disclosures":[],"foreign_entities":[],"affiliated_organizations":[]},{"url":"https://lda.senate.gov/api/v1/filings/8afa6006-7369-4dc9-909f-41488b719335/","filing_uuid":"8afa6006-7369-4dc9-909f-41488b719335","filing_type":"RR","filing_type_display":"Registration","filing_year":2024,"filing_period":"first_quarter","filing_period_display":"1st
+        Quarter (Jan 1 - Mar 31)","filing_document_url":"https://lda.senate.gov/filings/public/filing/8afa6006-7369-4dc9-909f-41488b719335/print/","filing_document_content_type":"text/html","income":null,"expenses":null,"expenses_method":null,"expenses_method_display":null,"posted_by_name":"Geoff
+        Davis","dt_posted":"2024-01-06T12:37:42-05:00","termination_date":null,"registrant_country":"United
+        States of America","registrant_ppb_country":null,"registrant_address_1":"8828
+        Crick Aly","registrant_address_2":null,"registrant_different_address":null,"registrant_city":"Orlando","registrant_state":"FL","registrant_zip":"32927","registrant":{"id":401016871,"url":"https://lda.senate.gov/api/v1/registrants/401016871/","house_registrant_id":401016871,"name":"REPUBLIC
+        CONSULTING, LLC","description":"Republic is a government affairs firm.","address_1":"8828
+        Crick Aly","address_2":null,"address_3":null,"address_4":null,"city":"Orlando","state":"FL","state_display":"Florida","zip":"32827","country":"US","country_display":"United
+        States of America","ppb_country":"US","ppb_country_display":"United States
+        of America","contact_name":"GEOFF DAVIS","contact_telephone":"+1 859-630-3180","dt_updated":"2025-06-26T15:58:37.472067-04:00"},"client":{"id":58159,"url":"https://lda.senate.gov/api/v1/clients/58159/","client_id":58159,"name":"KAGWERKS","general_description":"Kagwerks
+        is a specialized defense technology firm supporting the U.S. Military.","client_government_entity":null,"client_self_select":false,"state":"WA","state_display":"Washington","country":"US","country_display":"United
+        States of America","ppb_state":"WA","ppb_state_display":"Washington","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2024-01-03"},"lobbying_activities":[{"general_issue_code":"DEF","general_issue_code_display":"Defense","description":"Monitor
+        Defense technology Policy.","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":138106,"prefix":"mr","prefix_display":"MR.","first_name":"ROBERT","nickname":null,"middle_name":"WAYNE","last_name":"HAWKINS","suffix":null,"suffix_display":null},"covered_position":null,"new":true},{"lobbyist":{"id":144821,"prefix":null,"prefix_display":null,"first_name":"KEVIN","nickname":null,"middle_name":null,"last_name":"COCHIE","suffix":null,"suffix_display":null},"covered_position":null,"new":true}],"government_entities":[]}],"conviction_disclosures":[],"foreign_entities":[],"affiliated_organizations":[]},{"url":"https://lda.senate.gov/api/v1/filings/c08d295c-7099-418b-9b3b-88932037f894/","filing_uuid":"c08d295c-7099-418b-9b3b-88932037f894","filing_type":"RR","filing_type_display":"Registration","filing_year":2024,"filing_period":"first_quarter","filing_period_display":"1st
+        Quarter (Jan 1 - Mar 31)","filing_document_url":"https://lda.senate.gov/filings/public/filing/c08d295c-7099-418b-9b3b-88932037f894/print/","filing_document_content_type":"text/html","income":null,"expenses":null,"expenses_method":null,"expenses_method_display":null,"posted_by_name":"Geoff
+        Davis","dt_posted":"2024-01-06T12:43:35-05:00","termination_date":null,"registrant_country":"United
+        States of America","registrant_ppb_country":null,"registrant_address_1":"8828
+        Crick Aly","registrant_address_2":null,"registrant_different_address":null,"registrant_city":"Orlando","registrant_state":"FL","registrant_zip":"32927","registrant":{"id":401016871,"url":"https://lda.senate.gov/api/v1/registrants/401016871/","house_registrant_id":401016871,"name":"REPUBLIC
+        CONSULTING, LLC","description":"Republic is a government affairs firm.","address_1":"8828
+        Crick Aly","address_2":null,"address_3":null,"address_4":null,"city":"Orlando","state":"FL","state_display":"Florida","zip":"32827","country":"US","country_display":"United
+        States of America","ppb_country":"US","ppb_country_display":"United States
+        of America","contact_name":"GEOFF DAVIS","contact_telephone":"+1 859-630-3180","dt_updated":"2025-06-26T15:58:37.472067-04:00"},"client":{"id":58160,"url":"https://lda.senate.gov/api/v1/clients/58160/","client_id":58160,"name":"ALARE
+        TECHNOLOGIES","general_description":"Alare is a specialized Drone technology
+        Firm supporting the DoD.","client_government_entity":null,"client_self_select":false,"state":"CA","state_display":"California","country":"US","country_display":"United
+        States of America","ppb_state":"CA","ppb_state_display":"California","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2024-01-03"},"lobbying_activities":[{"general_issue_code":"DEF","general_issue_code_display":"Defense","description":"Monitor
+        UAS and Drone related defense technology policy.","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":138106,"prefix":"mr","prefix_display":"MR.","first_name":"ROBERT","nickname":null,"middle_name":"WAYNE","last_name":"HAWKINS","suffix":null,"suffix_display":null},"covered_position":null,"new":true},{"lobbyist":{"id":144821,"prefix":null,"prefix_display":null,"first_name":"KEVIN","nickname":null,"middle_name":null,"last_name":"COCHIE","suffix":null,"suffix_display":null},"covered_position":null,"new":true}],"government_entities":[]}],"conviction_disclosures":[],"foreign_entities":[],"affiliated_organizations":[]},{"url":"https://lda.senate.gov/api/v1/filings/e75eecfb-98a3-4c62-b0dd-1d04d44fa135/","filing_uuid":"e75eecfb-98a3-4c62-b0dd-1d04d44fa135","filing_type":"RR","filing_type_display":"Registration","filing_year":2024,"filing_period":"first_quarter","filing_period_display":"1st
+        Quarter (Jan 1 - Mar 31)","filing_document_url":"https://lda.senate.gov/filings/public/filing/e75eecfb-98a3-4c62-b0dd-1d04d44fa135/print/","filing_document_content_type":"text/html","income":null,"expenses":null,"expenses_method":null,"expenses_method_display":null,"posted_by_name":"Mark
+        Burnham","dt_posted":"2024-01-08T11:24:00-05:00","termination_date":null,"registrant_country":"United
+        States of America","registrant_ppb_country":null,"registrant_address_1":"1717
+        Pennsylvania Ave, NW","registrant_address_2":"Suite 1025","registrant_different_address":null,"registrant_city":"Washington","registrant_state":"MI","registrant_zip":"20006","registrant":{"id":401105302,"url":"https://lda.senate.gov/api/v1/registrants/401105302/","house_registrant_id":401105302,"name":"THE
+        BURNHAM GROUP LLC","description":"Lobbying and consulting firm","address_1":"1717
+        Pennsylvania Ave, NW","address_2":"Suite 1025","address_3":null,"address_4":null,"city":"Washington","state":"MI","state_display":"Michigan","zip":"20006","country":"US","country_display":"United
+        States of America","ppb_country":"US","ppb_country_display":"United States
+        of America","contact_name":"MARK BURNHAM","contact_telephone":"+1 202-559-8559","dt_updated":"2025-07-14T10:10:55.823356-04:00"},"client":{"id":58164,"url":"https://lda.senate.gov/api/v1/clients/58164/","client_id":58164,"name":"SIENA
+        HEIGHTS UNIVERSITY","general_description":"Siena Heights University is a private,
+        non-profit four-year university","client_government_entity":null,"client_self_select":false,"state":"MI","state_display":"Michigan","country":"US","country_display":"United
+        States of America","ppb_state":"MI","ppb_state_display":"Michigan","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2024-01-04"},"lobbying_activities":[{"general_issue_code":"BUD","general_issue_code_display":"Budget/Appropriations","description":"Funding
+        for Higher Education Financial Aid programs Support for Community Projects
+        and workforce development","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":70906,"prefix":null,"prefix_display":null,"first_name":"MARK","nickname":null,"middle_name":null,"last_name":"BURNHAM","suffix":null,"suffix_display":null},"covered_position":null,"new":true}],"government_entities":[]},{"general_issue_code":"EDU","general_issue_code_display":"Education","description":"Funding
+        for Higher Education Financial Aid programs Support for Community Projects
+        and workforce development","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":70906,"prefix":null,"prefix_display":null,"first_name":"MARK","nickname":null,"middle_name":null,"last_name":"BURNHAM","suffix":null,"suffix_display":null},"covered_position":null,"new":true}],"government_entities":[]}],"conviction_disclosures":[],"foreign_entities":[],"affiliated_organizations":[]},{"url":"https://lda.senate.gov/api/v1/filings/b655b893-a473-49a8-8fc5-31f3431bfd36/","filing_uuid":"b655b893-a473-49a8-8fc5-31f3431bfd36","filing_type":"RR","filing_type_display":"Registration","filing_year":2024,"filing_period":"first_quarter","filing_period_display":"1st
+        Quarter (Jan 1 - Mar 31)","filing_document_url":"https://lda.senate.gov/filings/public/filing/b655b893-a473-49a8-8fc5-31f3431bfd36/print/","filing_document_content_type":"text/html","income":null,"expenses":null,"expenses_method":null,"expenses_method_display":null,"posted_by_name":"Ryan
+        Thompson","dt_posted":"2024-01-08T12:34:14-05:00","termination_date":null,"registrant_country":"United
+        States of America","registrant_ppb_country":null,"registrant_address_1":"9428
+        Mount Vernon Circle","registrant_address_2":null,"registrant_different_address":null,"registrant_city":"Alexandria","registrant_state":"VA","registrant_zip":"22309","registrant":{"id":401105683,"url":"https://lda.senate.gov/api/v1/registrants/401105683/","house_registrant_id":401105683,"name":"LIVE
+        OAK STRATEGIES","description":"Government affairs and consulting","address_1":"9428
+        Mount Vernon Circle","address_2":null,"address_3":null,"address_4":null,"city":"Alexandria","state":"VA","state_display":"Virginia","zip":"22309","country":"US","country_display":"United
+        States of America","ppb_country":"US","ppb_country_display":"United States
+        of America","contact_name":"RYAN THOMPSON","contact_telephone":"+1 214-399-9639","dt_updated":"2025-07-03T11:49:00.076920-04:00"},"client":{"id":58166,"url":"https://lda.senate.gov/api/v1/clients/58166/","client_id":58166,"name":"R2C,
+        INC.","general_description":"Defense technologies","client_government_entity":null,"client_self_select":false,"state":"AL","state_display":"Alabama","country":"US","country_display":"United
+        States of America","ppb_state":"AL","ppb_state_display":"Alabama","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2024-01-01"},"lobbying_activities":[{"general_issue_code":"DEF","general_issue_code_display":"Defense","description":"Issues
+        related to high quality defense technologies in support of servicemembers","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":141881,"prefix":null,"prefix_display":null,"first_name":"MCKENZIE","nickname":null,"middle_name":null,"last_name":"BOBBITT","suffix":null,"suffix_display":null},"covered_position":"Rep.
+        David Kustoff: Legislative Correspondent; Department of Energy, Office of
+        Policy: Special Assistant; Sen. John Thune: Intern; Rep. Ralph Hall: Intern","new":true},{"lobbyist":{"id":73605,"prefix":null,"prefix_display":null,"first_name":"RYAN","nickname":null,"middle_name":null,"last_name":"THOMPSON","suffix":null,"suffix_display":null},"covered_position":"Rep.
+        Ron Wright: Chief of Staff; Rep. Joe Barton: Chief of Staff, Deputy Chief
+        of Staff, Special Assistant","new":true}],"government_entities":[]}],"conviction_disclosures":[],"foreign_entities":[],"affiliated_organizations":[]},{"url":"https://lda.senate.gov/api/v1/filings/63adc806-918b-4e79-9834-776a6e472bb7/","filing_uuid":"63adc806-918b-4e79-9834-776a6e472bb7","filing_type":"RR","filing_type_display":"Registration","filing_year":2024,"filing_period":"first_quarter","filing_period_display":"1st
+        Quarter (Jan 1 - Mar 31)","filing_document_url":"https://lda.senate.gov/filings/public/filing/63adc806-918b-4e79-9834-776a6e472bb7/print/","filing_document_content_type":"text/html","income":null,"expenses":null,"expenses_method":null,"expenses_method_display":null,"posted_by_name":"Michael
+        Brody","dt_posted":"2024-01-08T13:10:15-05:00","termination_date":null,"registrant_country":"United
+        States of America","registrant_ppb_country":null,"registrant_address_1":"3299
+        K street NW Suite 401","registrant_address_2":null,"registrant_different_address":null,"registrant_city":"Washington","registrant_state":"DC","registrant_zip":"20007","registrant":{"id":323318,"url":"https://lda.senate.gov/api/v1/registrants/323318/","house_registrant_id":39886,"name":"BRODY
+        GROUP L.L.C. PUBLIC AFFAIRS","description":"Public Affairs","address_1":"3299
+        K street NW Suite 401","address_2":null,"address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20007","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"MR.
+        MIKE BRODY","contact_telephone":"+1 202-640-9135","dt_updated":"2025-07-28T13:29:38.980622-04:00"},"client":{"id":58168,"url":"https://lda.senate.gov/api/v1/clients/58168/","client_id":58168,"name":"ARCHER
+        AVIATION INC.","general_description":"Archer Aviation develops technologies
+        that enable the commercialization of eVTOL aircraft.","client_government_entity":null,"client_self_select":false,"state":"CA","state_display":"California","country":"US","country_display":"United
+        States of America","ppb_state":"CA","ppb_state_display":"California","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2024-01-08"},"lobbying_activities":[{"general_issue_code":"BUD","general_issue_code_display":"Budget/Appropriations","description":"Fiscal
+        Year 2025 Defense Authorization and Appropriation bills. Issues related to
+        eVTOL.","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":47053,"prefix":"mr","prefix_display":"MR.","first_name":"MICHAEL","nickname":null,"middle_name":"ANDREW","last_name":"BRODY","suffix":null,"suffix_display":null},"covered_position":null,"new":true}],"government_entities":[]},{"general_issue_code":"AER","general_issue_code_display":"Aerospace","description":"Fiscal
+        Year 2025 Defense Authorization and Appropriation bills. Issues related to
+        eVTOL.","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":47053,"prefix":"mr","prefix_display":"MR.","first_name":"MICHAEL","nickname":null,"middle_name":"ANDREW","last_name":"BRODY","suffix":null,"suffix_display":null},"covered_position":null,"new":true}],"government_entities":[]}],"conviction_disclosures":[],"foreign_entities":[],"affiliated_organizations":[]},{"url":"https://lda.senate.gov/api/v1/filings/dc178d70-4c32-4eff-92e6-8810b4f609ed/","filing_uuid":"dc178d70-4c32-4eff-92e6-8810b4f609ed","filing_type":"RR","filing_type_display":"Registration","filing_year":2024,"filing_period":"first_quarter","filing_period_display":"1st
+        Quarter (Jan 1 - Mar 31)","filing_document_url":"https://lda.senate.gov/filings/public/filing/dc178d70-4c32-4eff-92e6-8810b4f609ed/print/","filing_document_content_type":"text/html","income":null,"expenses":null,"expenses_method":null,"expenses_method_display":null,"posted_by_name":"Alex
+        Teel","dt_posted":"2024-01-08T13:51:48-05:00","termination_date":null,"registrant_country":"United
+        States of America","registrant_ppb_country":null,"registrant_address_1":"1133
+        Connecticut Ave., NW","registrant_address_2":"Suite 620","registrant_different_address":null,"registrant_city":"Washington","registrant_state":"DC","registrant_zip":"20036","registrant":{"id":84775,"url":"https://lda.senate.gov/api/v1/registrants/84775/","house_registrant_id":36473,"name":"RICH
+        FEUER ANDERSON","description":"Government relations firm","address_1":"1133
+        Connecticut Ave., NW","address_2":"Suite 620","address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20036","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"ALEX
+        TEEL","contact_telephone":"+1 205-515-1851","dt_updated":"2025-07-23T14:46:41.495400-04:00"},"client":{"id":58170,"url":"https://lda.senate.gov/api/v1/clients/58170/","client_id":58170,"name":"ALLIANCE
+        FOR BUSINESS PARTNERSHIPS","general_description":"Coalition of partnership
+        structured businesses.","client_government_entity":null,"client_self_select":false,"state":"DC","state_display":"District
+        of Columbia","country":"US","country_display":"United States of America","ppb_state":"DC","ppb_state_display":"District
+        of Columbia","ppb_country":"US","ppb_country_display":"United States of America","effective_date":"2024-01-01"},"lobbying_activities":[{"general_issue_code":"TAX","general_issue_code_display":"Taxation/Internal
+        Revenue Code","description":"Issues related to tax compliance.","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":143245,"prefix":null,"prefix_display":null,"first_name":"JUSTIN","nickname":null,"middle_name":null,"last_name":"SOK","suffix":null,"suffix_display":null},"covered_position":"Sr
+        Advisor Leg Affairs, US Treasury (June 2018 - January 2020); Legislative Director
+        Rep Jason Smith (2013-2018)","new":true},{"lobbyist":{"id":139662,"prefix":"mr","prefix_display":"MR.","first_name":"JARED","nickname":null,"middle_name":"CODY","last_name":"SAWYER","suffix":null,"suffix_display":null},"covered_position":"Deputy
+        Assistant Secretary, Treasury Department; Senior Counsel, Senate Banking Committee;
+        Professional Staff Member, House Financial Services Committee.","new":true}],"government_entities":[]}],"conviction_disclosures":[],"foreign_entities":[],"affiliated_organizations":[]},{"url":"https://lda.senate.gov/api/v1/filings/fe906201-305e-499c-b98a-cc8f9fa8cfe7/","filing_uuid":"fe906201-305e-499c-b98a-cc8f9fa8cfe7","filing_type":"1TY","filing_type_display":"1st
+        Quarter - Termination (No Activity)","filing_year":2024,"filing_period":"first_quarter","filing_period_display":"1st
+        Quarter (Jan 1 - Mar 31)","filing_document_url":"https://lda.senate.gov/filings/public/filing/fe906201-305e-499c-b98a-cc8f9fa8cfe7/print/","filing_document_content_type":"text/html","income":null,"expenses":null,"expenses_method":null,"expenses_method_display":null,"posted_by_name":"Eric
+        Bunning","dt_posted":"2024-01-08T15:25:27-05:00","termination_date":"2024-01-01","registrant_country":"United
+        States of America","registrant_ppb_country":null,"registrant_address_1":"2140
+        Woodmont Drive","registrant_address_2":null,"registrant_different_address":false,"registrant_city":"Lexington","registrant_state":"KY","registrant_zip":"40502","registrant":{"id":401106898,"url":"https://lda.senate.gov/api/v1/registrants/401106898/","house_registrant_id":null,"name":"EB
+        CONSULTING","description":null,"address_1":"2140 Woodmont Drive","address_2":null,"address_3":null,"address_4":null,"city":"Lexington","state":"KY","state_display":"Kentucky","zip":"40502","country":"US","country_display":"United
+        States of America","ppb_country":"US","ppb_country_display":"United States
+        of America","contact_name":"ERIC BUNNING","contact_telephone":"+1 859-361-0560","dt_updated":"2025-08-19T12:28:39.618690-04:00"},"client":{"id":53583,"url":"https://lda.senate.gov/api/v1/clients/53583/","client_id":53583,"name":"FRANCIS
+        ENERGY","general_description":"Electric vehicle infrastructure developer","client_government_entity":null,"client_self_select":false,"state":"OK","state_display":"Oklahoma","country":"US","country_display":"United
+        States of America","ppb_state":"KY","ppb_state_display":"Kentucky","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2022-12-05"},"lobbying_activities":[],"conviction_disclosures":[],"foreign_entities":[],"affiliated_organizations":[]},{"url":"https://lda.senate.gov/api/v1/filings/7466c7ee-8bd1-4496-94df-5d5322d25e2d/","filing_uuid":"7466c7ee-8bd1-4496-94df-5d5322d25e2d","filing_type":"1A","filing_type_display":"1st
+        Quarter - Amendment","filing_year":2024,"filing_period":"first_quarter","filing_period_display":"1st
+        Quarter (Jan 1 - Mar 31)","filing_document_url":"https://lda.senate.gov/filings/public/filing/7466c7ee-8bd1-4496-94df-5d5322d25e2d/print/","filing_document_content_type":"text/html","income":null,"expenses":null,"expenses_method":"A","expenses_method_display":"A","posted_by_name":"Jonathon
+        Angel Ramos","dt_posted":"2024-01-08T15:51:05-05:00","termination_date":null,"registrant_country":"United
+        States of America","registrant_ppb_country":"United States of America","registrant_address_1":"3686
+        wightman st","registrant_address_2":null,"registrant_different_address":false,"registrant_city":"San
+        diego","registrant_state":"CA","registrant_zip":"92104","registrant":{"id":401108033,"url":"https://lda.senate.gov/api/v1/registrants/401108033/","house_registrant_id":null,"name":"BCE
+        CORPORATION PMC","description":null,"address_1":"3686 wightman st","address_2":null,"address_3":null,"address_4":null,"city":"San
+        diego","state":"CA","state_display":"California","zip":"92104","country":"US","country_display":"United
+        States of America","ppb_country":"US","ppb_country_display":"United States
+        of America","contact_name":"JONATHON RAMOS","contact_telephone":"+1 310-779-1342","dt_updated":"2024-03-19T16:39:42.141918-04:00"},"client":{"id":57863,"url":"https://lda.senate.gov/api/v1/clients/57863/","client_id":57863,"name":"BCE
+        CORPORATION PMC","general_description":"Private Corporation , legislative
+        Body","client_government_entity":null,"client_self_select":true,"state":"CA","state_display":"California","country":"US","country_display":"United
+        States of America","ppb_state":"CA","ppb_state_display":"California","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2023-11-27"},"lobbying_activities":[{"general_issue_code":"LAW","general_issue_code_display":"Law
+        Enforcement/Crime/Criminal Justice","description":"Nationwide and international
+        fraud organization Caught Host City San Diego CA , Somalia, South Africa,
+        Jamaica, Dominican Republic, Nigeria, Isreal , Haiti , Bahamas Also organized
+        by Barrack Obama Election fraud Money laundering at vacation resorts using
+        identity theft documents And business identity theft documents DS100-100w
+        directional speaker device used by bias listed above For Havana Syndrome After
+        doing a private investigation. Sextortion crimes with public corruption to
+        coverup their crimes With federal agency support with clandestine Black Lives
+        Matter is involved there involvement with fraud organization there activities
+        are Malicious acts of Surveillance,Profiling misuse of information, Conditioning,
+        Anchoring, Mobbing gang stalking, Street theatre, The use of directional speakers,
+        Baiting or entrapment, Gaslighting, Blackbag jobs, Propaganda and disinformation,
+        smearing campaigns, fraud investment schemes Most of the organization is located
+        in Skyline, Emerald Hills, Lincoln Park, City Heights San Diego CA they think
+        they have control over everything because they do fraud but in reality they
+        have no control over anything. These groups create fake links to pretend there
+        something there not then steal data information from there audience that they
+        created to victimize themselves to hide from the FBI. Also there biggest schemes
+        is forging California drivers license and identification cards printing. This
+        group is responsible for , PPP loans , phone spoofing, SIM card swap, social
+        media accounts to phish. Hotel motel credit card and ID copying and stealing
+        at most of the hotels in San Diego, California that they pull exchange for
+        drugs while the other groups build credit files under the victims names. The
+        fraud organization use Google voice connected to victims phone numbers even
+        mimicking military personnel bank accounts and civilian bank accounts while
+        they data mine information. Even the prostitution ring in National City and
+        El Cajon Blvd San Diego is stealing information if there not making money
+        they steal and sell MD20s and other drugs. Most of the hotels and motels are
+        taken over by these groups barging and entering and then doing fraud using
+        hotel IP addresses and video game server addresses. The fraud organization
+        linked to Atlanta scapegoats by victimizing themselves to coverup their schemes.
+        The false victimized themselves in anyway possible so the FBI and secret service
+        can focus on the scam case the fraud organization created. There counterfeit
+        money printing in Texas and Atlanta GA and now there attempting counterfeit
+        bills in San Diego California. The group Also abuse of spoofing House of Representatives
+        office phone numbers using voice changers that they learned from the Jamaican
+        fraud organization in Miami and Alabama This group also stole hospital records
+        and documents inkjet printing schemes, Cryptocurrency fraud schemes. Even
+        stole EBT from victims and passed information to Los Angeles connections including
+        Las Vegas connections. They also created generic ALPHV Blackcat software.
+        And still used VPNs that can be traced. This group is at it again with fraud
+        trying to forge and steal business information to coverup there PPP loan scams
+        and these groups are also making fake power of attorney letters to claim business
+        taxs from small businesses. These people and groups would cover up there crimes
+        by building an audience and a lie. Also the PPP loan and Pandemic benefits
+        fraud! Since 2020 the suspects organization caught! Its time everyone knows
+        the truth and why they hide behind others. A Somalian fraud group was gathering
+        identity theft information for local blood and crip gang members and wobblers
+        to start creating pandemic benefits fraud accounts nationwide they both shared
+        the money over $20,000,000 stolen benefits. The Somalian Group collected business
+        information while the wobblers did the work for 20% of the money. Explains
+        Hamas funding. The fraud organization would target there victims to steal
+        from there victims. location in skyline, city heights, emerald hills, Lincoln
+        Park California is part of the Money laundering in the US. Virgin Islands
+        is through shareholders with fake business names at vacation resorts all over
+        the British and United States Virgin Islands. Along with other chapters. Fraud
+        organization chapter is in San Diego linked to The Virgin Islands There''s
+        more then one chapter nationwide linked to the Virgin Islands there bias is
+        of a darker origin. The San Diego fraud chapter mentioned it on the DS100-100w
+        device they like to use Another fraud alert ( the fake experiment scam) Anyone
+        receiving texts and being told to stay quiet about it? That''s an invasion
+        of privacy just to text random people with offers and gigs like listed below!
+        Other news there is a group of people getting $15 or more a day and gift cards
+        to perpetuate for them as well. If you''re getting paid that way I suggest
+        you leave that gig. Text messages to go to a place at a certain time and what
+        to say to the victims that''s baiting and entrapment tactics. The text message
+        mentioned going to a location and what to say and do to a fake suspect that
+        the fraud organization picked out to steal identity from. The group paying
+        is the fraud ring chapter giving text messages out. Using Chat GPT all information
+        is accurate","foreign_entity_issues":"","lobbyists":[{"lobbyist":{"id":144829,"prefix":null,"prefix_display":null,"first_name":"N
+        A","nickname":null,"middle_name":"/ N /","last_name":"A","suffix":null,"suffix_display":null},"covered_position":null,"new":false}],"government_entities":[{"id":44,"name":"Central
+        Intelligence Agency (CIA)"},{"id":120,"name":"Defense Intelligence Agency
+        (DIA)"},{"id":124,"name":"Defense Security Assistance Agency"},{"id":155,"name":"Drug
+        Enforcement Administration (DEA)"},{"id":150,"name":"Federal Bureau of Investigation
+        (FBI)"},{"id":53,"name":"Federal Communications Commission (FCC)"},{"id":235,"name":"Financial
+        Crimes Enforcement Network (FinCEN)"},{"id":5,"name":"Government Accountability
+        Office (GAO)"},{"id":201,"name":"Homeland Security, Dept of (DHS)"},{"id":2,"name":"HOUSE
+        OF REPRESENTATIVES"},{"id":21,"name":"Office of Science & Technology Policy
+        (OSTP)"},{"id":246,"name":"Pentagon Force Protection Agency"},{"id":1,"name":"SENATE"},{"id":96,"name":"U.S.
+        Information Agency (USIA)"},{"id":152,"name":"U.S. Marshals Service"},{"id":191,"name":"U.S.
+        Secret Service"},{"id":12,"name":"White House Office"}]}],"conviction_disclosures":[],"foreign_entities":[],"affiliated_organizations":[]},{"url":"https://lda.senate.gov/api/v1/filings/12b18971-09ec-4793-be17-53a40ef1ef27/","filing_uuid":"12b18971-09ec-4793-be17-53a40ef1ef27","filing_type":"RR","filing_type_display":"Registration","filing_year":2024,"filing_period":"first_quarter","filing_period_display":"1st
+        Quarter (Jan 1 - Mar 31)","filing_document_url":"https://lda.senate.gov/filings/public/filing/12b18971-09ec-4793-be17-53a40ef1ef27/print/","filing_document_content_type":"text/html","income":null,"expenses":null,"expenses_method":null,"expenses_method_display":null,"posted_by_name":"Kyle
+        Mulroy","dt_posted":"2024-01-09T07:50:03-05:00","termination_date":null,"registrant_country":"United
+        States of America","registrant_ppb_country":null,"registrant_address_1":"1001
+        G Street NW","registrant_address_2":"Suite 800","registrant_different_address":null,"registrant_city":"Washington","registrant_state":"DC","registrant_zip":"20001","registrant":{"id":305236,"url":"https://lda.senate.gov/api/v1/registrants/305236/","house_registrant_id":38244,"name":"WASHINGTON
+        STRATEGIC CONSULTING","description":"Government Affairs","address_1":"1001
+        G Street NW","address_2":"Suite 800","address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20001","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"KYLE
+        T. MULROY","contact_telephone":"+1 301-502-2108","dt_updated":"2025-07-13T08:04:45.273317-04:00"},"client":{"id":58181,"url":"https://lda.senate.gov/api/v1/clients/58181/","client_id":58181,"name":"MINTZ
+        LEVIN (ON BEHALF OF FULGENT GENETICS, INC.)","general_description":"Healthcare","client_government_entity":null,"client_self_select":false,"state":"CA","state_display":"California","country":"US","country_display":"United
+        States of America","ppb_state":"CA","ppb_state_display":"California","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2024-01-01"},"lobbying_activities":[{"general_issue_code":"HCR","general_issue_code_display":"Health
+        Issues","description":"Uninsured Program Fund (Pub. L. 116-136, Pub. L. 116-260)","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":10114,"prefix":"mr","prefix_display":"MR.","first_name":"KYLE","nickname":null,"middle_name":"T","last_name":"MULROY","suffix":null,"suffix_display":null},"covered_position":"Founder","new":true}],"government_entities":[]}],"conviction_disclosures":[],"foreign_entities":[],"affiliated_organizations":[]},{"url":"https://lda.senate.gov/api/v1/filings/d294653c-a8e6-4313-b722-d8b8e55278b5/","filing_uuid":"d294653c-a8e6-4313-b722-d8b8e55278b5","filing_type":"RR","filing_type_display":"Registration","filing_year":2024,"filing_period":"first_quarter","filing_period_display":"1st
+        Quarter (Jan 1 - Mar 31)","filing_document_url":"https://lda.senate.gov/filings/public/filing/d294653c-a8e6-4313-b722-d8b8e55278b5/print/","filing_document_content_type":"text/html","income":null,"expenses":null,"expenses_method":null,"expenses_method_display":null,"posted_by_name":"Isabella
+        Quinn","dt_posted":"2024-01-09T09:37:32-05:00","termination_date":null,"registrant_country":"United
+        States of America","registrant_ppb_country":null,"registrant_address_1":"1201
+        Pennsylvania Avenue, NW","registrant_address_2":"Suite 800","registrant_different_address":null,"registrant_city":"Washington","registrant_state":"DC","registrant_zip":"20004","registrant":{"id":41454,"url":"https://lda.senate.gov/api/v1/registrants/41454/","house_registrant_id":30771,"name":"WILLIAMS
+        AND JENSEN, PLLC","description":"Lobbying Law Firm","address_1":"1201 Pennsylvania
+        Avenue, NW","address_2":"Suite 800","address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20004","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"ISABELLA
+        QUINN","contact_telephone":"+1 202-659-8201","dt_updated":"2025-07-31T15:31:21.078668-04:00"},"client":{"id":58182,"url":"https://lda.senate.gov/api/v1/clients/58182/","client_id":58182,"name":"LIBERTY
+        UNIVERSITY","general_description":"Higher education","client_government_entity":null,"client_self_select":false,"state":"VA","state_display":"Virginia","country":"US","country_display":"United
+        States of America","ppb_state":"VA","ppb_state_display":"Virginia","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2024-01-01"},"lobbying_activities":[{"general_issue_code":"EDU","general_issue_code_display":"Education","description":"Advocate
+        for policies supporting higher education and access to higher education compliance
+        matters.","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":48784,"prefix":"mr","prefix_display":"MR.","first_name":"MATTHEW","nickname":null,"middle_name":"B","last_name":"HOEKSTRA","suffix":null,"suffix_display":null},"covered_position":null,"new":true},{"lobbyist":{"id":14682,"prefix":null,"prefix_display":null,"first_name":"SUSAN","nickname":null,"middle_name":null,"last_name":"HIRSCHMANN","suffix":null,"suffix_display":null},"covered_position":null,"new":true}],"government_entities":[]}],"conviction_disclosures":[],"foreign_entities":[],"affiliated_organizations":[]},{"url":"https://lda.senate.gov/api/v1/filings/2b8e5769-80f4-46b1-8f1e-620c819a825a/","filing_uuid":"2b8e5769-80f4-46b1-8f1e-620c819a825a","filing_type":"RR","filing_type_display":"Registration","filing_year":2024,"filing_period":"first_quarter","filing_period_display":"1st
+        Quarter (Jan 1 - Mar 31)","filing_document_url":"https://lda.senate.gov/filings/public/filing/2b8e5769-80f4-46b1-8f1e-620c819a825a/print/","filing_document_content_type":"text/html","income":null,"expenses":null,"expenses_method":null,"expenses_method_display":null,"posted_by_name":"Jonathan
+        McCollum","dt_posted":"2024-01-09T11:20:46-05:00","termination_date":null,"registrant_country":"United
+        States of America","registrant_ppb_country":null,"registrant_address_1":"201
+        Massachusetts Ave NE Suite C5","registrant_address_2":null,"registrant_different_address":null,"registrant_city":"Washington","registrant_state":"DC","registrant_zip":"20002","registrant":{"id":11628,"url":"https://lda.senate.gov/api/v1/registrants/11628/","house_registrant_id":30029,"name":"DAVIDOFF
+        HUTCHER & CITRON, LLP","description":"Law and Lobbying Firm","address_1":"201
+        Massachusetts Ave NE Suite C5","address_2":null,"address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20002","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"JONATHAN
+        MCCOLLUM","contact_telephone":"+1 202-347-1117","dt_updated":"2025-07-28T14:43:39.300698-04:00"},"client":{"id":58184,"url":"https://lda.senate.gov/api/v1/clients/58184/","client_id":58184,"name":"THE
+        BROOKLYN HOSPITAL CENTER","general_description":"Hospital","client_government_entity":null,"client_self_select":false,"state":"NY","state_display":"New
+        York","country":"US","country_display":"United States of America","ppb_state":"NY","ppb_state_display":"New
+        York","ppb_country":"US","ppb_country_display":"United States of America","effective_date":"2024-01-02"},"lobbying_activities":[{"general_issue_code":"HCR","general_issue_code_display":"Health
+        Issues","description":"Policy issues regarding safety-net hospitals, population
+        health management, healthcare in underserved communities.","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":74017,"prefix":null,"prefix_display":null,"first_name":"JAMES","nickname":null,"middle_name":null,"last_name":"ROACH","suffix":null,"suffix_display":null},"covered_position":null,"new":true},{"lobbyist":{"id":57826,"prefix":null,"prefix_display":null,"first_name":"JONATHAN","nickname":null,"middle_name":null,"last_name":"MCCOLLUM","suffix":null,"suffix_display":null},"covered_position":"Legislative
+        Assistant to US Senator","new":true}],"government_entities":[]}],"conviction_disclosures":[],"foreign_entities":[],"affiliated_organizations":[]},{"url":"https://lda.senate.gov/api/v1/filings/c49df2d3-3609-4924-8b9c-c4315b093f36/","filing_uuid":"c49df2d3-3609-4924-8b9c-c4315b093f36","filing_type":"RR","filing_type_display":"Registration","filing_year":2024,"filing_period":"first_quarter","filing_period_display":"1st
+        Quarter (Jan 1 - Mar 31)","filing_document_url":"https://lda.senate.gov/filings/public/filing/c49df2d3-3609-4924-8b9c-c4315b093f36/print/","filing_document_content_type":"text/html","income":null,"expenses":null,"expenses_method":null,"expenses_method_display":null,"posted_by_name":"Palmer
+        Schoening","dt_posted":"2024-01-09T12:57:51-05:00","termination_date":null,"registrant_country":"United
+        States of America","registrant_ppb_country":null,"registrant_address_1":"600
+        New Hampshire Ave. NW","registrant_address_2":"Suite 610","registrant_different_address":null,"registrant_city":"Washington","registrant_state":"DC","registrant_zip":"20037","registrant":{"id":400954758,"url":"https://lda.senate.gov/api/v1/registrants/400954758/","house_registrant_id":400954758,"name":"SCHOENING
+        STRATEGIES, LLC","description":"Lobbying Firm","address_1":"600 New Hampshire
+        Ave. NW","address_2":"Suite 610","address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20037","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"PALMER
+        SCHOENING","contact_telephone":"+1 202-787-1399","dt_updated":"2025-10-21T11:49:38.293737-04:00"},"client":{"id":58185,"url":"https://lda.senate.gov/api/v1/clients/58185/","client_id":58185,"name":"CAFFERTY
+        COMMERCIAL REAL ESTATE SERVICES","general_description":"Commercial real estate","client_government_entity":null,"client_self_select":false,"state":"VA","state_display":"Virginia","country":"US","country_display":"United
+        States of America","ppb_state":"VA","ppb_state_display":"Virginia","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2024-01-01"},"lobbying_activities":[{"general_issue_code":"TAX","general_issue_code_display":"Taxation/Internal
+        Revenue Code","description":"Tax matters affecting the commercial real estate
+        industry.","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":144841,"prefix":null,"prefix_display":null,"first_name":"PALMER","nickname":null,"middle_name":null,"last_name":"SCHOENING","suffix":null,"suffix_display":null},"covered_position":null,"new":true},{"lobbyist":{"id":142438,"prefix":null,"prefix_display":null,"first_name":"JOSEPHINE","nickname":null,"middle_name":null,"last_name":"GALLAGHER","suffix":null,"suffix_display":null},"covered_position":null,"new":true}],"government_entities":[]}],"conviction_disclosures":[],"foreign_entities":[],"affiliated_organizations":[]}]}'
+  recorded_at: 2025-12-08 19:58:15
+recorded_with: VCR-vcr/2.0.0

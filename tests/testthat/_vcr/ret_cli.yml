@@ -1,0 +1,32 @@
+http_interactions:
+- request:
+    method: GET
+    uri: https://lda.senate.gov/api/v1/clients/44400//
+  response:
+    status: 200
+    headers:
+      Server: gunicorn
+      Content-Type: application/json
+      Allow: GET
+      Content-Length: '586'
+      Content-Encoding: gzip
+      x-frame-options: DENY
+      x-content-type-options: nosniff
+      referrer-policy: same-origin
+      cross-origin-opener-policy: same-origin
+      Date: Mon, 08 Dec 2025 19:53:01 GMT
+      Connection: keep-alive
+      Vary: Accept-Encoding
+      Strict-Transport-Security: max-age=31536000
+    body:
+      string: '{"id":44400,"url":"https://lda.senate.gov/api/v1/clients/44400/","client_id":44400,"name":"BLUECROSS
+        BLUESHIELD OF TENNESSEE, INC.","general_description":"Health benefit plan
+        company","client_government_entity":null,"client_self_select":false,"state":"TN","state_display":"Tennessee","country":"US","country_display":"United
+        States of America","ppb_state":"TN","ppb_state_display":"Tennessee","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2022-02-09","registrant":{"id":401105130,"url":"https://lda.senate.gov/api/v1/registrants/401105130/","house_registrant_id":401105130,"name":"BRIDGE
+        PUBLIC AFFAIRS, LLC","description":"Government Relations and Public Affairs","address_1":"P.O.
+        Box 171","address_2":null,"address_3":null,"address_4":null,"city":"Chattanooga","state":"TN","state_display":"Tennessee","zip":"37401","country":"US","country_display":"United
+        States of America","ppb_country":"US","ppb_country_display":"United States
+        of America","contact_name":"PRESLEY ABNEY","contact_telephone":"+1 423-771-4272","dt_updated":"2025-07-24T11:34:51.894845-04:00"}}'
+  recorded_at: 2025-12-08 19:53:01
+recorded_with: VCR-vcr/2.0.0

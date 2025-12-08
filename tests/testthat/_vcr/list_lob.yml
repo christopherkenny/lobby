@@ -1,0 +1,134 @@
+http_interactions:
+- request:
+    method: GET
+    uri: https://lda.senate.gov/api/v1/lobbyists
+  response:
+    status: 200
+    headers:
+      Server: gunicorn
+      Content-Type: application/json
+      Allow: GET
+      Content-Length: '3440'
+      Content-Encoding: gzip
+      x-frame-options: DENY
+      x-content-type-options: nosniff
+      referrer-policy: same-origin
+      cross-origin-opener-policy: same-origin
+      Date: Mon, 08 Dec 2025 19:58:15 GMT
+      Connection: keep-alive
+      Vary: Accept-Encoding
+      Strict-Transport-Security: max-age=31536000
+    body:
+      string: '{"count":86767,"next":"https://lda.senate.gov/api/v1/lobbyists/?page=2","previous":null,"results":[{"id":1,"prefix":null,"prefix_display":null,"first_name":"ALICE","nickname":null,"middle_name":null,"last_name":"DUCQ","suffix":null,"suffix_display":null,"registrant":{"id":51968,"url":"https://lda.senate.gov/api/v1/registrants/51968/","house_registrant_id":34851,"name":"MAYBERRY
+        & ASSOCIATES, LLC","description":null,"address_1":"131 EAST BROAD STREET,
+        #206","address_2":null,"address_3":null,"address_4":null,"city":"FALLS CHURCH","state":"VA","state_display":"Virginia","zip":"22046","country":"US","country_display":"United
+        States of America","ppb_country":"US","ppb_country_display":"United States
+        of America","contact_name":"MR. PETER MAYBERRY","contact_telephone":"+1 703-538-8804","dt_updated":"2022-04-06T16:07:54.085048-04:00"}},{"id":2,"prefix":null,"prefix_display":null,"first_name":"TOBIN","nickname":null,"middle_name":"L","last_name":"SMITH","suffix":null,"suffix_display":null,"registrant":{"id":23964,"url":"https://lda.senate.gov/api/v1/registrants/23964/","house_registrant_id":30945,"name":"MASSACHUSETTS
+        INSTITUTE OF TECHNOLOGY","description":null,"address_1":"77 MASSACHUETTS AVENUE","address_2":null,"address_3":null,"address_4":null,"city":"CAMBRIDGE","state":"MA","state_display":"Massachusetts","zip":"02139","country":"US","country_display":"United
+        States of America","ppb_country":"US","ppb_country_display":"United States
+        of America","contact_name":"VIVIAN HOLMES","contact_telephone":"+1 617-253-7086","dt_updated":"2025-07-19T09:13:59.316587-04:00"}},{"id":3,"prefix":null,"prefix_display":null,"first_name":"PRISCILLA","nickname":null,"middle_name":null,"last_name":"COBLENTZ","suffix":null,"suffix_display":null,"registrant":{"id":79995,"url":"https://lda.senate.gov/api/v1/registrants/79995/","house_registrant_id":32412,"name":"GREENLEE
+        PARTNERS, LLC","description":"Government Affairs Firm","address_1":"230 State
+        Street","address_2":null,"address_3":null,"address_4":null,"city":"Harrisburg","state":"PA","state_display":"Pennsylvania","zip":"17101","country":"US","country_display":"United
+        States of America","ppb_country":"US","ppb_country_display":"United States
+        of America","contact_name":"MELISSA A. YOUTZ","contact_telephone":"+1 717-236-0443","dt_updated":"2025-07-18T12:54:51.124665-04:00"}},{"id":4,"prefix":null,"prefix_display":null,"first_name":"RICHARD","nickname":null,"middle_name":null,"last_name":"WEISS","suffix":null,"suffix_display":null,"registrant":{"id":64417,"url":"https://lda.senate.gov/api/v1/registrants/64417/","house_registrant_id":35466,"name":"KSA
+        CONSULTING","description":"Consulting Firm","address_1":"15245 SHADY GROVE
+        ROAD","address_2":null,"address_3":null,"address_4":null,"city":"ROCKVILLE","state":"MD","state_display":"Maryland","zip":"20850","country":"US","country_display":"United
+        States of America","ppb_country":"US","ppb_country_display":"United States
+        of America","contact_name":"MR. KEN STALDER","contact_telephone":"+1 301-528-5611","dt_updated":"2022-04-06T16:07:32.703986-04:00"}},{"id":5,"prefix":null,"prefix_display":null,"first_name":"LISA","nickname":null,"middle_name":null,"last_name":"RICE","suffix":null,"suffix_display":null,"registrant":{"id":54107,"url":"https://lda.senate.gov/api/v1/registrants/54107/","house_registrant_id":35020,"name":"NATIONAL
+        FAIR HOUSING ALLIANCE","description":null,"address_1":"1331 Pennsylvania Ave.
+        NW, Suite 650","address_2":null,"address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20004","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"MONICA
+        REID","contact_telephone":"+1 202-898-1661","dt_updated":"2025-07-30T19:44:01.928975-04:00"}},{"id":6,"prefix":"ms","prefix_display":"MS.","first_name":"CYNTHIA","nickname":null,"middle_name":"D","last_name":"SHENKER","suffix":null,"suffix_display":null,"registrant":{"id":41567,"url":"https://lda.senate.gov/api/v1/registrants/41567/","house_registrant_id":32975,"name":"WILSON
+        ELSER MOSLOWITZ EDELMAN & DICKER, LLP","description":"Law Firm","address_1":"677
+        BROADWAY","address_2":null,"address_3":null,"address_4":null,"city":"ALBANY","state":"NY","state_display":"New
+        York","zip":"12207","country":"US","country_display":"United States of America","ppb_country":"US","ppb_country_display":"United
+        States of America","contact_name":"LISA RAUS","contact_telephone":"+1 518-449-8893","dt_updated":"2022-04-06T16:06:14.382366-04:00"}},{"id":7,"prefix":null,"prefix_display":null,"first_name":"SHANTI","nickname":null,"middle_name":null,"last_name":"STANTON","suffix":null,"suffix_display":null,"registrant":{"id":313271,"url":"https://lda.senate.gov/api/v1/registrants/313271/","house_registrant_id":39128,"name":"AVOQ,
+        LLC","description":"Lobbying firm","address_1":"1201 NY Ave. NW","address_2":"Suite
+        900","address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20005","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"STEVEN
+        ELMENDORF","contact_telephone":"+1 202-898-4797","dt_updated":"2025-07-30T17:03:00.888835-04:00"}},{"id":8,"prefix":null,"prefix_display":null,"first_name":"KRYSTA","nickname":null,"middle_name":null,"last_name":"HARDEN","suffix":null,"suffix_display":null,"registrant":{"id":16566,"url":"https://lda.senate.gov/api/v1/registrants/16566/","house_registrant_id":33401,"name":"GORDLEY
+        ASSOCIATES","description":"Agriculture lobbying","address_1":"600 Pennsylvania
+        Ave. SE, Suite 300","address_2":null,"address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20003","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"JOHN
+        GORDLEY","contact_telephone":"+1 202-969-8900","dt_updated":"2025-08-01T13:04:29.321025-04:00"}},{"id":9,"prefix":"mr","prefix_display":"MR.","first_name":"MICHAEL","nickname":null,"middle_name":"J","last_name":"BROWN","suffix":null,"suffix_display":null,"registrant":{"id":2866,"url":"https://lda.senate.gov/api/v1/registrants/2866/","house_registrant_id":33191,"name":"MEAT
+        INSTITUTE (FKA NORTH AMERICAN MEAT INSTITUTE)","description":null,"address_1":"4201
+        WILSON BLVD","address_2":"SUITE 0604","address_3":null,"address_4":null,"city":"Arlington","state":"VA","state_display":"Virginia","zip":"22203","country":"US","country_display":"United
+        States of America","ppb_country":"US","ppb_country_display":"United States
+        of America","contact_name":"NATHAN FRETZ","contact_telephone":"+1 202-587-4224","dt_updated":"2025-07-01T15:25:45.922914-04:00"}},{"id":10,"prefix":null,"prefix_display":null,"first_name":"MATTHEW","nickname":null,"middle_name":"L","last_name":"PUGLISI","suffix":null,"suffix_display":null,"registrant":{"id":54778,"url":"https://lda.senate.gov/api/v1/registrants/54778/","house_registrant_id":33522,"name":"OPTICAL
+        SOCIETY OF AMERICA","description":"non profit scientific society","address_1":"2010
+        Massachusetts Avenue, NW","address_2":null,"address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20036","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"DAVID
+        LANG","contact_telephone":"+1 202-416-1499","dt_updated":"2023-07-26T09:25:16.551030-04:00"}},{"id":11,"prefix":null,"prefix_display":null,"first_name":"SAM","nickname":null,"middle_name":null,"last_name":"SPINA","suffix":null,"suffix_display":null,"registrant":{"id":25328,"url":"https://lda.senate.gov/api/v1/registrants/25328/","house_registrant_id":30761,"name":"DENNY
+        MILLER ASSOCIATES","description":"Lobbying, consulting and government relations","address_1":"400
+        N Capitol St, Ste 363","address_2":null,"address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20001","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"MELISSA
+        BROWN","contact_telephone":"+1 202-783-0280","dt_updated":"2022-04-06T16:06:34.952708-04:00"}},{"id":12,"prefix":null,"prefix_display":null,"first_name":"DAVID","nickname":null,"middle_name":null,"last_name":"HERSHEY","suffix":null,"suffix_display":null,"registrant":{"id":2376,"url":"https://lda.senate.gov/api/v1/registrants/2376/","house_registrant_id":30851,"name":"AMERICAN
+        FOREST & PAPER ASSOCIATION","description":null,"address_1":"601 Thirteenth
+        Street, NW","address_2":"Suite 1000N","address_3":null,"address_4":null,"city":"WASHINGTON","state":"DC","state_display":"District
+        of Columbia","zip":"20005","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"ANDREW
+        TOPPS","contact_telephone":"+1 202-463-2700","dt_updated":"2025-07-23T21:13:43.665584-04:00"}},{"id":13,"prefix":null,"prefix_display":null,"first_name":"JEAN","nickname":null,"middle_name":null,"last_name":"HESSBURG","suffix":null,"suffix_display":null,"registrant":{"id":31144,"url":"https://lda.senate.gov/api/v1/registrants/31144/","house_registrant_id":32166,"name":"PEOPLE
+        FOR THE AMERICAN WAY","description":null,"address_1":"1101 15th Street, NW","address_2":"Suite
+        600","address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20005","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"DIANE
+        LAVIOLETTE","contact_telephone":"+1 202-467-2399","dt_updated":"2025-07-28T12:05:38.300387-04:00"}},{"id":14,"prefix":null,"prefix_display":null,"first_name":"GARY","nickname":null,"middle_name":null,"last_name":"KLEIN","suffix":null,"suffix_display":null,"registrant":{"id":73293,"url":"https://lda.senate.gov/api/v1/registrants/73293/","house_registrant_id":35927,"name":"CONSUMER
+        TECHNOLOGY ASSOCIATION","description":null,"address_1":"1919 South Eads Street","address_2":null,"address_3":null,"address_4":null,"city":"ARLINGTON","state":"VA","state_display":"Virginia","zip":"22202","country":"US","country_display":"United
+        States of America","ppb_country":"US","ppb_country_display":"United States
+        of America","contact_name":"TIFFANY MOORE","contact_telephone":"+1 703-907-7767","dt_updated":"2025-07-30T15:05:59.951779-04:00"}},{"id":15,"prefix":null,"prefix_display":null,"first_name":"ROBERT","nickname":null,"middle_name":null,"last_name":"WILSON","suffix":null,"suffix_display":null,"registrant":{"id":46494,"url":"https://lda.senate.gov/api/v1/registrants/46494/","house_registrant_id":34580,"name":"MR.
+        ROBERT WILSON","description":"Law/Lobby Activity","address_1":"455 Lake Forest
+        SW","address_2":null,"address_3":null,"address_4":null,"city":"Pinehurst","state":"NC","state_display":"North
+        Carolina","zip":"28374","country":"US","country_display":"United States of
+        America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"RD
+        WILSON","contact_telephone":"","dt_updated":"2022-04-06T16:07:39.133661-04:00"}},{"id":16,"prefix":null,"prefix_display":null,"first_name":"FRANK","nickname":null,"middle_name":null,"last_name":"NORTON","suffix":null,"suffix_display":null,"registrant":{"id":18980,"url":"https://lda.senate.gov/api/v1/registrants/18980/","house_registrant_id":33643,"name":"HURT,
+        NORTON & ASSOCIATES, INC.","description":"government affairs consulting","address_1":"503
+        CAPITOL COURT, NE","address_2":"SUITE 200","address_3":null,"address_4":null,"city":"WASHINGTON","state":"DC","state_display":"District
+        of Columbia","zip":"20002","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"KATHARINE
+        CALHOUN WOOD","contact_telephone":"","dt_updated":"2022-04-06T16:08:34.914450-04:00"}},{"id":17,"prefix":null,"prefix_display":null,"first_name":"MARK","nickname":null,"middle_name":"A","last_name":"PALMER","suffix":null,"suffix_display":null,"registrant":{"id":80235,"url":"https://lda.senate.gov/api/v1/registrants/80235/","house_registrant_id":36266,"name":"SOMMER
+        BARNARD PC","description":null,"address_1":"ONE INDIANA SQUARE, #3500","address_2":null,"address_3":null,"address_4":null,"city":"INDIANAPOLIS","state":"IN","state_display":"Indiana","zip":"46204-2023","country":"US","country_display":"United
+        States of America","ppb_country":"US","ppb_country_display":"United States
+        of America","contact_name":"MR. CURT SMITH","contact_telephone":"","dt_updated":"2022-04-06T16:06:19.658814-04:00"}},{"id":18,"prefix":null,"prefix_display":null,"first_name":"JOHN","nickname":null,"middle_name":null,"last_name":"SEBREE","suffix":null,"suffix_display":null,"registrant":{"id":27070,"url":"https://lda.senate.gov/api/v1/registrants/27070/","house_registrant_id":31733,"name":"NATIONAL
+        ASSOCIATION OF REALTORS","description":null,"address_1":"500 NEW JERSEY AVE,
+        NW","address_2":null,"address_3":null,"address_4":null,"city":"WASHINGTON","state":"DC","state_display":"District
+        of Columbia","zip":"20001","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"SHANNON
+        MCGAHN","contact_telephone":"+1 202-383-1000","dt_updated":"2025-07-30T14:00:00.022814-04:00"}},{"id":19,"prefix":null,"prefix_display":null,"first_name":"JENNIFER","nickname":null,"middle_name":null,"last_name":"JACKMAN","suffix":null,"suffix_display":null,"registrant":{"id":49021,"url":"https://lda.senate.gov/api/v1/registrants/49021/","house_registrant_id":34524,"name":"FEMINIST
+        MAJORITY, THE","description":null,"address_1":"1600 WILSON BOULEVARD, #801","address_2":null,"address_3":null,"address_4":null,"city":"ARLINGTON","state":"VA","state_display":"Virginia","zip":"22209","country":"US","country_display":"United
+        States of America","ppb_country":"US","ppb_country_display":"United States
+        of America","contact_name":"DIANE CUTRI","contact_telephone":"+1 703-522-2214","dt_updated":"2024-07-14T18:00:37.736603-04:00"}},{"id":20,"prefix":null,"prefix_display":null,"first_name":"LEE","nickname":null,"middle_name":null,"last_name":"SOLTYSIAK","suffix":null,"suffix_display":null,"registrant":{"id":308332,"url":"https://lda.senate.gov/api/v1/registrants/308332/","house_registrant_id":308332,"name":"FRANKLEE
+        SPEAKING LLC","description":null,"address_1":"1419 GWYNEDAL WAY","address_2":null,"address_3":null,"address_4":null,"city":"LANSDALE","state":"PA","state_display":"Pennsylvania","zip":"19446","country":"US","country_display":"United
+        States of America","ppb_country":"US","ppb_country_display":"United States
+        of America","contact_name":"","contact_telephone":"","dt_updated":"2022-01-13T14:55:57.364373-05:00"}},{"id":21,"prefix":null,"prefix_display":null,"first_name":"DOUG","nickname":null,"middle_name":null,"last_name":"BADGER","suffix":null,"suffix_display":null,"registrant":{"id":293858,"url":"https://lda.senate.gov/api/v1/registrants/293858/","house_registrant_id":37353,"name":"QUINN
+        THOMAS PUBLIC AFFAIRS","description":"public affairs","address_1":"5 Centerpointe
+        Drive","address_2":"Suite 570","address_3":null,"address_4":null,"city":"Lake
+        Oswego","state":"OR","state_display":"Oregon","zip":"97034","country":"US","country_display":"United
+        States of America","ppb_country":"US","ppb_country_display":"United States
+        of America","contact_name":"DOUG BADGER","contact_telephone":"+1 503-260-3235","dt_updated":"2022-04-06T16:07:59.065348-04:00"}},{"id":22,"prefix":null,"prefix_display":null,"first_name":"ANDRE","nickname":null,"middle_name":null,"last_name":"LETENDRE","suffix":null,"suffix_display":null,"registrant":{"id":6291,"url":"https://lda.senate.gov/api/v1/registrants/6291/","house_registrant_id":33118,"name":"BKSH
+        & ASSOCIATES","description":"Lobbying","address_1":"1110 Vermont Avenue, NW","address_2":"Suite
+        1000","address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20005","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"MS.
+        THERESA WEBER","contact_telephone":"","dt_updated":"2022-04-06T16:04:35.413352-04:00"}},{"id":23,"prefix":null,"prefix_display":null,"first_name":"LINC","nickname":null,"middle_name":null,"last_name":"HOBSON","suffix":null,"suffix_display":null,"registrant":{"id":26810,"url":"https://lda.senate.gov/api/v1/registrants/26810/","house_registrant_id":32444,"name":"NATIONAL
+        ASSOCIATION OF HOME BUILDERS","description":null,"address_1":"1201 15TH STREET,
+        NW","address_2":null,"address_3":null,"address_4":null,"city":"WASHINGTON","state":"DC","state_display":"District
+        of Columbia","zip":"20005","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"LAKE
+        A COULSON","contact_telephone":"+1 202-266-8510","dt_updated":"2025-07-22T10:41:30.110067-04:00"}},{"id":25,"prefix":null,"prefix_display":null,"first_name":"JAY","nickname":null,"middle_name":null,"last_name":"BRYAN","suffix":null,"suffix_display":null,"registrant":{"id":16112,"url":"https://lda.senate.gov/api/v1/registrants/16112/","house_registrant_id":31465,"name":"GEORGIA-PACIFIC
+        LLC","description":null,"address_1":"655 15th Street, N.W.","address_2":"Suite
+        475","address_3":null,"address_4":null,"city":"WASHINGTON","state":"DC","state_display":"District
+        of Columbia","zip":"20005","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"TYE
+        DARLAND","contact_telephone":"+1 202-879-8555","dt_updated":"2022-04-06T16:08:06.012185-04:00"}},{"id":26,"prefix":null,"prefix_display":null,"first_name":"TERRENCE","nickname":null,"middle_name":null,"last_name":"THOMPSON","suffix":null,"suffix_display":null,"registrant":{"id":38756,"url":"https://lda.senate.gov/api/v1/registrants/38756/","house_registrant_id":31886,"name":"CHAMBER
+        OF COMMERCE OF THE U.S.A.","description":null,"address_1":"1615 H STREET,
+        NW","address_2":null,"address_3":null,"address_4":null,"city":"WASHINGTON","state":"DC","state_display":"District
+        of Columbia","zip":"20062","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"JENNIFER
+        GALE","contact_telephone":"+1 202-659-6000","dt_updated":"2025-07-30T10:40:58.483732-04:00"}}]}'
+  recorded_at: 2025-12-08 19:58:15
+recorded_with: VCR-vcr/2.0.0

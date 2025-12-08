@@ -1,0 +1,51 @@
+http_interactions:
+- request:
+    method: GET
+    uri: https://lda.senate.gov/api/v1/constants/filing/lobbyingactivityissues
+  response:
+    status: 200
+    headers:
+      Server: gunicorn
+      Content-Type: application/json
+      Allow: GET, HEAD, OPTIONS
+      Content-Length: '1404'
+      Content-Encoding: gzip
+      x-frame-options: DENY
+      x-content-type-options: nosniff
+      referrer-policy: same-origin
+      cross-origin-opener-policy: same-origin
+      Date: Mon, 08 Dec 2025 19:58:11 GMT
+      Connection: keep-alive
+      Vary: Accept-Encoding
+      Strict-Transport-Security: max-age=31536000
+    body:
+      string: '[{"value":"ACC","name":"Accounting"},{"value":"ADV","name":"Advertising"},{"value":"AER","name":"Aerospace"},{"value":"AGR","name":"Agriculture"},{"value":"ALC","name":"Alcohol
+        and Drug Abuse"},{"value":"ANI","name":"Animals"},{"value":"APP","name":"Apparel/Clothing
+        Industry/Textiles"},{"value":"ART","name":"Arts/Entertainment"},{"value":"AUT","name":"Automotive
+        Industry"},{"value":"AVI","name":"Aviation/Airlines/Airports"},{"value":"BAN","name":"Banking"},{"value":"BNK","name":"Bankruptcy"},{"value":"BEV","name":"Beverage
+        Industry"},{"value":"BUD","name":"Budget/Appropriations"},{"value":"CIV","name":"Civil
+        Rights/Civil Liberties"},{"value":"CHM","name":"Chemicals/Chemical Industry"},{"value":"CAW","name":"Clean
+        Air and Water (quality)"},{"value":"CDT","name":"Commodities (big ticket)"},{"value":"COM","name":"Communications/Broadcasting/Radio/TV"},{"value":"CPI","name":"Computer
+        Industry"},{"value":"CON","name":"Constitution"},{"value":"CSP","name":"Consumer
+        Issues/Safety/Products"},{"value":"CPT","name":"Copyright/Patent/Trademark"},{"value":"DEF","name":"Defense"},{"value":"DIS","name":"Disaster
+        Planning/Emergencies"},{"value":"DOC","name":"District of Columbia"},{"value":"ECN","name":"Economics/Economic
+        Development"},{"value":"EDU","name":"Education"},{"value":"ENG","name":"Energy/Nuclear"},{"value":"ENV","name":"Environment/Superfund"},{"value":"FAM","name":"Family
+        issues/Abortion/Adoption"},{"value":"FIN","name":"Financial Institutions/Investments/Securities"},{"value":"FIR","name":"Firearms/Guns/Ammunition"},{"value":"FOO","name":"Food
+        Industry (safety, labeling, etc.)"},{"value":"FOR","name":"Foreign Relations"},{"value":"FUE","name":"Fuel/Gas/Oil"},{"value":"GAM","name":"Gaming/Gambling/Casino"},{"value":"GOV","name":"Government
+        Issues"},{"value":"HCR","name":"Health Issues"},{"value":"HOM","name":"Homeland
+        Security"},{"value":"HOU","name":"Housing"},{"value":"IMM","name":"Immigration"},{"value":"IND","name":"Indian/Native
+        American Affairs"},{"value":"INS","name":"Insurance"},{"value":"INT","name":"Intelligence"},{"value":"LBR","name":"Labor
+        Issues/Antitrust/Workplace"},{"value":"LAW","name":"Law Enforcement/Crime/Criminal
+        Justice"},{"value":"MAN","name":"Manufacturing"},{"value":"MAR","name":"Marine/Maritime/Boating/Fisheries"},{"value":"MIA","name":"Media
+        (information/publishing)"},{"value":"MED","name":"Medical/Disease Research/Clinical
+        Labs"},{"value":"MMM","name":"Medicare/Medicaid"},{"value":"MON","name":"Minting/Money/Gold
+        Standard"},{"value":"NAT","name":"Natural Resources"},{"value":"PHA","name":"Pharmacy"},{"value":"POS","name":"Postal"},{"value":"RRR","name":"Railroads"},{"value":"RES","name":"Real
+        Estate/Land Use/Conservation"},{"value":"REL","name":"Religion"},{"value":"RET","name":"Retirement"},{"value":"ROD","name":"Roads/Highway"},{"value":"SCI","name":"Science/Technology"},{"value":"SMB","name":"Small
+        Business"},{"value":"SPO","name":"Sports/Athletics"},{"value":"TAR","name":"Tariff
+        (miscellaneous tariff bills)"},{"value":"TAX","name":"Taxation/Internal Revenue
+        Code"},{"value":"TEC","name":"Telecommunications"},{"value":"TOB","name":"Tobacco"},{"value":"TOR","name":"Torts"},{"value":"TRD","name":"Trade
+        (domestic/foreign)"},{"value":"TRA","name":"Transportation"},{"value":"TOU","name":"Travel/Tourism"},{"value":"TRU","name":"Trucking/Shipping"},{"value":"URB","name":"Urban
+        Development/Municipalities"},{"value":"UNM","name":"Unemployment"},{"value":"UTI","name":"Utilities"},{"value":"VET","name":"Veterans"},{"value":"WAS","name":"Waste
+        (hazardous/solid/interstate/nuclear)"},{"value":"WEL","name":"Welfare"}]'
+  recorded_at: 2025-12-08 19:58:11
+recorded_with: VCR-vcr/2.0.0

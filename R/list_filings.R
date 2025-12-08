@@ -86,9 +86,7 @@ lob_list_filings <- function(
     registrant_id = NULL,
     registrant_name = NULL,
     registrant_ppb_country = NULL,
-    clean = TRUE
-) {
-
+    clean = TRUE) {
   req <- httr2::request(base_url = api_url()) |>
     httr2::req_url_path_append('filings') |>
     maybe_auth() |>

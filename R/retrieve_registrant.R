@@ -10,8 +10,7 @@
 #' lob_retrieve_registrant(id = '11')
 lob_retrieve_registrant <- function(
     id,
-    clean = TRUE
-) {
+    clean = TRUE) {
   req <- httr2::request(base_url = api_url()) |>
     httr2::req_url_path_append('registrants', id, '/') |>
     maybe_auth()

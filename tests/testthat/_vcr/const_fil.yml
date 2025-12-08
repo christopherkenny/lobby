@@ -1,0 +1,53 @@
+http_interactions:
+- request:
+    method: GET
+    uri: https://lda.senate.gov/api/v1/constants/filing/filingtypes
+  response:
+    status: 200
+    headers:
+      Server: gunicorn
+      Content-Type: application/json
+      Allow: GET, HEAD, OPTIONS
+      Content-Length: '447'
+      Content-Encoding: gzip
+      x-frame-options: DENY
+      x-content-type-options: nosniff
+      referrer-policy: same-origin
+      cross-origin-opener-policy: same-origin
+      Date: Mon, 08 Dec 2025 19:58:11 GMT
+      Connection: keep-alive
+      Vary: Accept-Encoding
+      Strict-Transport-Security: max-age=31536000
+    body:
+      string: '[{"value":"RR","name":"Registration"},{"value":"RA","name":"Registration
+        - Amendment"},{"value":"Q1","name":"1st Quarter - Report"},{"value":"Q1Y","name":"1st
+        Quarter - Report (No Activity)"},{"value":"1T","name":"1st Quarter - Termination"},{"value":"1TY","name":"1st
+        Quarter - Termination (No Activity)"},{"value":"1A","name":"1st Quarter -
+        Amendment"},{"value":"1AY","name":"1st Quarter - Amendment (No Activity)"},{"value":"1@","name":"1st
+        Quarter - Termination Amendment"},{"value":"1@Y","name":"1st Quarter - Termination
+        Amendment (No Activity)"},{"value":"Q2","name":"2nd Quarter - Report"},{"value":"Q2Y","name":"2nd
+        Quarter - Report (No Activity)"},{"value":"2T","name":"2nd Quarter - Termination"},{"value":"2TY","name":"2nd
+        Quarter - Termination (No Activity)"},{"value":"2A","name":"2nd Quarter -
+        Amendment"},{"value":"2AY","name":"2nd Quarter - Amendment (No Activity)"},{"value":"2@","name":"2nd
+        Quarter - Termination Amendment"},{"value":"2@Y","name":"2nd Quarter - Termination
+        Amendment (No Activity)"},{"value":"Q3","name":"3rd Quarter - Report"},{"value":"Q3Y","name":"3rd
+        Quarter - Report (No Activity)"},{"value":"3T","name":"3rd Quarter - Termination"},{"value":"3TY","name":"3rd
+        Quarter - Termination (No Activity)"},{"value":"3A","name":"3rd Quarter -
+        Amendment"},{"value":"3AY","name":"3rd Quarter - Amendment (No Activity)"},{"value":"3@","name":"3rd
+        Quarter - Termination Amendment"},{"value":"3@Y","name":"3rd Quarter - Termination
+        Amendment (No Activity)"},{"value":"Q4","name":"4th Quarter - Report"},{"value":"Q4Y","name":"4th
+        Quarter - Report (No Activity)"},{"value":"4T","name":"4th Quarter - Termination"},{"value":"4TY","name":"4th
+        Quarter - Termination (No Activity)"},{"value":"4A","name":"4th Quarter -
+        Amendment"},{"value":"4AY","name":"4th Quarter - Amendment (No Activity)"},{"value":"4@","name":"4th
+        Quarter - Termination Amendment"},{"value":"4@Y","name":"4th Quarter - Termination
+        Amendment (No Activity)"},{"value":"MM","name":"Mid-Year Report"},{"value":"MMY","name":"Mid-Year
+        Report (No Activity)"},{"value":"MT","name":"Mid-Year Termination"},{"value":"MTY","name":"Mid-Year
+        Termination (No Activity)"},{"value":"MA","name":"Mid-Year Amendment"},{"value":"MAY","name":"Mid-Year
+        Amendment (No Activity)"},{"value":"M@","name":"Mid-Year Termination Amendment"},{"value":"M@Y","name":"Mid-Year
+        Termination Amendment (No Activity)"},{"value":"YY","name":"Year-End Report"},{"value":"YYY","name":"Year-End
+        Report (No Activity)"},{"value":"YT","name":"Year-End Termination"},{"value":"YTY","name":"Year-End
+        Termination (No Activity)"},{"value":"YA","name":"Year-End Amendment"},{"value":"YAY","name":"Year-End
+        Amendment (No Activity)"},{"value":"Y@","name":"Year-End Termination Amendment"},{"value":"Y@Y","name":"Year-End
+        Termination Amendment (No Activity)"}]'
+  recorded_at: 2025-12-08 19:58:11
+recorded_with: VCR-vcr/2.0.0

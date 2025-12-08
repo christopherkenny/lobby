@@ -1,0 +1,225 @@
+http_interactions:
+- request:
+    method: GET
+    uri: https://lda.senate.gov/api/v1/clients?client_country=US
+  response:
+    status: 200
+    headers:
+      Server: gunicorn
+      Content-Type: application/json
+      Allow: GET
+      Content-Length: '4363'
+      Content-Encoding: gzip
+      x-frame-options: DENY
+      x-content-type-options: nosniff
+      referrer-policy: same-origin
+      cross-origin-opener-policy: same-origin
+      Date: Mon, 08 Dec 2025 19:58:13 GMT
+      Connection: keep-alive
+      Vary: Accept-Encoding
+      Strict-Transport-Security: max-age=31536000
+    body:
+      string: '{"count":123846,"next":"https://lda.senate.gov/api/v1/clients/?client_country=US&page=2","previous":null,"results":[{"id":44400,"url":"https://lda.senate.gov/api/v1/clients/44400/","client_id":44400,"name":"BLUECROSS
+        BLUESHIELD OF TENNESSEE, INC.","general_description":"Health benefit plan
+        company","client_government_entity":null,"client_self_select":false,"state":"TN","state_display":"Tennessee","country":"US","country_display":"United
+        States of America","ppb_state":"TN","ppb_state_display":"Tennessee","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2022-02-09","registrant":{"id":401105130,"url":"https://lda.senate.gov/api/v1/registrants/401105130/","house_registrant_id":401105130,"name":"BRIDGE
+        PUBLIC AFFAIRS, LLC","description":"Government Relations and Public Affairs","address_1":"P.O.
+        Box 171","address_2":null,"address_3":null,"address_4":null,"city":"Chattanooga","state":"TN","state_display":"Tennessee","zip":"37401","country":"US","country_display":"United
+        States of America","ppb_country":"US","ppb_country_display":"United States
+        of America","contact_name":"PRESLEY ABNEY","contact_telephone":"+1 423-771-4272","dt_updated":"2025-07-24T11:34:51.894845-04:00"}},{"id":44401,"url":"https://lda.senate.gov/api/v1/clients/44401/","client_id":44401,"name":"ID.ME,
+        INC.","general_description":"Software as a service, digital identity verification.","client_government_entity":null,"client_self_select":false,"state":"VA","state_display":"Virginia","country":"US","country_display":"United
+        States of America","ppb_state":"VA","ppb_state_display":"Virginia","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2022-02-08","registrant":{"id":401103523,"url":"https://lda.senate.gov/api/v1/registrants/401103523/","house_registrant_id":401103523,"name":"HARBINGER
+        STRATEGIES, LLC","description":"Government Relations Firm.","address_1":"801
+        Pennsylvania Avenue, NW","address_2":"Suite 430","address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20004","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"CHRISTINE
+        R. MISTR","contact_telephone":"+1 540-535-0505","dt_updated":"2025-07-30T16:30:00.481933-04:00"}},{"id":44402,"url":"https://lda.senate.gov/api/v1/clients/44402/","client_id":44402,"name":"SECURITIES
+        INDUSTRY AND FINANCIAL MARKETS ASSOCIATION (SIFMA)","general_description":"Financial
+        services industry trade association.","client_government_entity":null,"client_self_select":false,"state":"DC","state_display":"District
+        of Columbia","country":"US","country_display":"United States of America","ppb_state":"DC","ppb_state_display":"District
+        of Columbia","ppb_country":"US","ppb_country_display":"United States of America","effective_date":"2022-01-07","registrant":{"id":401103523,"url":"https://lda.senate.gov/api/v1/registrants/401103523/","house_registrant_id":401103523,"name":"HARBINGER
+        STRATEGIES, LLC","description":"Government Relations Firm.","address_1":"801
+        Pennsylvania Avenue, NW","address_2":"Suite 430","address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20004","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"CHRISTINE
+        R. MISTR","contact_telephone":"+1 540-535-0505","dt_updated":"2025-07-30T16:30:00.481933-04:00"}},{"id":44407,"url":"https://lda.senate.gov/api/v1/clients/44407/","client_id":44407,"name":"BELL
+        LEGAL GROUP","general_description":"Law Firm","client_government_entity":null,"client_self_select":false,"state":"SC","state_display":"South
+        Carolina","country":"US","country_display":"United States of America","ppb_state":"SC","ppb_state_display":"South
+        Carolina","ppb_country":"US","ppb_country_display":"United States of America","effective_date":"2022-01-10","registrant":{"id":305852,"url":"https://lda.senate.gov/api/v1/registrants/305852/","house_registrant_id":36550,"name":"AMERICAN
+        CAPITOL GROUP","description":"Government Relations Firm","address_1":"7026
+        Bradley Circle","address_2":null,"address_3":null,"address_4":null,"city":"Annadale","state":"VA","state_display":"Virginia","zip":"22003","country":"US","country_display":"United
+        States of America","ppb_country":"US","ppb_country_display":"United States
+        of America","contact_name":"DAVE LARSON","contact_telephone":"","dt_updated":"2025-07-17T22:18:44.818383-04:00"}},{"id":44408,"url":"https://lda.senate.gov/api/v1/clients/44408/","client_id":44408,"name":"INSTITUTE
+        FOR ADVANCED CLINICAL TRIALS FOR CHILDREN","general_description":"Research
+        Organization","client_government_entity":null,"client_self_select":false,"state":"MD","state_display":"Maryland","country":"US","country_display":"United
+        States of America","ppb_state":"MD","ppb_state_display":"Maryland","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2022-02-01","registrant":{"id":305852,"url":"https://lda.senate.gov/api/v1/registrants/305852/","house_registrant_id":36550,"name":"AMERICAN
+        CAPITOL GROUP","description":"Government Relations Firm","address_1":"7026
+        Bradley Circle","address_2":null,"address_3":null,"address_4":null,"city":"Annadale","state":"VA","state_display":"Virginia","zip":"22003","country":"US","country_display":"United
+        States of America","ppb_country":"US","ppb_country_display":"United States
+        of America","contact_name":"DAVE LARSON","contact_telephone":"","dt_updated":"2025-07-17T22:18:44.818383-04:00"}},{"id":44409,"url":"https://lda.senate.gov/api/v1/clients/44409/","client_id":44409,"name":"TICKPICK,
+        LLC","general_description":"Online event ticket platform.","client_government_entity":null,"client_self_select":false,"state":"NY","state_display":"New
+        York","country":"US","country_display":"United States of America","ppb_state":"NY","ppb_state_display":"New
+        York","ppb_country":"US","ppb_country_display":"United States of America","effective_date":"2021-12-16","registrant":{"id":35002,"url":"https://lda.senate.gov/api/v1/registrants/35002/","house_registrant_id":37919,"name":"PILLSBURY
+        WINTHROP SHAW PITTMAN LLP","description":"Law Firm","address_1":"1200 Seventeenth
+        Street NW","address_2":null,"address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20036","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"CRAIG
+        BENNETT","contact_telephone":"+1 916-329-4724","dt_updated":"2025-07-25T14:06:06.076381-04:00"}},{"id":44411,"url":"https://lda.senate.gov/api/v1/clients/44411/","client_id":44411,"name":"GENENTECH
+        INC","general_description":"biotechnology company","client_government_entity":null,"client_self_select":false,"state":"CA","state_display":"California","country":"US","country_display":"United
+        States of America","ppb_state":"CA","ppb_state_display":"California","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2022-01-01","registrant":{"id":48827,"url":"https://lda.senate.gov/api/v1/registrants/48827/","house_registrant_id":34528,"name":"OGR","description":"lobbying
+        firm","address_1":"1801 K St NW","address_2":"Suite 900","address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20006","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"RAWSON
+        WARDEN","contact_telephone":"+1 202-729-4200","dt_updated":"2025-07-30T15:29:00.082386-04:00"}},{"id":44412,"url":"https://lda.senate.gov/api/v1/clients/44412/","client_id":44412,"name":"INTRA-CELLULAR
+        THERAPIES, INC.","general_description":"Biopharmaceutical company","client_government_entity":null,"client_self_select":true,"state":"NY","state_display":"New
+        York","country":"US","country_display":"United States of America","ppb_state":"NY","ppb_state_display":"New
+        York","ppb_country":"US","ppb_country_display":"United States of America","effective_date":"2022-02-17","registrant":{"id":401106431,"url":"https://lda.senate.gov/api/v1/registrants/401106431/","house_registrant_id":null,"name":"INTRA-CELLULAR
+        THERAPIES, INC.","description":null,"address_1":"430 East 29th Street","address_2":"Suite
+        900","address_3":null,"address_4":null,"city":"New York","state":"NY","state_display":"New
+        York","zip":"10016","country":"US","country_display":"United States of America","ppb_country":"US","ppb_country_display":"United
+        States of America","contact_name":"JOHN BARDI","contact_telephone":"+1 646-477-0108","dt_updated":"2025-10-10T08:46:04.499126-04:00"}},{"id":44413,"url":"https://lda.senate.gov/api/v1/clients/44413/","client_id":44413,"name":"DELFI
+        DIAGNOSTICS","general_description":"Diagnostics company.","client_government_entity":null,"client_self_select":false,"state":"MD","state_display":"Maryland","country":"US","country_display":"United
+        States of America","ppb_state":"MD","ppb_state_display":"Maryland","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2022-01-01","registrant":{"id":400605842,"url":"https://lda.senate.gov/api/v1/registrants/400605842/","house_registrant_id":400605842,"name":"W
+        STRATEGIES, LLC","description":"Government Affairs Consulting Firm.","address_1":"1455
+        Pennsylvania Avenue, NW","address_2":"Suite 400","address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20004","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"DARREN
+        WILLCOX","contact_telephone":"+1 202-494-6268","dt_updated":"2025-07-28T12:23:38.639616-04:00"}},{"id":44418,"url":"https://lda.senate.gov/api/v1/clients/44418/","client_id":44418,"name":"RTI
+        INTERNATIONAL","general_description":"RTI is an independent nonprofit research
+        institute.","client_government_entity":null,"client_self_select":false,"state":"NC","state_display":"North
+        Carolina","country":"US","country_display":"United States of America","ppb_state":"NC","ppb_state_display":"North
+        Carolina","ppb_country":"US","ppb_country_display":"United States of America","effective_date":"2022-02-01","registrant":{"id":401105986,"url":"https://lda.senate.gov/api/v1/registrants/401105986/","house_registrant_id":401105986,"name":"MANNING
+        FULTON & SKINNER, P.A.","description":"Law Firm","address_1":"3605 Glenwood
+        Avenue, Ste. 500","address_2":null,"address_3":null,"address_4":null,"city":"Raleigh","state":"NC","state_display":"North
+        Carolina","zip":"27612","country":"US","country_display":"United States of
+        America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"MARY
+        SELVIDGE","contact_telephone":"+1 252-314-8354","dt_updated":"2025-09-14T10:43:25.469255-04:00"}},{"id":44419,"url":"https://lda.senate.gov/api/v1/clients/44419/","client_id":44419,"name":"CJ
+        LAKE LLC ON BEHALF OF BART","general_description":"lobbying","client_government_entity":null,"client_self_select":false,"state":"DC","state_display":"District
+        of Columbia","country":"US","country_display":"United States of America","ppb_state":"DC","ppb_state_display":"District
+        of Columbia","ppb_country":"US","ppb_country_display":"United States of America","effective_date":"2022-01-05","registrant":{"id":401106439,"url":"https://lda.senate.gov/api/v1/registrants/401106439/","house_registrant_id":null,"name":"WHO
+        DAT STRATEGIES LLC","description":null,"address_1":"1314 19th Street South","address_2":null,"address_3":null,"address_4":null,"city":"Arlington","state":"VA","state_display":"Virginia","zip":"22202","country":"US","country_display":"United
+        States of America","ppb_country":"US","ppb_country_display":"United States
+        of America","contact_name":"EMILY DA SILVA","contact_telephone":"+1 202-669-5593","dt_updated":"2025-07-28T18:22:41.249068-04:00"}},{"id":44432,"url":"https://lda.senate.gov/api/v1/clients/44432/","client_id":44432,"name":"TRUCKEE
+        CARSON IRRIGATION DISTRICT","general_description":"Irrigation district","client_government_entity":null,"client_self_select":false,"state":"NV","state_display":"Nevada","country":"US","country_display":"United
+        States of America","ppb_state":"NV","ppb_state_display":"Nevada","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2022-02-02","registrant":{"id":14451,"url":"https://lda.senate.gov/api/v1/registrants/14451/","house_registrant_id":32589,"name":"THE
+        FERGUSON GROUP, LLC","description":"Government Relations/Lobbying Firm","address_1":"1901
+        PENNSYLVANIA AVENUE NW","address_2":"SUITE 700","address_3":null,"address_4":null,"city":"WASHINGTON","state":"DC","state_display":"District
+        of Columbia","zip":"20006","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"LAURA
+        COSENZO","contact_telephone":"+1 202-331-8500","dt_updated":"2025-11-10T16:06:08.903299-05:00"}},{"id":44433,"url":"https://lda.senate.gov/api/v1/clients/44433/","client_id":44433,"name":"AIDS
+        HEALTHCARE FOUNDATION","general_description":"Provides medicine/healthcare
+        to individuals living with or affected by HIV/AIDS;","client_government_entity":null,"client_self_select":false,"state":"CA","state_display":"California","country":"US","country_display":"United
+        States of America","ppb_state":"CA","ppb_state_display":"California","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2022-01-03","registrant":{"id":14451,"url":"https://lda.senate.gov/api/v1/registrants/14451/","house_registrant_id":32589,"name":"THE
+        FERGUSON GROUP, LLC","description":"Government Relations/Lobbying Firm","address_1":"1901
+        PENNSYLVANIA AVENUE NW","address_2":"SUITE 700","address_3":null,"address_4":null,"city":"WASHINGTON","state":"DC","state_display":"District
+        of Columbia","zip":"20006","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"LAURA
+        COSENZO","contact_telephone":"+1 202-331-8500","dt_updated":"2025-11-10T16:06:08.903299-05:00"}},{"id":44440,"url":"https://lda.senate.gov/api/v1/clients/44440/","client_id":44440,"name":"SWYFT,
+        INC.","general_description":"Retail automation platform","client_government_entity":null,"client_self_select":false,"state":"CA","state_display":"California","country":"US","country_display":"United
+        States of America","ppb_state":"CA","ppb_state_display":"California","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2022-01-11","registrant":{"id":21632,"url":"https://lda.senate.gov/api/v1/registrants/21632/","house_registrant_id":30750,"name":"KING
+        & SPALDING LLP","description":"Law firm","address_1":"1700 Pennsylvania Avenue
+        NW","address_2":"Suite 900","address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20006","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"THOMAS
+        J. SPULAK","contact_telephone":"+1 202-737-0500","dt_updated":"2025-07-30T20:57:02.445452-04:00"}},{"id":44469,"url":"https://lda.senate.gov/api/v1/clients/44469/","client_id":44469,"name":"PARSONS
+        CORPORATION","general_description":"Infrastructure and National Security","client_government_entity":null,"client_self_select":false,"state":"VA","state_display":"Virginia","country":"US","country_display":"United
+        States of America","ppb_state":"VA","ppb_state_display":"Virginia","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2022-01-03","registrant":{"id":18466,"url":"https://lda.senate.gov/api/v1/registrants/18466/","house_registrant_id":30825,"name":"HOLLAND
+        & KNIGHT LLP","description":"Law Firm","address_1":"800 17th Street NW","address_2":"Suite
+        1100","address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20006","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"RICHARD
+        GOLD","contact_telephone":"+1 202-955-3000","dt_updated":"2025-07-30T13:18:59.478390-04:00"}},{"id":44470,"url":"https://lda.senate.gov/api/v1/clients/44470/","client_id":44470,"name":"SAB
+        BIOTHERAPEUTICS, INC.","general_description":"Biopharmaceutical company working
+        on immunotherapies.","client_government_entity":null,"client_self_select":false,"state":"SD","state_display":"South
+        Dakota","country":"US","country_display":"United States of America","ppb_state":"SD","ppb_state_display":"South
+        Dakota","ppb_country":"US","ppb_country_display":"United States of America","effective_date":"2021-11-29","registrant":{"id":76855,"url":"https://lda.senate.gov/api/v1/registrants/76855/","house_registrant_id":32113,"name":"DLA
+        PIPER LLP (US)","description":"Law firm.","address_1":"500 8th Street, NW","address_2":null,"address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20004","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"WILLIAM
+        MINOR","contact_telephone":"+1 202-799-4312","dt_updated":"2025-07-29T14:53:51.322375-04:00"}},{"id":44471,"url":"https://lda.senate.gov/api/v1/clients/44471/","client_id":44471,"name":"TECHNOLOGY
+        NETWORK AKA TECHNET","general_description":"Advances policies & initiatives
+        that make the US the world leader in innovation","client_government_entity":null,"client_self_select":false,"state":"DC","state_display":"District
+        of Columbia","country":"US","country_display":"United States of America","ppb_state":"DC","ppb_state_display":"District
+        of Columbia","ppb_country":"US","ppb_country_display":"United States of America","effective_date":"2022-01-01","registrant":{"id":313271,"url":"https://lda.senate.gov/api/v1/registrants/313271/","house_registrant_id":39128,"name":"AVOQ,
+        LLC","description":"Lobbying firm","address_1":"1201 NY Ave. NW","address_2":"Suite
+        900","address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20005","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"STEVEN
+        ELMENDORF","contact_telephone":"+1 202-898-4797","dt_updated":"2025-07-30T17:03:00.888835-04:00"}},{"id":44472,"url":"https://lda.senate.gov/api/v1/clients/44472/","client_id":44472,"name":"THE
+        PEGGY LILLIS FOUNDATION","general_description":"Non-profit focused on building
+        awareness & public advocacy to increase support for C. diff","client_government_entity":null,"client_self_select":false,"state":"NY","state_display":"New
+        York","country":"US","country_display":"United States of America","ppb_state":"NY","ppb_state_display":"New
+        York","ppb_country":"US","ppb_country_display":"United States of America","effective_date":"2022-02-01","registrant":{"id":401105447,"url":"https://lda.senate.gov/api/v1/registrants/401105447/","house_registrant_id":401105447,"name":"BLUEBIRD
+        STRATEGIES","description":"Consulting firm.","address_1":"4620 Van Ness St,
+        NW","address_2":null,"address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20016","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"JOHN
+        KEVIN BRENNAN","contact_telephone":"+1 202-253-0924","dt_updated":"2025-07-29T14:21:50.973809-04:00"}},{"id":44473,"url":"https://lda.senate.gov/api/v1/clients/44473/","client_id":44473,"name":"MYSTERY
+        RANCH","general_description":"Manufacturer of load-bearing backpacks.","client_government_entity":null,"client_self_select":false,"state":"MT","state_display":"Montana","country":"US","country_display":"United
+        States of America","ppb_state":"MT","ppb_state_display":"Montana","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2022-02-01","registrant":{"id":401057985,"url":"https://lda.senate.gov/api/v1/registrants/401057985/","house_registrant_id":401057985,"name":"ATLANTIC
+        STRATEGIES GROUP","description":"Government relations firm","address_1":"Atlantic
+        Strategies Group","address_2":"220 E St. N.E.","address_3":null,"address_4":null,"city":"Washington
+        D.C.","state":"DC","state_display":"District of Columbia","zip":"20002","country":"US","country_display":"United
+        States of America","ppb_country":"US","ppb_country_display":"United States
+        of America","contact_name":"HELEN SIRACUSE","contact_telephone":"+1 202-570-5421","dt_updated":"2025-07-23T11:49:40.179545-04:00"}},{"id":44474,"url":"https://lda.senate.gov/api/v1/clients/44474/","client_id":44474,"name":"ZAI
+        LAB (US) LLC","general_description":"Commercial stage biopharmaceutical company.","client_government_entity":null,"client_self_select":false,"state":"MA","state_display":"Massachusetts","country":"US","country_display":"United
+        States of America","ppb_state":"MA","ppb_state_display":"Massachusetts","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2022-01-01","registrant":{"id":313715,"url":"https://lda.senate.gov/api/v1/registrants/313715/","house_registrant_id":39384,"name":"CAPITOL
+        COUNSEL LLC","description":"Government affairs.","address_1":"700 13th Street
+        NW, 2nd Floor","address_2":null,"address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20005","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"TRACEY
+        A. GRAY","contact_telephone":"+1 202-861-3200","dt_updated":"2025-07-30T16:12:00.226557-04:00"}},{"id":44476,"url":"https://lda.senate.gov/api/v1/clients/44476/","client_id":44476,"name":"CONCORDIA
+        TECHNOLOGIES, LLC","general_description":"Technical services in areas of engineering
+        analysis, testing and support.","client_government_entity":null,"client_self_select":false,"state":"AL","state_display":"Alabama","country":"US","country_display":"United
+        States of America","ppb_state":"AL","ppb_state_display":"Alabama","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2022-01-01","registrant":{"id":60116,"url":"https://lda.senate.gov/api/v1/registrants/60116/","house_registrant_id":35353,"name":"MAYNARD
+        NEXSEN PC","description":"Law Firm","address_1":"1901 Sixth Avenue North","address_2":"Suite
+        1700","address_3":null,"address_4":null,"city":"Birmingham","state":"AL","state_display":"Alabama","zip":"35203","country":"US","country_display":"United
+        States of America","ppb_country":"US","ppb_country_display":"United States
+        of America","contact_name":"DAYNE CUTRELL","contact_telephone":"+1 205-254-1083","dt_updated":"2025-07-29T16:45:51.720848-04:00"}},{"id":44478,"url":"https://lda.senate.gov/api/v1/clients/44478/","client_id":44478,"name":"AIRBNB,
+        INC.","general_description":"online marketplace for travel and tourism","client_government_entity":null,"client_self_select":false,"state":"CA","state_display":"California","country":"US","country_display":"United
+        States of America","ppb_state":"CA","ppb_state_display":"California","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2022-01-01","registrant":{"id":305054,"url":"https://lda.senate.gov/api/v1/registrants/305054/","house_registrant_id":38091,"name":"PORTERFIELD,
+        FETTIG & SEARS, LLC","description":"government affairs","address_1":"400 North
+        Capitol Street, NW","address_2":"Suite 363","address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20001","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"DAWN
+        SEARS","contact_telephone":"+1 202-715-0845","dt_updated":"2025-07-30T18:44:01.234126-04:00"}},{"id":44479,"url":"https://lda.senate.gov/api/v1/clients/44479/","client_id":44479,"name":"SIGHT
+        SCIENCES","general_description":"medical device company","client_government_entity":null,"client_self_select":false,"state":"CA","state_display":"California","country":"US","country_display":"United
+        States of America","ppb_state":"CA","ppb_state_display":"California","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2022-01-10","registrant":{"id":305054,"url":"https://lda.senate.gov/api/v1/registrants/305054/","house_registrant_id":38091,"name":"PORTERFIELD,
+        FETTIG & SEARS, LLC","description":"government affairs","address_1":"400 North
+        Capitol Street, NW","address_2":"Suite 363","address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20001","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"DAWN
+        SEARS","contact_telephone":"+1 202-715-0845","dt_updated":"2025-07-30T18:44:01.234126-04:00"}},{"id":44485,"url":"https://lda.senate.gov/api/v1/clients/44485/","client_id":44485,"name":"EAST
+        COUNTY ADVANCED WATER PURIFICATION JPA","general_description":"Govern the
+        Municipal Water District.","client_government_entity":null,"client_self_select":false,"state":"CA","state_display":"California","country":"US","country_display":"United
+        States of America","ppb_state":"CA","ppb_state_display":"California","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2022-01-04","registrant":{"id":29846,"url":"https://lda.senate.gov/api/v1/registrants/29846/","house_registrant_id":30352,"name":"NOSSAMAN
+        LLP","description":"Law Firm","address_1":"1401 New York Avenue NW","address_2":"Suite
+        800","address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20005","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"FREDERICK
+        DOMBO","contact_telephone":"+1 202-887-1400","dt_updated":"2025-07-30T08:37:57.751287-04:00"}},{"id":44489,"url":"https://lda.senate.gov/api/v1/clients/44489/","client_id":44489,"name":"SIRIUSIQ
+        OBO CLX HEALTH, LLC","general_description":"Health data industry","client_government_entity":null,"client_self_select":false,"state":"DE","state_display":"Delaware","country":"US","country_display":"United
+        States of America","ppb_state":"DE","ppb_state_display":"Delaware","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2022-01-03","registrant":{"id":75557,"url":"https://lda.senate.gov/api/v1/registrants/75557/","house_registrant_id":36051,"name":"CORNERSTONE
+        GOVERNMENT AFFAIRS, INC.","description":"Government relations and consulting.","address_1":"800
+        Maine Ave. SW Floor 7","address_2":null,"address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20024","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"STACEY
+        SCHOLL","contact_telephone":"+1 202-370-1015","dt_updated":"2025-07-24T17:48:54.531205-04:00"}}]}'
+  recorded_at: 2025-12-08 19:58:13
+recorded_with: VCR-vcr/2.0.0

@@ -1,0 +1,43 @@
+http_interactions:
+- request:
+    method: GET
+    uri: https://lda.senate.gov/api/v1/filings/3b181214-b253-462c-ad64-783c827e159e//
+  response:
+    status: 200
+    headers:
+      Server: gunicorn
+      Content-Type: application/json
+      Allow: GET
+      Content-Length: '1363'
+      Content-Encoding: gzip
+      x-frame-options: DENY
+      x-content-type-options: nosniff
+      referrer-policy: same-origin
+      cross-origin-opener-policy: same-origin
+      Date: Mon, 08 Dec 2025 19:53:02 GMT
+      Connection: keep-alive
+      Vary: Accept-Encoding
+      Strict-Transport-Security: max-age=31536000
+    body:
+      string: '{"url":"https://lda.senate.gov/api/v1/filings/3b181214-b253-462c-ad64-783c827e159e/","filing_uuid":"3b181214-b253-462c-ad64-783c827e159e","filing_type":"RR","filing_type_display":"Registration","filing_year":2025,"filing_period":"first_quarter","filing_period_display":"1st
+        Quarter (Jan 1 - Mar 31)","filing_document_url":"https://lda.senate.gov/filings/public/filing/3b181214-b253-462c-ad64-783c827e159e/print/","filing_document_content_type":"text/html","income":null,"expenses":null,"expenses_method":null,"expenses_method_display":null,"posted_by_name":"Sara
+        Nuvy","dt_posted":"2025-01-10T09:14:02-05:00","termination_date":null,"registrant_country":"United
+        States of America","registrant_ppb_country":null,"registrant_address_1":"601
+        Thirteenth St, NW","registrant_address_2":"Suite 250 S","registrant_different_address":null,"registrant_city":"Washington","registrant_state":"DC","registrant_zip":"20005","registrant":{"id":401104288,"url":"https://lda.senate.gov/api/v1/registrants/401104288/","house_registrant_id":401104288,"name":"BALLARD
+        PARTNERS","description":"Government relations and advocacy services","address_1":"601
+        Thirteenth St, NW","address_2":"Suite 250 S","address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20005","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"SARA
+        NUVY","contact_telephone":"+1 202-800-5620","dt_updated":"2025-10-20T15:30:49.504907-04:00"},"client":{"id":63478,"url":"https://lda.senate.gov/api/v1/clients/63478/","client_id":63478,"name":"PRESIDENT
+        AND FELLOWS OF HARVARD COLLEGE","general_description":"Nonprofit educational
+        corporation","client_government_entity":null,"client_self_select":false,"state":"MA","state_display":"Massachusetts","country":"US","country_display":"United
+        States of America","ppb_state":"MA","ppb_state_display":"Massachusetts","ppb_country":"US","ppb_country_display":"United
+        States of America","effective_date":"2025-01-02"},"lobbying_activities":[{"general_issue_code":"EDU","general_issue_code_display":"Education","description":"Advocacy
+        supporting education and educational research.","foreign_entity_issues":null,"lobbyists":[{"lobbyist":{"id":65360,"prefix":null,"prefix_display":null,"first_name":"BRIAN","nickname":null,"middle_name":null,"last_name":"BALLARD","suffix":null,"suffix_display":null},"covered_position":null,"new":true},{"lobbyist":{"id":145094,"prefix":null,"prefix_display":null,"first_name":"MICHAEL","nickname":null,"middle_name":null,"last_name":"LAROSA","suffix":null,"suffix_display":null},"covered_position":"(Lobbying
+        limited to Congress) EA, Congresswoman Bean; Assistant to DepDir, OPM; Comm
+        Dir, ENRC, Senate; DPCC, Comm Dir, Speaker Pelosi; Biden Harris Transition
+        Team, Press Sec. First Lady; SA to President Biden; Press Sec. First Lady","new":true},{"lobbyist":{"id":65984,"prefix":null,"prefix_display":null,"first_name":"DANIEL","nickname":null,"middle_name":null,"last_name":"MCFAUL","suffix":null,"suffix_display":null},"covered_position":"Legislative
+        Director to U.S. Representative Joe Scarborough; Chief of Staff to U.S. Representatives
+        Jeff Miller and Matt Gaetz","new":true}],"government_entities":[]}],"conviction_disclosures":[],"foreign_entities":[],"affiliated_organizations":[]}'
+  recorded_at: 2025-12-08 19:53:02
+recorded_with: VCR-vcr/2.0.0

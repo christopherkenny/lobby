@@ -1,0 +1,270 @@
+http_interactions:
+- request:
+    method: GET
+    uri: https://lda.senate.gov/api/v1/contributions
+  response:
+    status: 200
+    headers:
+      Server: gunicorn
+      Content-Type: application/json
+      Allow: GET
+      Content-Length: '5374'
+      Content-Encoding: gzip
+      x-frame-options: DENY
+      x-content-type-options: nosniff
+      referrer-policy: same-origin
+      cross-origin-opener-policy: same-origin
+      Date: Mon, 08 Dec 2025 19:58:14 GMT
+      Connection: keep-alive
+      Vary: Accept-Encoding
+      Strict-Transport-Security: max-age=31536000
+    body:
+      string: '{"count":635460,"next":"https://lda.senate.gov/api/v1/contributions/?page=2","previous":null,"results":[{"url":"https://lda.senate.gov/api/v1/contributions/86260004-84e7-46e3-9cfa-76edae508768/","filing_uuid":"86260004-84e7-46e3-9cfa-76edae508768","filing_type":"MM","filing_type_display":"Mid-Year
+        Report","filing_year":2008,"filing_period":"mid_year","filing_period_display":"Mid-Year
+        (Jan 1 - Jun 30)","filing_document_url":"https://lda.senate.gov/filings/public/contribution/86260004-84e7-46e3-9cfa-76edae508768/print/","filing_document_content_type":"text/html","filer_type":"lobbyist","filer_type_display":"Lobbyist","dt_posted":"2008-06-30T11:42:06-04:00","contact_name":null,"comments":null,"address_1":"1625
+        Prince Street","address_2":null,"city":"Alexandria","state":"VA","state_display":"Virginia","zip":"22305","country":"US","country_display":"United
+        States of America","registrant":{"id":71930,"url":"https://lda.senate.gov/api/v1/registrants/71930/","house_registrant_id":35860,"name":"ASIS
+        INTERNATIONAL","description":null,"address_1":"1625 PRINCE STREET","address_2":null,"address_3":null,"address_4":null,"city":"ALEXANDRIA","state":"VA","state_display":"Virginia","zip":"22314","country":"US","country_display":"United
+        States of America","ppb_country":"US","ppb_country_display":"United States
+        of America","contact_name":"SUSAN MOSEDALE","contact_telephone":"+1 703-518-1418","dt_updated":"2024-05-18T13:00:32.420471-04:00"},"lobbyist":{"id":43217,"prefix":"ms","prefix_display":"MS.","first_name":"KRISTIN","nickname":null,"middle_name":"ELIZABETH","last_name":"RUBIN","suffix":null,"suffix_display":null},"no_contributions":true,"pacs":["ASISPAC"],"contribution_items":[]},{"url":"https://lda.senate.gov/api/v1/contributions/b61d5fc3-fe25-4e1e-b537-1d70553745e0/","filing_uuid":"b61d5fc3-fe25-4e1e-b537-1d70553745e0","filing_type":"MM","filing_type_display":"Mid-Year
+        Report","filing_year":2008,"filing_period":"mid_year","filing_period_display":"Mid-Year
+        (Jan 1 - Jun 30)","filing_document_url":"https://lda.senate.gov/filings/public/contribution/b61d5fc3-fe25-4e1e-b537-1d70553745e0/print/","filing_document_content_type":"text/html","filer_type":"lobbyist","filer_type_display":"Lobbyist","dt_posted":"2008-06-30T11:43:07-04:00","contact_name":null,"comments":null,"address_1":"777
+        6th Street","address_2":"Suite 200","city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20001","country":"US","country_display":"United States
+        of America","registrant":{"id":4733,"url":"https://lda.senate.gov/api/v1/registrants/4733/","house_registrant_id":31241,"name":"AMERICAN
+        ASSOCIATION FOR JUSTICE","description":null,"address_1":"777 6TH STREET, NW,
+        Suite 200","address_2":null,"address_3":null,"address_4":null,"city":"WASHINGTON","state":"DC","state_display":"District
+        of Columbia","zip":"20001","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"ANJALI
+        JESSERAMSING","contact_telephone":"+1 202-944-2822","dt_updated":"2025-07-30T13:42:59.623157-04:00"},"lobbyist":{"id":42553,"prefix":"mrs","prefix_display":"MRS.","first_name":"CHRISTINE","nickname":null,"middle_name":"CHEN","last_name":"ZINNER","suffix":null,"suffix_display":null},"no_contributions":true,"pacs":[],"contribution_items":[]},{"url":"https://lda.senate.gov/api/v1/contributions/5a725b27-b6cf-4661-9a36-39a9aa21433d/","filing_uuid":"5a725b27-b6cf-4661-9a36-39a9aa21433d","filing_type":"MM","filing_type_display":"Mid-Year
+        Report","filing_year":2008,"filing_period":"mid_year","filing_period_display":"Mid-Year
+        (Jan 1 - Jun 30)","filing_document_url":"https://lda.senate.gov/filings/public/contribution/5a725b27-b6cf-4661-9a36-39a9aa21433d/print/","filing_document_content_type":"text/html","filer_type":"lobbyist","filer_type_display":"Lobbyist","dt_posted":"2008-06-30T11:44:08-04:00","contact_name":null,"comments":null,"address_1":"1111
+        16th St NW","address_2":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20036","country":"US","country_display":"United States
+        of America","registrant":{"id":1741,"url":"https://lda.senate.gov/api/v1/registrants/1741/","house_registrant_id":31717,"name":"AMERICAN
+        ASSOCIATION OF UNIVERSITY WOMEN","description":null,"address_1":"1310 L Street,
+        NW","address_2":"Suite 1000","address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20005","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"GLORIA
+        BLACKWELL","contact_telephone":"+1 202-785-7767","dt_updated":"2023-08-29T14:25:19.411056-04:00"},"lobbyist":{"id":41462,"prefix":null,"prefix_display":null,"first_name":"ANNE","nickname":null,"middle_name":null,"last_name":"HEDGEPETH","suffix":null,"suffix_display":null},"no_contributions":true,"pacs":[],"contribution_items":[]},{"url":"https://lda.senate.gov/api/v1/contributions/4d455134-6e20-40d6-9aee-88d7d9a81adc/","filing_uuid":"4d455134-6e20-40d6-9aee-88d7d9a81adc","filing_type":"MM","filing_type_display":"Mid-Year
+        Report","filing_year":2008,"filing_period":"mid_year","filing_period_display":"Mid-Year
+        (Jan 1 - Jun 30)","filing_document_url":"https://lda.senate.gov/filings/public/contribution/4d455134-6e20-40d6-9aee-88d7d9a81adc/print/","filing_document_content_type":"text/html","filer_type":"lobbyist","filer_type_display":"Lobbyist","dt_posted":"2008-06-30T11:48:10-04:00","contact_name":null,"comments":null,"address_1":"2100
+        Pennsylvania Ave NW #500","address_2":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20037","country":"US","country_display":"United States
+        of America","registrant":{"id":12675,"url":"https://lda.senate.gov/api/v1/registrants/12675/","house_registrant_id":31811,"name":"THE
+        DUBERSTEIN GROUP INC.","description":"Consulting","address_1":"325 7th Street
+        NW","address_2":"Suite 825","address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20004","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"DAVID
+        J. SCHIAPPA","contact_telephone":"+1 202-728-1100","dt_updated":"2025-07-30T13:24:59.591311-04:00"},"lobbyist":{"id":2262,"prefix":null,"prefix_display":null,"first_name":"JILL","nickname":null,"middle_name":null,"last_name":"DAVIDSAVER","suffix":null,"suffix_display":null},"no_contributions":true,"pacs":[],"contribution_items":[]},{"url":"https://lda.senate.gov/api/v1/contributions/cb0d3d13-4cc0-49bc-91d1-a0666285830e/","filing_uuid":"cb0d3d13-4cc0-49bc-91d1-a0666285830e","filing_type":"MM","filing_type_display":"Mid-Year
+        Report","filing_year":2008,"filing_period":"mid_year","filing_period_display":"Mid-Year
+        (Jan 1 - Jun 30)","filing_document_url":"https://lda.senate.gov/filings/public/contribution/cb0d3d13-4cc0-49bc-91d1-a0666285830e/print/","filing_document_content_type":"text/html","filer_type":"lobbyist","filer_type_display":"Lobbyist","dt_posted":"2008-06-30T11:51:11-04:00","contact_name":null,"comments":null,"address_1":"777
+        6th Street, N.W.","address_2":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20001","country":"US","country_display":"United States
+        of America","registrant":{"id":4733,"url":"https://lda.senate.gov/api/v1/registrants/4733/","house_registrant_id":31241,"name":"AMERICAN
+        ASSOCIATION FOR JUSTICE","description":null,"address_1":"777 6TH STREET, NW,
+        Suite 200","address_2":null,"address_3":null,"address_4":null,"city":"WASHINGTON","state":"DC","state_display":"District
+        of Columbia","zip":"20001","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"ANJALI
+        JESSERAMSING","contact_telephone":"+1 202-944-2822","dt_updated":"2025-07-30T13:42:59.623157-04:00"},"lobbyist":{"id":42550,"prefix":"mr","prefix_display":"MR.","first_name":"THOMAS","nickname":null,"middle_name":"R","last_name":"WHITE","suffix":null,"suffix_display":null},"no_contributions":true,"pacs":[],"contribution_items":[]},{"url":"https://lda.senate.gov/api/v1/contributions/60c7368c-d8a9-4701-9a79-4bfc4ab81c69/","filing_uuid":"60c7368c-d8a9-4701-9a79-4bfc4ab81c69","filing_type":"MM","filing_type_display":"Mid-Year
+        Report","filing_year":2008,"filing_period":"mid_year","filing_period_display":"Mid-Year
+        (Jan 1 - Jun 30)","filing_document_url":"https://lda.senate.gov/filings/public/contribution/60c7368c-d8a9-4701-9a79-4bfc4ab81c69/print/","filing_document_content_type":"text/html","filer_type":"lobbyist","filer_type_display":"Lobbyist","dt_posted":"2008-06-30T11:53:12-04:00","contact_name":null,"comments":null,"address_1":"1111
+        16th St NW","address_2":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20036","country":"US","country_display":"United States
+        of America","registrant":{"id":1741,"url":"https://lda.senate.gov/api/v1/registrants/1741/","house_registrant_id":31717,"name":"AMERICAN
+        ASSOCIATION OF UNIVERSITY WOMEN","description":null,"address_1":"1310 L Street,
+        NW","address_2":"Suite 1000","address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20005","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"GLORIA
+        BLACKWELL","contact_telephone":"+1 202-785-7767","dt_updated":"2023-08-29T14:25:19.411056-04:00"},"lobbyist":{"id":1776,"prefix":null,"prefix_display":null,"first_name":"TRACY","nickname":null,"middle_name":null,"last_name":"SHERMAN","suffix":null,"suffix_display":null},"no_contributions":true,"pacs":[],"contribution_items":[]},{"url":"https://lda.senate.gov/api/v1/contributions/3f31c5d8-6b6f-4166-a70e-a472802ddbaa/","filing_uuid":"3f31c5d8-6b6f-4166-a70e-a472802ddbaa","filing_type":"MM","filing_type_display":"Mid-Year
+        Report","filing_year":2008,"filing_period":"mid_year","filing_period_display":"Mid-Year
+        (Jan 1 - Jun 30)","filing_document_url":"https://lda.senate.gov/filings/public/contribution/3f31c5d8-6b6f-4166-a70e-a472802ddbaa/print/","filing_document_content_type":"text/html","filer_type":"lobbyist","filer_type_display":"Lobbyist","dt_posted":"2008-06-30T11:59:17-04:00","contact_name":null,"comments":null,"address_1":"1211
+        Connecticut Avenue, NW","address_2":"Suite 610","city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20036","country":"US","country_display":"United States
+        of America","registrant":{"id":23496,"url":"https://lda.senate.gov/api/v1/registrants/23496/","house_registrant_id":30195,"name":"MAGAZINE
+        PUBLISHERS OF AMERICA","description":null,"address_1":"1211 CONNECTICUT AVENUE,
+        NW, #610","address_2":null,"address_3":null,"address_4":null,"city":"WASHINGTON","state":"DC","state_display":"District
+        of Columbia","zip":"20036","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"RITA
+        COHEN","contact_telephone":"+1 202-369-1237","dt_updated":"2023-06-06T16:25:13.833354-04:00"},"lobbyist":{"id":43244,"prefix":"ms","prefix_display":"MS.","first_name":"MICKI","nickname":null,"middle_name":"HOWARD","last_name":"WORK","suffix":null,"suffix_display":null},"no_contributions":true,"pacs":[],"contribution_items":[]},{"url":"https://lda.senate.gov/api/v1/contributions/89453b1d-9ac0-42e3-ab39-1b8ec4e4faff/","filing_uuid":"89453b1d-9ac0-42e3-ab39-1b8ec4e4faff","filing_type":"MM","filing_type_display":"Mid-Year
+        Report","filing_year":2008,"filing_period":"mid_year","filing_period_display":"Mid-Year
+        (Jan 1 - Jun 30)","filing_document_url":"https://lda.senate.gov/filings/public/contribution/89453b1d-9ac0-42e3-ab39-1b8ec4e4faff/print/","filing_document_content_type":"text/html","filer_type":"lobbyist","filer_type_display":"Lobbyist","dt_posted":"2008-06-30T12:30:24-04:00","contact_name":null,"comments":null,"address_1":"206
+        N. Washington St.","address_2":"Suite 300","city":"Alexandria","state":"VA","state_display":"Virginia","zip":"22314","country":"US","country_display":"United
+        States of America","registrant":{"id":2593,"url":"https://lda.senate.gov/api/v1/registrants/2593/","house_registrant_id":32628,"name":"AMERICAN
+        HUMANE ASSOCIATION","description":null,"address_1":"1400 16th Street NW","address_2":"Suite
+        360","address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20036","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"KRISTEN
+        HILDERBRAND","contact_telephone":"+1 202-677-4213","dt_updated":"2022-04-06T16:04:34.074399-04:00"},"lobbyist":{"id":28818,"prefix":null,"prefix_display":null,"first_name":"TRACY","nickname":null,"middle_name":null,"last_name":"COPPOLA","suffix":null,"suffix_display":null},"no_contributions":true,"pacs":[],"contribution_items":[]},{"url":"https://lda.senate.gov/api/v1/contributions/56b382d1-f218-45ee-9c77-cb2c5eb107f0/","filing_uuid":"56b382d1-f218-45ee-9c77-cb2c5eb107f0","filing_type":"MM","filing_type_display":"Mid-Year
+        Report","filing_year":2008,"filing_period":"mid_year","filing_period_display":"Mid-Year
+        (Jan 1 - Jun 30)","filing_document_url":"https://lda.senate.gov/filings/public/contribution/56b382d1-f218-45ee-9c77-cb2c5eb107f0/print/","filing_document_content_type":"text/html","filer_type":"lobbyist","filer_type_display":"Lobbyist","dt_posted":"2008-06-30T12:55:23-04:00","contact_name":null,"comments":null,"address_1":"777
+        6th Street, NW","address_2":"Suite 200","city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20001","country":"US","country_display":"United States
+        of America","registrant":{"id":4733,"url":"https://lda.senate.gov/api/v1/registrants/4733/","house_registrant_id":31241,"name":"AMERICAN
+        ASSOCIATION FOR JUSTICE","description":null,"address_1":"777 6TH STREET, NW,
+        Suite 200","address_2":null,"address_3":null,"address_4":null,"city":"WASHINGTON","state":"DC","state_display":"District
+        of Columbia","zip":"20001","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"ANJALI
+        JESSERAMSING","contact_telephone":"+1 202-944-2822","dt_updated":"2025-07-30T13:42:59.623157-04:00"},"lobbyist":{"id":23247,"prefix":null,"prefix_display":null,"first_name":"ELIZABETH","nickname":null,"middle_name":null,"last_name":"HUMPHREY","suffix":null,"suffix_display":null},"no_contributions":true,"pacs":[],"contribution_items":[]},{"url":"https://lda.senate.gov/api/v1/contributions/4d318f15-8b83-448a-bc6c-6f1f09a7330b/","filing_uuid":"4d318f15-8b83-448a-bc6c-6f1f09a7330b","filing_type":"MM","filing_type_display":"Mid-Year
+        Report","filing_year":2008,"filing_period":"mid_year","filing_period_display":"Mid-Year
+        (Jan 1 - Jun 30)","filing_document_url":"https://lda.senate.gov/filings/public/contribution/4d318f15-8b83-448a-bc6c-6f1f09a7330b/print/","filing_document_content_type":"text/html","filer_type":"lobbyist","filer_type_display":"Lobbyist","dt_posted":"2008-06-30T12:57:27-04:00","contact_name":null,"comments":null,"address_1":"1336
+        E Street SE","address_2":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20003","country":"US","country_display":"United States
+        of America","registrant":{"id":25328,"url":"https://lda.senate.gov/api/v1/registrants/25328/","house_registrant_id":30761,"name":"DENNY
+        MILLER ASSOCIATES","description":"Lobbying, consulting and government relations","address_1":"400
+        N Capitol St, Ste 363","address_2":null,"address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20001","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"MELISSA
+        BROWN","contact_telephone":"+1 202-783-0280","dt_updated":"2022-04-06T16:06:34.952708-04:00"},"lobbyist":{"id":43277,"prefix":"mr","prefix_display":"MR.","first_name":"SHAY","nickname":null,"middle_name":"MICHAEL","last_name":"HANCOCK","suffix":null,"suffix_display":null},"no_contributions":false,"pacs":[],"contribution_items":[{"contribution_type":"feca","contribution_type_display":"FECA","contributor_name":"HANCOCK,
+        SHAY MICHAEL","payee_name":"ADAM SMITH FOR CONGRESS","honoree_name":"Adam
+        Smith","amount":"1000.00","date":"2008-04-09"},{"contribution_type":"feca","contribution_type_display":"FECA","contributor_name":"HANCOCK,
+        SHAY MICHAEL","payee_name":"PEOPLE FOR PATTY MURRAY","honoree_name":"Patty
+        Murray","amount":"1000.00","date":"2008-05-21"},{"contribution_type":"feca","contribution_type_display":"FECA","contributor_name":"HANCOCK,
+        SHAY MICHAEL","payee_name":"INSLEE FOR CONGRESS","honoree_name":"Jay Inslee","amount":"250.00","date":"2008-03-05"}]},{"url":"https://lda.senate.gov/api/v1/contributions/ddc26689-0cfc-42a7-a8c7-aca82e42b5d5/","filing_uuid":"ddc26689-0cfc-42a7-a8c7-aca82e42b5d5","filing_type":"MM","filing_type_display":"Mid-Year
+        Report","filing_year":2008,"filing_period":"mid_year","filing_period_display":"Mid-Year
+        (Jan 1 - Jun 30)","filing_document_url":"https://lda.senate.gov/filings/public/contribution/ddc26689-0cfc-42a7-a8c7-aca82e42b5d5/print/","filing_document_content_type":"text/html","filer_type":"lobbyist","filer_type_display":"Lobbyist","dt_posted":"2008-06-30T13:00:24-04:00","contact_name":null,"comments":null,"address_1":"1317
+        F Street NW","address_2":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20004","country":"US","country_display":"United States
+        of America","registrant":{"id":41113,"url":"https://lda.senate.gov/api/v1/registrants/41113/","house_registrant_id":30756,"name":"WEXLER
+        | WALKER, A UNIT OF HILL+KNOWLTON STRATEGIES, LLC","description":"Public Affairs","address_1":"1317
+        F STREET, N.W.","address_2":"SUITE 800","address_3":null,"address_4":null,"city":"WASHINGTON","state":"DC","state_display":"District
+        of Columbia","zip":"20004","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"SONJAI
+        C. HARRISON","contact_telephone":"+1 202-662-3737","dt_updated":"2022-04-06T16:06:12.831796-04:00"},"lobbyist":{"id":8046,"prefix":null,"prefix_display":null,"first_name":"ROBERT","nickname":null,"middle_name":null,"last_name":"WALTHER","suffix":null,"suffix_display":null},"no_contributions":true,"pacs":[],"contribution_items":[]},{"url":"https://lda.senate.gov/api/v1/contributions/6854a6dc-05ab-4b75-897b-88d96f0a69a9/","filing_uuid":"6854a6dc-05ab-4b75-897b-88d96f0a69a9","filing_type":"MM","filing_type_display":"Mid-Year
+        Report","filing_year":2008,"filing_period":"mid_year","filing_period_display":"Mid-Year
+        (Jan 1 - Jun 30)","filing_document_url":"https://lda.senate.gov/filings/public/contribution/6854a6dc-05ab-4b75-897b-88d96f0a69a9/print/","filing_document_content_type":"text/html","filer_type":"lobbyist","filer_type_display":"Lobbyist","dt_posted":"2008-06-30T13:58:12-04:00","contact_name":null,"comments":null,"address_1":"1301
+        K ST NW","address_2":"Suite 1200W","city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20005","country":"US","country_display":"United States
+        of America","registrant":{"id":19877,"url":"https://lda.senate.gov/api/v1/registrants/19877/","house_registrant_id":31123,"name":"INTERNATIONAL
+        BUSINESS MACHINES CORPORATION (IBM)","description":null,"address_1":"600 14th
+        Street NW","address_2":"Suite 300","address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20005","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"SHAY
+        JOHNSON","contact_telephone":"+1 202-551-9299","dt_updated":"2025-07-30T16:35:00.438630-04:00"},"lobbyist":{"id":45729,"prefix":null,"prefix_display":null,"first_name":"DANA","nickname":null,"middle_name":null,"last_name":"GRAY","suffix":null,"suffix_display":null},"no_contributions":true,"pacs":[],"contribution_items":[]},{"url":"https://lda.senate.gov/api/v1/contributions/a8f36c02-c547-4995-b8be-7a10b0530667/","filing_uuid":"a8f36c02-c547-4995-b8be-7a10b0530667","filing_type":"MM","filing_type_display":"Mid-Year
+        Report","filing_year":2008,"filing_period":"mid_year","filing_period_display":"Mid-Year
+        (Jan 1 - Jun 30)","filing_document_url":"https://lda.senate.gov/filings/public/contribution/a8f36c02-c547-4995-b8be-7a10b0530667/print/","filing_document_content_type":"text/html","filer_type":"lobbyist","filer_type_display":"Lobbyist","dt_posted":"2008-06-30T13:58:13-04:00","contact_name":null,"comments":null,"address_1":"9650
+        Rockville Pike","address_2":null,"city":"Bethesda","state":"MD","state_display":"Maryland","zip":"20814","country":"US","country_display":"United
+        States of America","registrant":{"id":40025207,"url":"https://lda.senate.gov/api/v1/registrants/40025207/","house_registrant_id":39862,"name":"THE
+        AMERICAN PHYSIOLOGICAL SOCIETY","description":"Scientific society, publisher
+        of scientific literature.","address_1":"6120 Executive Blvd. Suite 575","address_2":null,"address_3":null,"address_4":null,"city":"Rockville","state":"MD","state_display":"Maryland","zip":"20852","country":"US","country_display":"United
+        States of America","ppb_country":"US","ppb_country_display":"United States
+        of America","contact_name":"REBECCA OSTHUS","contact_telephone":"+1 301-634-7254","dt_updated":"2025-07-09T15:42:51.874459-04:00"},"lobbyist":{"id":39639,"prefix":null,"prefix_display":null,"first_name":"REBECCA","nickname":null,"middle_name":null,"last_name":"OSTHUS","suffix":null,"suffix_display":null},"no_contributions":true,"pacs":[],"contribution_items":[]},{"url":"https://lda.senate.gov/api/v1/contributions/12ccb299-e0ba-481d-bba5-cfd23ff306b4/","filing_uuid":"12ccb299-e0ba-481d-bba5-cfd23ff306b4","filing_type":"MM","filing_type_display":"Mid-Year
+        Report","filing_year":2008,"filing_period":"mid_year","filing_period_display":"Mid-Year
+        (Jan 1 - Jun 30)","filing_document_url":"https://lda.senate.gov/filings/public/contribution/12ccb299-e0ba-481d-bba5-cfd23ff306b4/print/","filing_document_content_type":"text/html","filer_type":"lobbyist","filer_type_display":"Lobbyist","dt_posted":"2008-06-30T13:58:14-04:00","contact_name":null,"comments":null,"address_1":"2108
+        Marlboro Drive","address_2":null,"city":"Alexandria","state":"VA","state_display":"Virginia","zip":"22304","country":"US","country_display":"United
+        States of America","registrant":{"id":294416,"url":"https://lda.senate.gov/api/v1/registrants/294416/","house_registrant_id":37412,"name":"EXPRESS
+        SCRIPTS, INC.","description":"pharmacy benefit management","address_1":"300
+        New Jersey Avenue, NW, #600","address_2":null,"address_3":null,"address_4":null,"city":"WASHINGTON","state":"DC","state_display":"District
+        of Columbia","zip":"20001","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"KRISTIN
+        JULASON DAMATO","contact_telephone":"+1 202-719-5557","dt_updated":"2022-04-06T16:08:29.502706-04:00"},"lobbyist":{"id":43235,"prefix":"mr","prefix_display":"MR.","first_name":"MARY","nickname":null,"middle_name":"M","last_name":"ROSADO","suffix":null,"suffix_display":null},"no_contributions":true,"pacs":[],"contribution_items":[]},{"url":"https://lda.senate.gov/api/v1/contributions/7aff63ac-3661-4551-9caf-7f848774630f/","filing_uuid":"7aff63ac-3661-4551-9caf-7f848774630f","filing_type":"MM","filing_type_display":"Mid-Year
+        Report","filing_year":2008,"filing_period":"mid_year","filing_period_display":"Mid-Year
+        (Jan 1 - Jun 30)","filing_document_url":"https://lda.senate.gov/filings/public/contribution/7aff63ac-3661-4551-9caf-7f848774630f/print/","filing_document_content_type":"text/html","filer_type":"lobbyist","filer_type_display":"Lobbyist","dt_posted":"2008-06-30T13:58:31-04:00","contact_name":null,"comments":null,"address_1":"2475
+        North Sun Valley Place","address_2":null,"city":"Eagle","state":"ID","state_display":"Idaho","zip":"83616","country":"US","country_display":"United
+        States of America","registrant":{"id":40015120,"url":"https://lda.senate.gov/api/v1/registrants/40015120/","house_registrant_id":39868,"name":"DPV
+        SOLUTIONS, LLC","description":"Land use","address_1":"2475 N Sun Valley Pl","address_2":null,"address_3":null,"address_4":null,"city":"Eagle","state":"ID","state_display":"Idaho","zip":"83616","country":"US","country_display":"United
+        States of America","ppb_country":"US","ppb_country_display":"United States
+        of America","contact_name":"PAUL VENOSDEL","contact_telephone":"+1 208-559-5777","dt_updated":"2022-04-06T16:07:23.873658-04:00"},"lobbyist":{"id":39371,"prefix":null,"prefix_display":null,"first_name":"RON","nickname":null,"middle_name":null,"last_name":"LINDSEY","suffix":null,"suffix_display":null},"no_contributions":true,"pacs":[],"contribution_items":[]},{"url":"https://lda.senate.gov/api/v1/contributions/2d4425f6-b45a-404c-b287-48af56de682c/","filing_uuid":"2d4425f6-b45a-404c-b287-48af56de682c","filing_type":"MM","filing_type_display":"Mid-Year
+        Report","filing_year":2008,"filing_period":"mid_year","filing_period_display":"Mid-Year
+        (Jan 1 - Jun 30)","filing_document_url":"https://lda.senate.gov/filings/public/contribution/2d4425f6-b45a-404c-b287-48af56de682c/print/","filing_document_content_type":"text/html","filer_type":"lobbyist","filer_type_display":"Lobbyist","dt_posted":"2008-06-30T13:58:34-04:00","contact_name":null,"comments":null,"address_1":"2200
+        Wisconsin Avenue NW","address_2":"#103","city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20007-4110","country":"US","country_display":"United States
+        of America","registrant":{"id":314215,"url":"https://lda.senate.gov/api/v1/registrants/314215/","house_registrant_id":39163,"name":"MATTOON
+        & ASSOCIATES, LLC","description":"Provide lobbying services","address_1":"6344
+        Cavalier Corridor","address_2":null,"address_3":null,"address_4":null,"city":"Falls
+        Church","state":"VA","state_display":"Virginia","zip":"22044","country":"US","country_display":"United
+        States of America","ppb_country":"US","ppb_country_display":"United States
+        of America","contact_name":"DANIEL MATTOON","contact_telephone":"+1 202-352-3294","dt_updated":"2025-07-24T11:50:51.897630-04:00"},"lobbyist":{"id":16373,"prefix":null,"prefix_display":null,"first_name":"ASHLEY","nickname":null,"middle_name":null,"last_name":"CLARK","suffix":null,"suffix_display":null},"no_contributions":true,"pacs":[],"contribution_items":[]},{"url":"https://lda.senate.gov/api/v1/contributions/a042c7e6-438e-497b-8289-e84e566d0a11/","filing_uuid":"a042c7e6-438e-497b-8289-e84e566d0a11","filing_type":"MM","filing_type_display":"Mid-Year
+        Report","filing_year":2008,"filing_period":"mid_year","filing_period_display":"Mid-Year
+        (Jan 1 - Jun 30)","filing_document_url":"https://lda.senate.gov/filings/public/contribution/a042c7e6-438e-497b-8289-e84e566d0a11/print/","filing_document_content_type":"text/html","filer_type":"lobbyist","filer_type_display":"Lobbyist","dt_posted":"2008-06-30T13:58:37-04:00","contact_name":null,"comments":null,"address_1":"510
+        South 31st Streer","address_2":null,"city":"Camp Hill","state":"PA","state_display":"Pennsylvania","zip":"17001-8736","country":"US","country_display":"United
+        States of America","registrant":{"id":52071,"url":"https://lda.senate.gov/api/v1/registrants/52071/","house_registrant_id":34854,"name":"PENNSYLVANIA
+        FARM BUREAU","description":null,"address_1":"214 Senate Ave","address_2":"PO
+        BOX 8736","address_3":null,"address_4":null,"city":"CAMP HILL","state":"PA","state_display":"Pennsylvania","zip":"17001","country":"US","country_display":"United
+        States of America","ppb_country":"US","ppb_country_display":"United States
+        of America","contact_name":"BAILEY FISHER","contact_telephone":"+1 717-761-2740","dt_updated":"2025-07-30T20:02:02.578391-04:00"},"lobbyist":{"id":37170,"prefix":null,"prefix_display":null,"first_name":"SAMUEL","nickname":null,"middle_name":null,"last_name":"KIEFFER","suffix":null,"suffix_display":null},"no_contributions":true,"pacs":[],"contribution_items":[]},{"url":"https://lda.senate.gov/api/v1/contributions/86f76d89-3df4-4f3f-a454-e0c56fa35e79/","filing_uuid":"86f76d89-3df4-4f3f-a454-e0c56fa35e79","filing_type":"MM","filing_type_display":"Mid-Year
+        Report","filing_year":2008,"filing_period":"mid_year","filing_period_display":"Mid-Year
+        (Jan 1 - Jun 30)","filing_document_url":"https://lda.senate.gov/filings/public/contribution/86f76d89-3df4-4f3f-a454-e0c56fa35e79/print/","filing_document_content_type":"text/html","filer_type":"lobbyist","filer_type_display":"Lobbyist","dt_posted":"2008-06-30T14:01:15-04:00","contact_name":null,"comments":null,"address_1":"Chaney
+        & Associates","address_2":"1212 New York Ave., NW, #250","city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20005-3953","country":"US","country_display":"United States
+        of America","registrant":{"id":8874,"url":"https://lda.senate.gov/api/v1/registrants/8874/","house_registrant_id":31116,"name":"CAROLYN
+        C. CHANEY & ASSOCIATES, INC.","description":null,"address_1":"1212 NEW YORK
+        AVENUE, NW, SUITE 250","address_2":null,"address_3":null,"address_4":null,"city":"WASHINGTON","state":"DC","state_display":"District
+        of Columbia","zip":"20005-3953","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"CHRISTOPHER
+        F GIGLIO","contact_telephone":"+1 202-842-4930","dt_updated":"2022-04-06T16:04:34.154767-04:00"},"lobbyist":{"id":1567,"prefix":null,"prefix_display":null,"first_name":"CHRISTOPHER","nickname":null,"middle_name":null,"last_name":"GIGLIO","suffix":null,"suffix_display":null},"no_contributions":true,"pacs":[],"contribution_items":[]},{"url":"https://lda.senate.gov/api/v1/contributions/14c547e8-b5d2-4049-accf-7b48f4ef30bb/","filing_uuid":"14c547e8-b5d2-4049-accf-7b48f4ef30bb","filing_type":"MM","filing_type_display":"Mid-Year
+        Report","filing_year":2008,"filing_period":"mid_year","filing_period_display":"Mid-Year
+        (Jan 1 - Jun 30)","filing_document_url":"https://lda.senate.gov/filings/public/contribution/14c547e8-b5d2-4049-accf-7b48f4ef30bb/print/","filing_document_content_type":"text/html","filer_type":"lobbyist","filer_type_display":"Lobbyist","dt_posted":"2008-06-30T14:08:18-04:00","contact_name":null,"comments":null,"address_1":"9207
+        Topeka Street","address_2":null,"city":"Bethesda","state":"MD","state_display":"Maryland","zip":"20817","country":"US","country_display":"United
+        States of America","registrant":{"id":1273,"url":"https://lda.senate.gov/api/v1/registrants/1273/","house_registrant_id":30313,"name":"AMALGAMATED
+        TRANSIT UNION","description":null,"address_1":"5025 Wisconsin Ave NW","address_2":null,"address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20016","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"JEFFREY
+        ROSENBERG","contact_telephone":"+1 301-431-7100","dt_updated":"2025-07-24T12:17:52.094047-04:00"},"lobbyist":{"id":42603,"prefix":null,"prefix_display":null,"first_name":"JEFFREY","nickname":null,"middle_name":null,"last_name":"ROSENBERG","suffix":null,"suffix_display":null},"no_contributions":false,"pacs":[],"contribution_items":[{"contribution_type":"feca","contribution_type_display":"FECA","contributor_name":"ROSENBERG,
+        JEFFREY","payee_name":"HILLARY CLINTON FOR PRESIDENT","honoree_name":"Hillary
+        Clinton for President","amount":"250.00","date":"2008-02-14"}]},{"url":"https://lda.senate.gov/api/v1/contributions/fb377c1b-c5ac-49b1-ac4d-689496ae1fec/","filing_uuid":"fb377c1b-c5ac-49b1-ac4d-689496ae1fec","filing_type":"MM","filing_type_display":"Mid-Year
+        Report","filing_year":2008,"filing_period":"mid_year","filing_period_display":"Mid-Year
+        (Jan 1 - Jun 30)","filing_document_url":"https://lda.senate.gov/filings/public/contribution/fb377c1b-c5ac-49b1-ac4d-689496ae1fec/print/","filing_document_content_type":"text/html","filer_type":"lobbyist","filer_type_display":"Lobbyist","dt_posted":"2008-06-30T14:12:19-04:00","contact_name":null,"comments":null,"address_1":"1327
+        V Street, NW","address_2":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20009","country":"US","country_display":"United States
+        of America","registrant":{"id":1273,"url":"https://lda.senate.gov/api/v1/registrants/1273/","house_registrant_id":30313,"name":"AMALGAMATED
+        TRANSIT UNION","description":null,"address_1":"5025 Wisconsin Ave NW","address_2":null,"address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20016","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"JEFFREY
+        ROSENBERG","contact_telephone":"+1 301-431-7100","dt_updated":"2025-07-24T12:17:52.094047-04:00"},"lobbyist":{"id":51793,"prefix":null,"prefix_display":null,"first_name":"KAREN","nickname":null,"middle_name":null,"last_name":"JOYCE","suffix":null,"suffix_display":null},"no_contributions":false,"pacs":[],"contribution_items":[{"contribution_type":"feca","contribution_type_display":"FECA","contributor_name":"HEAD,
+        KAREN","payee_name":"HILLARY CLINTON FOR PRESIDENT COMMITTEE","honoree_name":"None","amount":"100.00","date":"2008-02-08"}]},{"url":"https://lda.senate.gov/api/v1/contributions/7222ec67-0bda-4677-8748-1865857cd035/","filing_uuid":"7222ec67-0bda-4677-8748-1865857cd035","filing_type":"MM","filing_type_display":"Mid-Year
+        Report","filing_year":2008,"filing_period":"mid_year","filing_period_display":"Mid-Year
+        (Jan 1 - Jun 30)","filing_document_url":"https://lda.senate.gov/filings/public/contribution/7222ec67-0bda-4677-8748-1865857cd035/print/","filing_document_content_type":"text/html","filer_type":"lobbyist","filer_type_display":"Lobbyist","dt_posted":"2008-06-30T14:29:21-04:00","contact_name":null,"comments":null,"address_1":"1156
+        Fifteenth St, NW","address_2":"Suite 1019","city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20005","country":"US","country_display":"United States
+        of America","registrant":{"id":38712,"url":"https://lda.senate.gov/api/v1/registrants/38712/","house_registrant_id":32018,"name":"U.S.
+        BEET SUGAR ASSOCIATION","description":"trade association","address_1":"50
+        F Street NW","address_2":"Suite 675","address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20001","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"CASSIE
+        BLADOW","contact_telephone":"+1 202-407-1873","dt_updated":"2025-07-30T15:02:00.159849-04:00"},"lobbyist":{"id":19156,"prefix":null,"prefix_display":null,"first_name":"ELIN","nickname":null,"middle_name":null,"last_name":"PELTZ","suffix":null,"suffix_display":null},"no_contributions":true,"pacs":[],"contribution_items":[]},{"url":"https://lda.senate.gov/api/v1/contributions/21b7da9f-d57a-44d5-8029-6e5c18a1410f/","filing_uuid":"21b7da9f-d57a-44d5-8029-6e5c18a1410f","filing_type":"MM","filing_type_display":"Mid-Year
+        Report","filing_year":2008,"filing_period":"mid_year","filing_period_display":"Mid-Year
+        (Jan 1 - Jun 30)","filing_document_url":"https://lda.senate.gov/filings/public/contribution/21b7da9f-d57a-44d5-8029-6e5c18a1410f/print/","filing_document_content_type":"text/html","filer_type":"lobbyist","filer_type_display":"Lobbyist","dt_posted":"2008-06-30T14:30:06-04:00","contact_name":null,"comments":null,"address_1":"1054
+        31st Street N.W.","address_2":"Suite 540","city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20007","country":"US","country_display":"United States
+        of America","registrant":{"id":58250,"url":"https://lda.senate.gov/api/v1/registrants/58250/","house_registrant_id":35267,"name":"RYBERG
+        AND SMITH, L.L.C.","description":"Law fiem","address_1":"1701 Pennsylvania
+        Avenue, NW","address_2":"Suite 200","address_3":null,"address_4":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20006","country":"US","country_display":"United States
+        of America","ppb_country":"US","ppb_country_display":"United States of America","contact_name":"PAUL
+        RYBERG","contact_telephone":"+1 202-531-4028","dt_updated":"2025-07-07T09:36:56.205766-04:00"},"lobbyist":{"id":18296,"prefix":null,"prefix_display":null,"first_name":"PAUL","nickname":null,"middle_name":null,"last_name":"RYBERG","suffix":"jr","suffix_display":"JR"},"no_contributions":false,"pacs":[],"contribution_items":[{"contribution_type":"feca","contribution_type_display":"FECA","contributor_name":"RYBERG,
+        PAUL JR","payee_name":"HILLARY CLINTON FOR PRESIDENT","honoree_name":"Senator
+        Hillary Clinton","amount":"500.00","date":"2008-01-16"}]},{"url":"https://lda.senate.gov/api/v1/contributions/af24d99f-4524-4a82-9ecf-f8abc9bc1ebf/","filing_uuid":"af24d99f-4524-4a82-9ecf-f8abc9bc1ebf","filing_type":"MM","filing_type_display":"Mid-Year
+        Report","filing_year":2008,"filing_period":"mid_year","filing_period_display":"Mid-Year
+        (Jan 1 - Jun 30)","filing_document_url":"https://lda.senate.gov/filings/public/contribution/af24d99f-4524-4a82-9ecf-f8abc9bc1ebf/print/","filing_document_content_type":"text/html","filer_type":"lobbyist","filer_type_display":"Lobbyist","dt_posted":"2008-06-30T14:31:22-04:00","contact_name":null,"comments":null,"address_1":"1327
+        N. Greenview Ave","address_2":"Unit 1","city":"Chicago","state":"IL","state_display":"Illinois","zip":"60622","country":"US","country_display":"United
+        States of America","registrant":{"id":314215,"url":"https://lda.senate.gov/api/v1/registrants/314215/","house_registrant_id":39163,"name":"MATTOON
+        & ASSOCIATES, LLC","description":"Provide lobbying services","address_1":"6344
+        Cavalier Corridor","address_2":null,"address_3":null,"address_4":null,"city":"Falls
+        Church","state":"VA","state_display":"Virginia","zip":"22044","country":"US","country_display":"United
+        States of America","ppb_country":"US","ppb_country_display":"United States
+        of America","contact_name":"DANIEL MATTOON","contact_telephone":"+1 202-352-3294","dt_updated":"2025-07-24T11:50:51.897630-04:00"},"lobbyist":{"id":17198,"prefix":null,"prefix_display":null,"first_name":"REBECCA","nickname":null,"middle_name":null,"last_name":"GOODING","suffix":null,"suffix_display":null},"no_contributions":false,"pacs":[],"contribution_items":[{"contribution_type":"feca","contribution_type_display":"FECA","contributor_name":"GOODING,
+        REBECCA","payee_name":"CHARLIE DENT FOR CONGRESS","honoree_name":"Congressman
+        Charlie Dent","amount":"500.00","date":"2008-02-08"},{"contribution_type":"feca","contribution_type_display":"FECA","contributor_name":"GOODING,
+        REBECCA","payee_name":"TEXANS FOR SENATOR JOHN CORNYN","honoree_name":"Senator
+        John Cornyn","amount":"500.00","date":"2008-01-31"}]},{"url":"https://lda.senate.gov/api/v1/contributions/4f43c715-065a-4e27-b87a-6306d1c7eeb8/","filing_uuid":"4f43c715-065a-4e27-b87a-6306d1c7eeb8","filing_type":"MM","filing_type_display":"Mid-Year
+        Report","filing_year":2008,"filing_period":"mid_year","filing_period_display":"Mid-Year
+        (Jan 1 - Jun 30)","filing_document_url":"https://lda.senate.gov/filings/public/contribution/4f43c715-065a-4e27-b87a-6306d1c7eeb8/print/","filing_document_content_type":"text/html","filer_type":"lobbyist","filer_type_display":"Lobbyist","dt_posted":"2008-06-30T14:39:10-04:00","contact_name":null,"comments":null,"address_1":"1425
+        K Street, N.W. Suite 600","address_2":null,"city":"Washington","state":"DC","state_display":"District
+        of Columbia","zip":"20005-3498","country":"US","country_display":"United States
+        of America","registrant":{"id":36127,"url":"https://lda.senate.gov/api/v1/registrants/36127/","house_registrant_id":32732,"name":"SONOSKY,
+        CHAMBERS, SACHSE, ENDRESON & PERRY, LLP","description":"Law Firm","address_1":"1425
+        K Street, N.W.","address_2":"Suite 600","address_3":null,"address_4":null,"city":"Washington,
+        D.C.","state":"DC","state_display":"District of Columbia","zip":"20005","country":"US","country_display":"United
+        States of America","ppb_country":"US","ppb_country_display":"United States
+        of America","contact_name":"MARY PAVEL","contact_telephone":"+1 202-236-8866","dt_updated":"2025-07-15T11:16:08.616662-04:00"},"lobbyist":{"id":43240,"prefix":"mr","prefix_display":"MR.","first_name":"MATTHEW","nickname":null,"middle_name":"STUART","last_name":"JAFFE","suffix":null,"suffix_display":null},"no_contributions":true,"pacs":[],"contribution_items":[]},{"url":"https://lda.senate.gov/api/v1/contributions/847e0a9d-f395-46d4-9f4f-08e309d3c4f5/","filing_uuid":"847e0a9d-f395-46d4-9f4f-08e309d3c4f5","filing_type":"MM","filing_type_display":"Mid-Year
+        Report","filing_year":2008,"filing_period":"mid_year","filing_period_display":"Mid-Year
+        (Jan 1 - Jun 30)","filing_document_url":"https://lda.senate.gov/filings/public/contribution/847e0a9d-f395-46d4-9f4f-08e309d3c4f5/print/","filing_document_content_type":"text/html","filer_type":"lobbyist","filer_type_display":"Lobbyist","dt_posted":"2008-06-30T14:39:24-04:00","contact_name":null,"comments":null,"address_1":"9650
+        Rockville Pike","address_2":null,"city":"Bethesda","state":"MD","state_display":"Maryland","zip":"20814-3991","country":"US","country_display":"United
+        States of America","registrant":{"id":40025207,"url":"https://lda.senate.gov/api/v1/registrants/40025207/","house_registrant_id":39862,"name":"THE
+        AMERICAN PHYSIOLOGICAL SOCIETY","description":"Scientific society, publisher
+        of scientific literature.","address_1":"6120 Executive Blvd. Suite 575","address_2":null,"address_3":null,"address_4":null,"city":"Rockville","state":"MD","state_display":"Maryland","zip":"20852","country":"US","country_display":"United
+        States of America","ppb_country":"US","ppb_country_display":"United States
+        of America","contact_name":"REBECCA OSTHUS","contact_telephone":"+1 301-634-7254","dt_updated":"2025-07-09T15:42:51.874459-04:00"},"lobbyist":{"id":39654,"prefix":null,"prefix_display":null,"first_name":"ALICE","nickname":null,"middle_name":null,"last_name":"RA''ANAN","suffix":null,"suffix_display":null},"no_contributions":true,"pacs":[],"contribution_items":[]}]}'
+  recorded_at: 2025-12-08 19:58:14
+recorded_with: VCR-vcr/2.0.0

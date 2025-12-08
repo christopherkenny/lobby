@@ -10,8 +10,7 @@
 #' lob_retrieve_filing(filing_uuid = '3b181214-b253-462c-ad64-783c827e159e')
 lob_retrieve_filing <- function(
     filing_uuid,
-    clean = TRUE
-) {
+    clean = TRUE) {
   req <- httr2::request(base_url = api_url()) |>
     httr2::req_url_path_append('filings', filing_uuid, '/') |>
     maybe_auth()

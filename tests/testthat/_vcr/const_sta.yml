@@ -1,0 +1,35 @@
+http_interactions:
+- request:
+    method: GET
+    uri: https://lda.senate.gov/api/v1/constants/general/states
+  response:
+    status: 200
+    headers:
+      Server: gunicorn
+      Content-Type: application/json
+      Allow: GET, HEAD, OPTIONS
+      Content-Length: '636'
+      Content-Encoding: gzip
+      x-frame-options: DENY
+      x-content-type-options: nosniff
+      referrer-policy: same-origin
+      cross-origin-opener-policy: same-origin
+      Date: Mon, 08 Dec 2025 19:58:12 GMT
+      Connection: keep-alive
+      Vary: Accept-Encoding
+      Strict-Transport-Security: max-age=31536000
+    body:
+      string: '[{"value":"AL","name":"Alabama"},{"value":"AK","name":"Alaska"},{"value":"AS","name":"American
+        Samoa"},{"value":"AZ","name":"Arizona"},{"value":"AR","name":"Arkansas"},{"value":"AA","name":"Armed
+        Forces Americas"},{"value":"AE","name":"Armed Forces Europe"},{"value":"AP","name":"Armed
+        Forces Pacific"},{"value":"CA","name":"California"},{"value":"CO","name":"Colorado"},{"value":"CT","name":"Connecticut"},{"value":"DE","name":"Delaware"},{"value":"DC","name":"District
+        of Columbia"},{"value":"FL","name":"Florida"},{"value":"GA","name":"Georgia"},{"value":"GU","name":"Guam"},{"value":"HI","name":"Hawaii"},{"value":"ID","name":"Idaho"},{"value":"IL","name":"Illinois"},{"value":"IN","name":"Indiana"},{"value":"IA","name":"Iowa"},{"value":"KS","name":"Kansas"},{"value":"KY","name":"Kentucky"},{"value":"LA","name":"Louisiana"},{"value":"ME","name":"Maine"},{"value":"MD","name":"Maryland"},{"value":"MA","name":"Massachusetts"},{"value":"MI","name":"Michigan"},{"value":"MN","name":"Minnesota"},{"value":"MS","name":"Mississippi"},{"value":"MO","name":"Missouri"},{"value":"MT","name":"Montana"},{"value":"NE","name":"Nebraska"},{"value":"NV","name":"Nevada"},{"value":"NH","name":"New
+        Hampshire"},{"value":"NJ","name":"New Jersey"},{"value":"NM","name":"New Mexico"},{"value":"NY","name":"New
+        York"},{"value":"NC","name":"North Carolina"},{"value":"ND","name":"North
+        Dakota"},{"value":"MP","name":"Northern Mariana Islands"},{"value":"OH","name":"Ohio"},{"value":"OK","name":"Oklahoma"},{"value":"OR","name":"Oregon"},{"value":"PA","name":"Pennsylvania"},{"value":"PR","name":"Puerto
+        Rico"},{"value":"RI","name":"Rhode Island"},{"value":"SC","name":"South Carolina"},{"value":"SD","name":"South
+        Dakota"},{"value":"TN","name":"Tennessee"},{"value":"TX","name":"Texas"},{"value":"UT","name":"Utah"},{"value":"VT","name":"Vermont"},{"value":"VI","name":"Virgin
+        Islands"},{"value":"VA","name":"Virginia"},{"value":"WA","name":"Washington"},{"value":"WV","name":"West
+        Virginia"},{"value":"WI","name":"Wisconsin"},{"value":"WY","name":"Wyoming"}]'
+  recorded_at: 2025-12-08 19:58:12
+recorded_with: VCR-vcr/2.0.0

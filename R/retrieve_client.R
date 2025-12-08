@@ -10,8 +10,7 @@
 #' lob_retrieve_client(id = '44400')
 lob_retrieve_client <- function(
     id,
-    clean = TRUE
-) {
+    clean = TRUE) {
   req <- httr2::request(base_url = api_url()) |>
     httr2::req_url_path_append('clients', id, '/') |>
     maybe_auth()

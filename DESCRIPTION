@@ -23,3 +23,7 @@ Imports:
     jsonlite,
     purrr,
     tibble
+Suggests: 
+    testthat (>= 3.0.0),
+    vcr (>= 2.0.0)
+Config/testthat/edition: 3

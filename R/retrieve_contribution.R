@@ -10,8 +10,7 @@
 #' lob_retrieve_contribution(filing_uuid = '86260004-84e7-46e3-9cfa-76edae508768')
 lob_retrieve_contribution <- function(
     filing_uuid,
-    clean = TRUE
-) {
+    clean = TRUE) {
   req <- httr2::request(base_url = api_url()) |>
     httr2::req_url_path_append('contributions', filing_uuid, '/') |>
     maybe_auth()

@@ -30,9 +30,7 @@ lob_list_clients <- function(
     page_size = NULL,
     registrant_id = NULL,
     registrant_name = NULL,
-    clean = TRUE
-) {
-
+    clean = TRUE) {
   req <- httr2::request(base_url = api_url()) |>
     httr2::req_url_path_append('clients') |>
     maybe_auth() |>

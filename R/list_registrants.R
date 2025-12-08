@@ -27,9 +27,7 @@ lob_list_registrants <- function(
     ppb_country = NULL,
     registrant_name = NULL,
     state = NULL,
-    clean = TRUE
-) {
-
+    clean = TRUE) {
   req <- httr2::request(base_url = api_url()) |>
     httr2::req_url_path_append('registrants') |>
     maybe_auth() |>
