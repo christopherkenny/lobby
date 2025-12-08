@@ -6,6 +6,8 @@
 \alias{lobby-package}
 \title{lobby: Interact with the US Senate Lobbying Disclosure API}
 \description{
+\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
+
 Download and read data on lobbying in the United States Congress. Data is queried from the Senate's Application Programming Interface (\url{https://lda.senate.gov/api/}). This supports filings since 2008. Functions exist for all primary data endpoints, including queries by filings, contributions, registrations, clients, and lobbyists.
 }
 \seealso{

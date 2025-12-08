@@ -84,5 +84,7 @@ a \code{tibble} of lobbying contributions
 List Contribution Reports
 }
 \examples{
+\dontshow{if (has_lobby_key()) withAutoprint(\{ # examplesIf}
 lob_list_contributions()
+\dontshow{\}) # examplesIf}
 }

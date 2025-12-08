@@ -27,7 +27,7 @@
 #' @returns a `tibble` of lobbying contributions
 #' @export
 #'
-#' @examples
+#' @examplesIf has_lobby_key()
 #' lob_list_contributions()
 lob_list_contributions <- function(
     contribution_amount_max = NULL,
