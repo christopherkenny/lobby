@@ -137,6 +137,7 @@ a `tibble` of lobbying contributions
 ## Examples
 
 ``` r
+if (FALSE) { # has_lobby_key()
 lob_list_contributions()
-#> Error in httr2::req_perform(req): HTTP 401 Unauthorized.
+}
 ```
