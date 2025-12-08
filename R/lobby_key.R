@@ -29,16 +29,17 @@ get_lobby_key <- function() {
 #' @param key Character. API key to add to add.
 #' @param overwrite Defaults to FALSE. Boolean. Should existing `USSLDA_KEY` in Renviron be overwritten?
 #' @param install Defaults to FALSE. Boolean. Should this be added '~/.Renviron' file?
+#' @param r_env Path to install to if `install` is `TRUE`.
 #'
 #' @return key, invisibly
 #' @export
 #'
 #' @examples
-#' \dontrun{
-#' set_lobby_key('1234')
-#' }
-#'
-set_lobby_key <- function(key, overwrite = FALSE, install = FALSE) {
+#' example_env <- tempfile(fileext = '.Renviron')
+#' set_lobby_key('1234', r_env = example_env)
+#' # r_env should likely be: file.path(Sys.getenv('HOME'), '.Renviron')
+set_lobby_key <- function(key, overwrite = FALSE, install = FALSE,
+                          r_env = NULL) {
   if (missing(key)) {
     cli::cli_abort('Input {.arg key} cannot be missing.')
   }
@@ -47,8 +48,17 @@ set_lobby_key <- function(key, overwrite = FALSE, install = FALSE) {
   key <- list(key)
   names(key) <- name
 
-  if (install) { # nocov start
-    r_env <- file.path(Sys.getenv('HOME'), '.Renviron')
+  if (install) {
+    if (is.null(r_env)) {
+      r_env <- file.path(Sys.getenv('HOME'), '.Renviron')
+      if (interactive()) {
+        utils::askYesNo(paste0('Install to ', r_env, '?'))
+      } else {
+        cli::cli_abort(c('No path set and not run interactively.',
+          i = 'Rerun with {.arg r_env} set, possibly to {.file {r_env}}'
+        ))
+      }
+    }
 
     if (!file.exists(r_env)) {
       file.create(r_env)
@@ -57,7 +67,7 @@ set_lobby_key <- function(key, overwrite = FALSE, install = FALSE) {
     lines <- readLines(r_env)
     newline <- paste0(name, "='", key, "'")
 
-    exists <- grepl(paste0(name, '='), lines)
+    exists <- grepl(x = lines, paste0(name, '='))
 
     if (any(exists)) {
       if (sum(exists) > 1) {
@@ -78,7 +88,19 @@ set_lobby_key <- function(key, overwrite = FALSE, install = FALSE) {
     }
   } else {
     do.call(Sys.setenv, key)
-  } # nocov end
+  }
 
   invisible(key)
 }
+
+#' @rdname key
+#' @export
+lob_get_key <- get_lobby_key
+
+#' @rdname set_lobby_key
+#' @export
+lob_set_key <- set_lobby_key
+
+#' @rdname key
+#' @export
+lob_has_key <- has_lobby_key

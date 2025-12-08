@@ -2,9 +2,12 @@
 % Please edit documentation in R/lobby_key.R
 \name{set_lobby_key}
 \alias{set_lobby_key}
+\alias{lob_set_key}
 \title{Add Entry to Renviron}
 \usage{
-set_lobby_key(key, overwrite = FALSE, install = FALSE)
+set_lobby_key(key, overwrite = FALSE, install = FALSE, r_env = NULL)
+
+lob_set_key(key, overwrite = FALSE, install = FALSE, r_env = NULL)
 }
 \arguments{
 \item{key}{Character. API key to add to add.}
@@ -12,6 +15,8 @@ set_lobby_key(key, overwrite = FALSE, install = FALSE)
 \item{overwrite}{Defaults to FALSE. Boolean. Should existing \code{USSLDA_KEY} in Renviron be overwritten?}
 
 \item{install}{Defaults to FALSE. Boolean. Should this be added '~/.Renviron' file?}
+
+\item{r_env}{Path to install to if \code{install} is \code{TRUE}.}
 }
 \value{
 key, invisibly
@@ -20,8 +25,7 @@ key, invisibly
 Adds US Senate Lobbying Disclosure API key to .Renviron.
 }
 \examples{
-\dontrun{
-set_lobby_key('1234')
-}
-
+example_env <- tempfile(fileext = '.Renviron')
+set_lobby_key('1234', r_env = example_env)
+# r_env should likely be: file.path(Sys.getenv('HOME'), '.Renviron')
 }

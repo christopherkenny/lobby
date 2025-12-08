@@ -13,7 +13,7 @@ Download and read data on lobbying in the United States Congress. Data is querie
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/christopherkenny/congress}
+  \item \url{https://github.com/christopherkenny/lobby}
   \item \url{https://christophertkenny.com/lobby/}
 }
 

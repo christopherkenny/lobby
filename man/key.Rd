@@ -4,11 +4,17 @@
 \alias{key}
 \alias{has_lobby_key}
 \alias{get_lobby_key}
+\alias{lob_get_key}
+\alias{lob_has_key}
 \title{Check or Get US Senate Lobbying Disclosure API Key}
 \usage{
 has_lobby_key()
 
 get_lobby_key()
+
+lob_get_key()
+
+lob_has_key()
 }
 \value{
 logical if \code{has}, key if \code{get}
