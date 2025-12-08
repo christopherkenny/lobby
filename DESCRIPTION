@@ -24,8 +24,10 @@ Imports:
     purrr,
     tibble
 Suggests: 
+    spelling,
     testthat (>= 3.0.0),
     vcr (>= 2.0.0)
 Config/testthat/edition: 3
 URL: https://github.com/christopherkenny/lobby,
     https://christophertkenny.com/lobby/
+Language: en-US
