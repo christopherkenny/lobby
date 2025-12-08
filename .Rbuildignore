@@ -7,3 +7,4 @@ OpenAPI.txt
 ^docs$
 ^pkgdown$
 ^\.github$
+^codecov\.yml$
