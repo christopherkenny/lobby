@@ -4,6 +4,8 @@
 
 - [`has_lobby_key()`](http://christophertkenny.com/lobby/reference/key.md)
   [`get_lobby_key()`](http://christophertkenny.com/lobby/reference/key.md)
+  [`lob_get_key()`](http://christophertkenny.com/lobby/reference/key.md)
+  [`lob_has_key()`](http://christophertkenny.com/lobby/reference/key.md)
   : Check or Get US Senate Lobbying Disclosure API Key
 - [`lob_constants_filing_types()`](http://christophertkenny.com/lobby/reference/lob_constants.md)
   [`lob_constants_lobbying_activity_issues()`](http://christophertkenny.com/lobby/reference/lob_constants.md)
@@ -37,4 +39,5 @@
 - [`lob_retrieve_registrant()`](http://christophertkenny.com/lobby/reference/lob_retrieve_registrant.md)
   : Retrieve a specific registrant by their ID
 - [`set_lobby_key()`](http://christophertkenny.com/lobby/reference/set_lobby_key.md)
+  [`lob_set_key()`](http://christophertkenny.com/lobby/reference/set_lobby_key.md)
   : Add Entry to Renviron

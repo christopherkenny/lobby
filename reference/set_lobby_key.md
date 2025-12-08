@@ -5,7 +5,9 @@ Adds US Senate Lobbying Disclosure API key to .Renviron.
 ## Usage
 
 ``` r
-set_lobby_key(key, overwrite = FALSE, install = FALSE)
+set_lobby_key(key, overwrite = FALSE, install = FALSE, r_env = NULL)
+
+lob_set_key(key, overwrite = FALSE, install = FALSE, r_env = NULL)
 ```
 
 ## Arguments
@@ -23,6 +25,10 @@ set_lobby_key(key, overwrite = FALSE, install = FALSE)
 
   Defaults to FALSE. Boolean. Should this be added '~/.Renviron' file?
 
+- r_env:
+
+  Path to install to if `install` is `TRUE`.
+
 ## Value
 
 key, invisibly
@@ -30,7 +36,7 @@ key, invisibly
 ## Examples
 
 ``` r
-if (FALSE) { # \dontrun{
-set_lobby_key('1234')
-} # }
+example_env <- tempfile(fileext = '.Renviron')
+set_lobby_key('1234', r_env = example_env)
+# r_env should likely be: file.path(Sys.getenv('HOME'), '.Renviron')
 ```

@@ -8,6 +8,10 @@ Check or Get US Senate Lobbying Disclosure API Key
 has_lobby_key()
 
 get_lobby_key()
+
+lob_get_key()
+
+lob_has_key()
 ```
 
 ## Value

@@ -10,7 +10,7 @@ filings, contributions, registrations, clients, and lobbyists.
 
 Useful links:
 
-- <https://github.com/christopherkenny/congress>
+- <https://github.com/christopherkenny/lobby>
 
 - <https://christophertkenny.com/lobby/>
 
