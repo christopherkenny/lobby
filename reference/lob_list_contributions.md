@@ -1,0 +1,142 @@
+# List Contribution Reports
+
+List Contribution Reports
+
+## Usage
+
+``` r
+lob_list_contributions(
+  contribution_amount_max = NULL,
+  contribution_amount_min = NULL,
+  contribution_contributor = NULL,
+  contribution_date_after = NULL,
+  contribution_date_before = NULL,
+  contribution_honoree = NULL,
+  contribution_payee = NULL,
+  contribution_type = NULL,
+  filing_dt_posted_after = NULL,
+  filing_dt_posted_before = NULL,
+  filing_period = NULL,
+  filing_type = NULL,
+  filing_uuid = NULL,
+  filing_year = NULL,
+  lobbyist_exclude = NULL,
+  lobbyist_id = NULL,
+  lobbyist_name = NULL,
+  ordering = NULL,
+  page = NULL,
+  page_size = NULL,
+  registrant_id = NULL,
+  registrant_name = NULL,
+  clean = TRUE
+)
+```
+
+## Arguments
+
+- contribution_amount_max:
+
+  Contribution Amount Range. Float value.
+
+- contribution_amount_min:
+
+  Contribution Amount Range. Float value.
+
+- contribution_contributor:
+
+  Contribution Contributor Name. String value.
+
+- contribution_date_after:
+
+  Contribution Date Range (Before / After): yyyy-mm-dd. Date value.
+
+- contribution_date_before:
+
+  Contribution Date Range (Before / After): yyyy-mm-dd. Date value.
+
+- contribution_honoree:
+
+  Contribution Honoree Name. String value.
+
+- contribution_payee:
+
+  Contribution Payee Name. String value.
+
+- contribution_type:
+
+  Contribution Type. Such as "feca", "he", "me", "ple", or "pic".
+
+- filing_dt_posted_after:
+
+  Filing Date Posted Range (Before / After): yyyy-mm-dd. Date-time
+  value.
+
+- filing_dt_posted_before:
+
+  Filing Date Posted Range (Before / After): yyyy-mm-dd. Date-time
+  value.
+
+- filing_period:
+
+  Filing Period. Such as "first_quarter", "second_quarter",
+  "third_quarter", "fourth_quarter", "mid_year", or "year_end".
+
+- filing_type:
+
+  Filing Type. Such as "RR", "RA", "Q1", "Q1Y", "1T", or "1TY".
+
+- filing_uuid:
+
+  filing_uuid. UUID value.
+
+- filing_year:
+
+  Filing Year. Such as 2025, 2024, or 2023.
+
+- lobbyist_exclude:
+
+  Exclude reports filed by the lobbyists. Boolean value.
+
+- lobbyist_id:
+
+  Lobbyist ID. Integer value.
+
+- lobbyist_name:
+
+  Lobbyist Name. String value.
+
+- ordering:
+
+  Which field to use when ordering the results. String value.
+
+- page:
+
+  A page number within the paginated result set. Integer value.
+
+- page_size:
+
+  Number of results to return per page. Integer value.
+
+- registrant_id:
+
+  Registrant ID. Integer value.
+
+- registrant_name:
+
+  Registrant Name. String value.
+
+- clean:
+
+  Default is TRUE. Should output be returned as a `tibble` (`TRUE`) or
+  list.
+
+## Value
+
+a `tibble` of lobbying contributions
+
+## Examples
+
+``` r
+lob_list_contributions()
+#> Error in httr2::req_perform(req): HTTP 401 Unauthorized.
+```

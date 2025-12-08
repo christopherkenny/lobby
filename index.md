@@ -1,0 +1,116 @@
+# lobby
+
+`lobby` provides access to the US Senate’s Lobbying Disclosure Act API.
+
+## Installation
+
+You can install the development version of `lobby` like so:
+
+``` r
+pak::pak('christopherkenny/lobby')
+```
+
+## Example
+
+To get filings, simply use the
+[`lob_list_filings()`](http://christophertkenny.com/lobby/reference/lob_list_filings.md)
+function to list all filings that match your criteria. For example, to
+get all filings for Harvard University in 2025:
+
+``` r
+library(lobby)
+lob_list_filings(client_name = 'Harvard University', filing_year = 2025)
+#> # A tibble: 6 × 30
+#>   url      filing_uuid filing_type filing_type_display filing_year filing_period
+#>   <chr>    <chr>       <chr>       <chr>                     <int> <chr>        
+#> 1 https:/… 0463abad-8… Q1          1st Quarter - Repo…        2025 first_quarter
+#> 2 https:/… fbe714ff-3… Q1          1st Quarter - Repo…        2025 first_quarter
+#> 3 https:/… 785c0620-7… Q2          2nd Quarter - Repo…        2025 second_quart…
+#> 4 https:/… 761c6e5a-f… Q2          2nd Quarter - Repo…        2025 second_quart…
+#> 5 https:/… 937d9dc1-c… Q3          3rd Quarter - Repo…        2025 third_quarter
+#> 6 https:/… b9247859-4… Q3          3rd Quarter - Repo…        2025 third_quarter
+#> # ℹ 24 more variables: filing_period_display <chr>, filing_document_url <chr>,
+#> #   filing_document_content_type <chr>, income <chr>, expenses <chr>,
+#> #   expenses_method <chr>, expenses_method_display <chr>, posted_by_name <chr>,
+#> #   dt_posted <chr>, termination_date <lgl>, registrant_country <chr>,
+#> #   registrant_ppb_country <lgl>, registrant_address_1 <chr>,
+#> #   registrant_address_2 <lgl>, registrant_different_address <lgl>,
+#> #   registrant_city <chr>, registrant_state <chr>, registrant_zip <chr>, …
+```
+
+You can also request the next set using the
+[`lob_request_next()`](http://christophertkenny.com/lobby/reference/lob_request_next.md)
+function. Here, we also artificially shorten the results to 3 per page.
+
+``` r
+lob_list_filings(
+  client_name = 'Harvard University',
+  filing_year = 2025,
+  page_size = 3
+) |>
+  lob_request_next()
+#> # A tibble: 6 × 30
+#>   url      filing_uuid filing_type filing_type_display filing_year filing_period
+#>   <chr>    <chr>       <chr>       <chr>                     <int> <chr>        
+#> 1 https:/… 0463abad-8… Q1          1st Quarter - Repo…        2025 first_quarter
+#> 2 https:/… fbe714ff-3… Q1          1st Quarter - Repo…        2025 first_quarter
+#> 3 https:/… 785c0620-7… Q2          2nd Quarter - Repo…        2025 second_quart…
+#> 4 https:/… 761c6e5a-f… Q2          2nd Quarter - Repo…        2025 second_quart…
+#> 5 https:/… 937d9dc1-c… Q3          3rd Quarter - Repo…        2025 third_quarter
+#> 6 https:/… b9247859-4… Q3          3rd Quarter - Repo…        2025 third_quarter
+#> # ℹ 24 more variables: filing_period_display <chr>, filing_document_url <chr>,
+#> #   filing_document_content_type <chr>, income <chr>, expenses <chr>,
+#> #   expenses_method <chr>, expenses_method_display <chr>, posted_by_name <chr>,
+#> #   dt_posted <chr>, termination_date <lgl>, registrant_country <chr>,
+#> #   registrant_ppb_country <lgl>, registrant_address_1 <chr>,
+#> #   registrant_address_2 <lgl>, registrant_different_address <lgl>,
+#> #   registrant_city <chr>, registrant_state <chr>, registrant_zip <chr>, …
+```
+
+To get more details, you can retrieve a specific filing by its UUID
+using
+[`lob_retrieve_filing()`](http://christophertkenny.com/lobby/reference/lob_retrieve_filing.md):
+
+``` r
+lob_retrieve_filing(filing_uuid = '0463abad-89e8-4d9d-b72c-a0b8aa66c6b0')
+#> # A tibble: 1 × 30
+#>   url      filing_uuid filing_type filing_type_display filing_year filing_period
+#>   <chr>    <chr>       <chr>       <chr>                     <int> <chr>        
+#> 1 https:/… 0463abad-8… Q1          1st Quarter - Repo…        2025 first_quarter
+#> # ℹ 24 more variables: filing_period_display <chr>, filing_document_url <chr>,
+#> #   filing_document_content_type <chr>, income <lgl>, expenses <chr>,
+#> #   expenses_method <chr>, expenses_method_display <chr>, posted_by_name <chr>,
+#> #   dt_posted <chr>, termination_date <lgl>, registrant_country <chr>,
+#> #   registrant_ppb_country <lgl>, registrant_address_1 <chr>,
+#> #   registrant_address_2 <lgl>, registrant_different_address <lgl>,
+#> #   registrant_city <chr>, registrant_state <chr>, registrant_zip <chr>, …
+```
+
+Similar endpoints exist for clients, lobbyists, registrants, and
+contributions. You can look up constants that can used for filtering
+using the `lob_constants_*()` functions.
+
+## Authentication
+
+To sign up for an API key, visit the [US Senate’s Lobbying Disclosure
+Act API](https://lda.senate.gov/api/register/) sign-up website.
+
+Once you have your key, you can set it in your environment as
+`USSLDA_KEY`. You can:
+
+1.  Add this directly to your `.Renviron` file with a line like so
+
+``` r
+USSLDA_KEY='yourkey'
+```
+
+If doing this, I recommend using `usethis::edit_r_environ()` to ensure
+that you open the correct .Renviron file.
+
+2.  Set this in you current R session with
+    `Sys.setenv(USSLDA_KEY='yourkey')`.
+
+3.  Set this using the
+    [`lobby::set_lobby_key()`](http://christophertkenny.com/lobby/reference/set_lobby_key.md)
+    function. To save this for future sessions, run with
+    `install = TRUE`.
