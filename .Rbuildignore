@@ -8,3 +8,4 @@ OpenAPI.txt
 ^pkgdown$
 ^\.github$
 ^codecov\.yml$
+^cran-comments\.md$
