@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# lobby <a href="http://christophertkenny.com/lobby/"><img src="man/figures/logo.png" align="right" height="138" alt="lobby website" /></a>
+# lobby <a href="https://christophertkenny.com/lobby/"><img src="man/figures/logo.png" align="right" height="138" alt="lobby website" /></a>
 
 <!-- badges: start -->
 
