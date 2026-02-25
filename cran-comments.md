@@ -1,3 +1,10 @@
+## Resubmission
+
+This is a submission. I have fixed the following:
+
+* I have added single quotes to the title as requested.
+* I have removed the default suggestion for interactive use in lobby_key(). (As a note, it would be good to publicize this interpretation of CRAN policy, as the interactive approach has been fine in many other package submissions.)
+
 ## Test environments
 
 * local R installation (Windows 11), R 4.5.2

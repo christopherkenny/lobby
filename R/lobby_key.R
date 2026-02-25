@@ -50,14 +50,9 @@ set_lobby_key <- function(key, overwrite = FALSE, install = FALSE,
 
   if (install) {
     if (is.null(r_env)) {
-      r_env <- file.path(Sys.getenv('HOME'), '.Renviron')
-      if (interactive()) {
-        utils::askYesNo(paste0('Install to ', r_env, '?'))
-      } else {
-        cli::cli_abort(c('No path set and not run interactively.',
-          i = 'Rerun with {.arg r_env} set, possibly to {.file {r_env}}'
-        ))
-      }
+      cli::cli_abort(c('No path set.',
+                       i = 'Rerun with {.arg r_env} set, possibly to {.file {r_env}}'
+      ))
     }
 
     if (!file.exists(r_env)) {

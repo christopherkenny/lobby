@@ -1,6 +1,6 @@
 Package: lobby
-Title: Interact with the US Senate Lobbying Disclosure API
-Version: 0.0.1
+Title: Interact with the 'US Senate Lobbying Disclosure API'
+Version: 0.0.2
 Authors@R: 
     person(given = "Christopher T.",
            family = "Kenny",

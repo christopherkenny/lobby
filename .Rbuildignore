@@ -9,3 +9,4 @@ OpenAPI.txt
 ^\.github$
 ^codecov\.yml$
 ^cran-comments\.md$
+^CRAN-SUBMISSION$

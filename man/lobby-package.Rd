@@ -4,7 +4,7 @@
 \name{lobby-package}
 \alias{lobby}
 \alias{lobby-package}
-\title{lobby: Interact with the US Senate Lobbying Disclosure API}
+\title{lobby: Interact with the 'US Senate Lobbying Disclosure API'}
 \description{
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
