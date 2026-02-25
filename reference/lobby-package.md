@@ -1,4 +1,4 @@
-# lobby: Interact with the US Senate Lobbying Disclosure API
+# lobby: Interact with the 'US Senate Lobbying Disclosure API'
 
 Download and read data on lobbying in the United States Congress. Data
 is queried from the Senate's Application Programming Interface
