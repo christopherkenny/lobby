@@ -1,6 +1,6 @@
 ## Resubmission
 
-This is a submission. I have fixed the following:
+This is a resubmission. I have fixed the following:
 
 * I have added single quotes to the title as requested.
 * I have removed the default suggestion for interactive use in lobby_key(). (As a note, it would be good to publicize this interpretation of CRAN policy. I started using an interactive approach that suggests a path when no default is set many years ago at the suggestion of other package developers. Based on the first submission, it appears that is no longer acceptable.)
