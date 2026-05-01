@@ -7,6 +7,7 @@
 You can install the development version of `lobby` like so:
 
 ``` r
+
 pak::pak('christopherkenny/lobby')
 ```
 
@@ -18,6 +19,7 @@ function to list all filings that match your criteria. For example, to
 get all filings for Harvard University in 2025:
 
 ``` r
+
 library(lobby)
 lob_list_filings(client_name = 'Harvard University', filing_year = 2025)
 #> # A tibble: 6 × 30
@@ -43,6 +45,7 @@ You can also request the next set using the
 function. Here, we also artificially shorten the results to 3 per page.
 
 ``` r
+
 lob_list_filings(
   client_name = 'Harvard University',
   filing_year = 2025,
@@ -72,6 +75,7 @@ using
 [`lob_retrieve_filing()`](http://christophertkenny.com/lobby/reference/lob_retrieve_filing.md):
 
 ``` r
+
 lob_retrieve_filing(filing_uuid = '0463abad-89e8-4d9d-b72c-a0b8aa66c6b0')
 #> # A tibble: 1 × 30
 #>   url      filing_uuid filing_type filing_type_display filing_year filing_period
@@ -101,6 +105,7 @@ Once you have your key, you can set it in your environment as
 1.  Add this directly to your `.Renviron` file with a line like so
 
 ``` r
+
 USSLDA_KEY='yourkey'
 ```
 
