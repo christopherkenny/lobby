@@ -1,4 +1,5 @@
 url: http://christophertkenny.com/lobby/
 template:
   bootstrap: 5
+  package: ctktemplate
 
