@@ -30,6 +30,7 @@ Suggests:
 Depends: 
     R (>= 4.1.0)
 Config/testthat/edition: 3
+Config/Needs/website: christopherkenny/ctktemplate
 URL: https://github.com/christopherkenny/lobby,
     https://christophertkenny.com/lobby/
 Language: en-US
